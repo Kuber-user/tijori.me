@@ -1,0 +1,1248 @@
+{
+  "features": {
+    "cashManagement": {
+      "title": "Cash & Liquidity Management",
+      "description": "Real-time visibility into global cash positions with automated multi-bank aggregation",
+      "icon": "Wallet"
+    },
+    "aiForecasting": {
+      "title": "AI Cash Forecasting",
+      "description": "ML-powered predictions with 95%+ accuracy for proactive liquidity planning",
+      "icon": "Brain"
+    },
+    "loansManagement": {
+      "title": "Loans Management",
+      "description": "Track facilities, covenants, and amortization schedules in one place",
+      "icon": "FileText"
+    },
+    "investmentManagement": {
+      "title": "Investment Management",
+      "description": "Optimize short-term investments and track portfolio performance",
+      "icon": "TrendingUp"
+    },
+    "investments": {
+      "title": "Investment Management",
+      "description": "Optimize short-term investments and track portfolio performance",
+      "icon": "TrendingUp"
+    },
+    "loans": {
+      "title": "Loans Management",
+      "description": "Track facilities, covenants, and amortization schedules in one place",
+      "icon": "FileText"
+    },
+    "bankFacilities": {
+      "title": "Bank Facilities",
+      "description": "Manage credit facilities, limits, and utilization across all banks",
+      "icon": "Building"
+    },
+    "riskFx": {
+      "title": "Risk & FX",
+      "description": "Monitor FX exposures and manage hedging strategies",
+      "icon": "Shield"
+    },
+    "payments": {
+      "title": "Payment Hub",
+      "description": "Centralized payment processing with multi-bank connectivity",
+      "icon": "CreditCard"
+    },
+    "lgLc": {
+      "title": "LG/LC Management",
+      "description": "Track letters of guarantee and credit from issuance to expiry",
+      "icon": "FileCheck"
+    },
+    "connectivity": {
+      "title": "Connectivity Hub",
+      "description": "200+ pre-built integrations with banks and ERPs",
+      "icon": "Link"
+    }
+  },
+  "cashManagement": {
+    "seo": {
+      "title": "Cash & Liquidity Management Software | Synclane",
+      "description": "Real-time cash visibility across all bank accounts. Reduce idle cash by 30% with automated multi-bank aggregation and liquidity optimization.",
+      "keywords": ["cash management software", "liquidity management", "multi-bank aggregation", "cash visibility"]
+    },
+    "hero": {
+      "breadcrumb": "Platform / Cash Management",
+      "title": "Real-Time Cash Visibility Across Your Enterprise",
+      "description": "Consolidate cash positions from 200+ banks in seconds. Eliminate spreadsheets and see your true liquidity position in real-time."
+    },
+    "problem": {
+      "title": "The Challenge",
+      "description": "Treasury teams spend hours manually gathering bank data, reconciling accounts, and building cash position reports in spreadsheets.",
+      "painPoints": [
+        "Cash data scattered across multiple bank portals",
+        "Hours spent manually building daily cash position reports",
+        "No real-time view of available liquidity",
+        "Excess idle cash earning below-market returns",
+        "Manual reconciliation prone to errors and delays"
+      ]
+    },
+    "solution": {
+      "title": "The Synclane Solution",
+      "description": "Automated multi-bank connectivity delivers real-time cash positions, instant reconciliation, and actionable insights — all in one dashboard.",
+      "benefits": [
+        "Real-time cash positions across all 200+ banks",
+        "Automated daily cash position reports",
+        "Instant liquidity visibility across entities",
+        "AI-driven idle cash optimization recommendations",
+        "Automated bank reconciliation with 99%+ match rate"
+      ]
+    },
+    "featuresSection": {
+      "title": "Core Cash Management Capabilities",
+      "description": "Everything you need for complete cash visibility and control"
+    },
+    "features": {
+      "multiBankAggregation": {
+        "title": "Multi-Bank Aggregation",
+        "description": "Consolidate cash positions across 200+ banks in real-time with automated data synchronization"
+      },
+      "cashPositioning": {
+        "title": "Cash Positioning",
+        "description": "See your global cash position in real-time with drill-down by entity, currency, and bank"
+      },
+      "varianceAnalysis": {
+        "title": "Variance Analysis",
+        "description": "Compare expected vs actual cash flows with automated variance reporting and root cause analysis"
+      },
+      "liquidityOptimization": {
+        "title": "Liquidity Optimization",
+        "description": "Identify idle cash and optimize liquidity allocation with AI-powered recommendations"
+      },
+      "cashPooling": {
+        "title": "Cash Pooling",
+        "description": "Optimize liquidity with automated notional and physical pooling structures"
+      },
+      "automatedReconciliation": {
+        "title": "Automated Reconciliation",
+        "description": "Automated matching of bank statements with ERP transactions for 99%+ reconciliation accuracy"
+      }
+    },
+    "screenshots": {
+      "title": "See Synclane in Action",
+      "images": {
+        "bankBalances": {
+          "alt": "Real-time bank balances dashboard across all accounts",
+          "caption": "Real-time cash positions across all banks and entities"
+        },
+        "investments": {
+          "alt": "Investment portfolio tracking dashboard",
+          "caption": "Investment portfolio tracking and performance"
+        }
+      }
+    },
+    "roi": {
+      "title": "Measurable Impact on Cash Operations",
+      "description": "Real results from enterprises using TiJori Cash Management",
+      "metrics": {
+        "idleCash": {
+          "value": "30%",
+          "label": "Reduction in idle cash",
+          "sublabel": "Through liquidity optimization"
+        },
+        "timeSaved": {
+          "value": "80%",
+          "label": "Time saved on reporting",
+          "sublabel": "Automated cash position reports"
+        },
+        "reconciliation": {
+          "value": "99%+",
+          "label": "Reconciliation accuracy",
+          "sublabel": "Automated matching"
+        }
+      }
+    },
+    "technicalSpecs": {
+      "integrations": {
+        "title": "Integrations",
+        "items": {
+          "supportedBanks": { "label": "Supported Banks", "value": "200+ global and regional banks" },
+          "connectionMethods": { "label": "Connection Methods", "value": "SWIFT, API, Host-to-host, file" },
+          "statementFormats": { "label": "Statement Formats", "value": "MT940, MT942, BAI2, CAMT.053" },
+          "updateFrequency": { "label": "Update Frequency", "value": "Real-time or intraday" }
+        }
+      },
+      "dataSecurity": {
+        "title": "Data & Security",
+        "items": {
+          "dataEncryption": { "label": "Data Encryption", "value": "AES-256 at rest and in transit" },
+          "accessControl": { "label": "Access Control", "value": "Role-based with MFA" },
+          "auditTrail": { "label": "Audit Trail", "value": "Full activity logging" },
+          "dataResidency": { "label": "Data Residency", "value": "GCC region available" }
+        }
+      },
+      "reporting": {
+        "title": "Reporting",
+        "items": {
+          "standardReports": { "label": "Standard Reports", "value": "Cash position, flow, forecast" },
+          "customReports": { "label": "Custom Reports", "value": "Drag-and-drop report builder" },
+          "exportFormats": { "label": "Export Formats", "value": "PDF, Excel, CSV, API" },
+          "scheduling": { "label": "Scheduling", "value": "Automated daily/weekly delivery" }
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready for real-time cash visibility?",
+      "description": "See how TiJori can reduce idle cash and automate your cash management"
+    }
+  },
+  "aiForecasting": {
+    "seo": {
+      "title": "AI Cash Forecasting | ML-Powered Predictions | Synclane",
+      "description": "Achieve 95%+ cash forecast accuracy with machine learning. Proactive liquidity planning for CFOs and treasury teams.",
+      "keywords": ["AI cash forecasting", "cash flow prediction", "ML treasury", "liquidity planning"]
+    },
+    "hero": {
+      "breadcrumb": "Platform / AI Forecasting",
+      "title": "AI-Powered Cash Forecasting with 95%+ Accuracy",
+      "description": "Machine learning models that learn from your data to deliver highly accurate cash predictions. Move from reactive to proactive treasury management.",
+      "seeHowItWorks": "See How It Works"
+    },
+    "problem": {
+      "title": "The Challenge of Manual Forecasting",
+      "description": "Treasury teams spend hours building spreadsheet forecasts that are outdated by the time they're complete.",
+      "painPoints": [
+        "Spreadsheet-based forecasts with 40-60% accuracy",
+        "Hours spent manually gathering data from multiple sources",
+        "No ability to run what-if scenarios quickly",
+        "Forecasts disconnected from actual cash movements",
+        "Limited visibility beyond 30-day horizon"
+      ]
+    },
+    "solution": {
+      "title": "AI-Powered Forecast Intelligence",
+      "description": "TiJori's machine learning engine continuously learns from your data to deliver highly accurate cash predictions with minimal manual effort.",
+      "benefits": [
+        "95%+ forecast accuracy using ML models trained on your data",
+        "Automated data ingestion from banks, ERPs, and AP/AR systems",
+        "Instant scenario planning with adjustable parameters",
+        "Real-time variance analysis against actuals",
+        "Rolling forecasts from 7 days to 12 months"
+      ]
+    },
+    "featuresSection": {
+      "title": "AI Forecasting Capabilities",
+      "description": "Powerful machine learning tools for proactive cash management"
+    },
+    "features": {
+      "mlModels": {
+        "title": "ML Prediction Models",
+        "description": "Multiple machine learning algorithms that learn from your historical patterns to predict future cash flows with high accuracy"
+      },
+      "scenarioPlanning": {
+        "title": "Scenario Planning",
+        "description": "Run unlimited what-if scenarios to stress-test assumptions and prepare for different business outcomes"
+      },
+      "varianceAnalysis": {
+        "title": "Variance Analysis",
+        "description": "Automatic comparison of forecasted vs actual cash flows with root cause analysis for deviations"
+      },
+      "arApIntelligence": {
+        "title": "AR/AP Intelligence",
+        "description": "Predict payment timing based on customer and supplier behavior patterns for more accurate receivables and payables forecasts"
+      },
+      "rollingForecasts": {
+        "title": "Rolling Forecasts",
+        "description": "Continuously updated forecasts from 7 days to 12 months that automatically adjust based on new data"
+      },
+      "configurableParams": {
+        "title": "Configurable Parameters",
+        "description": "Adjust forecast models with business-specific parameters including seasonality, growth rates, and payment terms"
+      }
+    },
+    "screenshots": {
+      "title": "See AI Forecasting in Action",
+      "images": {
+        "forecast": {
+          "alt": "AI cash flow forecast dashboard with predictions",
+          "caption": "ML-powered cash flow predictions with confidence intervals"
+        },
+        "parameters": {
+          "alt": "Forecast parameter configuration screen",
+          "caption": "Configure forecast models with business-specific parameters"
+        }
+      }
+    },
+    "roi": {
+      "title": "Measurable Impact on Cash Forecasting",
+      "description": "Real results from enterprises using TiJori AI Forecasting",
+      "metrics": {
+        "accuracy": {
+          "value": "95%+",
+          "label": "Forecast accuracy",
+          "sublabel": "ML-powered predictions"
+        },
+        "cashBuffer": {
+          "value": "30%",
+          "label": "Reduction in cash buffers",
+          "sublabel": "Through better predictions"
+        },
+        "timeSaved": {
+          "value": "8 hrs/week",
+          "label": "Time saved on forecasting",
+          "sublabel": "Automated data processing"
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "How AI Forecasting Works",
+      "description": "Our ML pipeline delivers accurate predictions in four steps",
+      "steps": {
+        "dataIngestion": {
+          "title": "Data Ingestion",
+          "description": "Automatically collect data from banks, ERPs, and AP/AR systems"
+        },
+        "patternRecognition": {
+          "title": "Pattern Recognition",
+          "description": "ML algorithms identify seasonal trends, payment patterns, and anomalies"
+        },
+        "modelTraining": {
+          "title": "Model Training",
+          "description": "Multiple models compete to find the best predictions for your data"
+        },
+        "continuousLearning": {
+          "title": "Continuous Learning",
+          "description": "Models improve over time as more data flows through the system"
+        }
+      }
+    },
+    "technicalSpecs": {
+      "forecastingModels": {
+        "title": "Forecasting Models",
+        "items": {
+          "algorithms": { "label": "Algorithms", "value": "LSTM, Prophet, XGBoost, ensemble" },
+          "trainingData": { "label": "Training Data", "value": "12+ months recommended" },
+          "accuracyRate": { "label": "Accuracy Rate", "value": "95%+ after calibration" },
+          "horizons": { "label": "Horizons", "value": "7 days to 12 months" }
+        }
+      },
+      "dataSources": {
+        "title": "Data Sources",
+        "items": {
+          "bankData": { "label": "Bank Data", "value": "Real-time balances and transactions" },
+          "erpData": { "label": "ERP Data", "value": "AP/AR, GL, budget data" },
+          "externalFactors": { "label": "External Factors", "value": "Market rates, seasonality" },
+          "updateFrequency": { "label": "Update Frequency", "value": "Real-time or daily batch" }
+        }
+      },
+      "outputsReporting": {
+        "title": "Outputs & Reporting",
+        "items": {
+          "forecastViews": { "label": "Forecast Views", "value": "Daily, weekly, monthly" },
+          "varianceReports": { "label": "Variance Reports", "value": "Forecast vs actual analysis" },
+          "scenarioExport": { "label": "Scenario Export", "value": "PDF, Excel, API" },
+          "alerts": { "label": "Alerts", "value": "Threshold-based notifications" }
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to transform your cash forecasting?",
+      "description": "See how TiJori AI can deliver 95%+ accuracy and save hours of manual work"
+    }
+  },
+  "loansManagement": {
+    "seo": {
+      "title": "Loans & Facility Management Software | Synclane",
+      "description": "Track bank facilities, loans, covenants, and amortization schedules in one place. Complete visibility into your debt portfolio.",
+      "keywords": ["loan management software", "facility management", "covenant tracking", "debt management"]
+    },
+    "hero": {
+      "breadcrumb": "Platform / Loans Management",
+      "title": "End-to-End Loan Lifecycle Management",
+      "description": "Track every loan from origination through maturity. Monitor facilities, covenants, and repayment schedules with real-time visibility and automated alerts."
+    },
+    "problem": {
+      "title": "The Complexity of Loan Portfolio Management",
+      "description": "Managing a diverse loan portfolio across multiple banks and facilities creates significant operational risk and inefficiency.",
+      "painPoints": [
+        "Loan details tracked in disconnected spreadsheets",
+        "Missed maturity dates and covenant deadlines",
+        "No consolidated view of total facility utilization",
+        "Manual calculation of interest and repayment schedules",
+        "Difficulty comparing terms across lenders"
+      ]
+    },
+    "solution": {
+      "title": "Centralized Loan Portfolio Intelligence",
+      "description": "TiJori consolidates your entire loan portfolio into one platform with automated tracking, alerts, and reporting.",
+      "benefits": [
+        "Single dashboard for all loans, facilities, and credit lines",
+        "Automated maturity and covenant breach alerts",
+        "Real-time facility utilization tracking across all banks",
+        "Auto-generated amortization tables and repayment schedules",
+        "Side-by-side lender comparison for optimal borrowing decisions"
+      ]
+    },
+    "featuresSection": {
+      "title": "Comprehensive Loan Management Capabilities",
+      "description": "Everything you need to manage your loan portfolio from origination to maturity"
+    },
+    "features": {
+      "loanLifecycle": {
+        "title": "Loan Lifecycle Management",
+        "description": "Track every loan from origination through drawdown, repayment schedules, and final maturity in one unified view"
+      },
+      "facilityTracking": {
+        "title": "Facility Tracking",
+        "description": "Monitor credit facilities, revolving lines, and term loans with real-time utilization rates and available limits"
+      },
+      "maturityAlerts": {
+        "title": "Maturity Alerts",
+        "description": "Automated notifications for upcoming maturities, rate resets, and covenant compliance deadlines"
+      },
+      "covenantMonitoring": {
+        "title": "Covenant Monitoring",
+        "description": "Track financial covenants automatically with early warning systems for potential breaches"
+      },
+      "interestRateManagement": {
+        "title": "Interest Rate Management",
+        "description": "Compare rates across lenders, track SOFR/SAIBOR benchmarks, and optimize borrowing costs"
+      },
+      "repaymentScheduling": {
+        "title": "Repayment Scheduling",
+        "description": "Automate repayment schedules with amortization tables, prepayment tracking, and payment reconciliation"
+      }
+    },
+    "roi": {
+      "title": "Measurable Impact on Borrowing Costs",
+      "description": "Real results from enterprises using TiJori Loans Management",
+      "metrics": {
+        "covenantCompliance": {
+          "value": "100%",
+          "label": "Covenant compliance visibility",
+          "sublabel": "Automated monitoring & alerts"
+        },
+        "borrowingCosts": {
+          "value": "20%",
+          "label": "Reduction in borrowing costs",
+          "sublabel": "Through optimized facility utilization"
+        },
+        "missedDeadlines": {
+          "value": "0",
+          "label": "Missed maturity deadlines",
+          "sublabel": "With automated alert system"
+        }
+      }
+    },
+    "technicalSpecs": {
+      "loanTypes": {
+        "title": "Loan Types",
+        "items": {
+          "supportedInstruments": { "label": "Supported Instruments", "value": "Term loans, revolving credit, overdrafts, syndicated loans" },
+          "rateTypes": { "label": "Rate Types", "value": "Fixed, floating (SOFR, SAIBOR, EIBOR)" },
+          "multiCurrency": { "label": "Multi-Currency", "value": "SAR, USD, EUR, GBP, AED + 50 more" },
+          "amortization": { "label": "Amortization", "value": "Bullet, equal installment, custom schedules" }
+        }
+      },
+      "complianceReporting": {
+        "title": "Compliance & Reporting",
+        "items": {
+          "covenantTypes": { "label": "Covenant Types", "value": "Financial ratios, DSCR, leverage, liquidity" },
+          "regulatoryReporting": { "label": "Regulatory Reporting", "value": "SAMA, Basel III, IFRS 9 compliant" },
+          "auditTrail": { "label": "Audit Trail", "value": "Full change history with timestamps" },
+          "exportFormats": { "label": "Export Formats", "value": "PDF, Excel, CSV, API" }
+        }
+      },
+      "integration": {
+        "title": "Integration",
+        "items": {
+          "bankConnectivity": { "label": "Bank Connectivity", "value": "Direct feeds from 200+ banks" },
+          "erpSync": { "label": "ERP Sync", "value": "SAP, Oracle, NetSuite, Dynamics" },
+          "glPosting": { "label": "GL Posting", "value": "Automated journal entries" },
+          "dataUpdates": { "label": "Data Updates", "value": "Real-time or scheduled sync" }
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to take control of your loan portfolio?",
+      "description": "See how TiJori can streamline loan management and reduce borrowing costs"
+    }
+  },
+  "investmentManagement": {
+    "seo": {
+      "title": "Treasury Investment Management Software | Synclane",
+      "description": "Optimize short-term investments and track portfolio performance. Maximize returns on excess cash with intelligent investment decisions.",
+      "keywords": ["investment management", "treasury investments", "money market", "portfolio tracking"]
+    },
+    "hero": {
+      "breadcrumb": "Platform / Investment Management",
+      "title": "Maximize Treasury Investment Returns",
+      "description": "Track your entire investment portfolio, optimize yields, and manage maturities from one platform — across fixed deposits, money market funds, bonds, and sukuk."
+    },
+    "problem": {
+      "title": "The Challenge of Treasury Investment Visibility",
+      "description": "Treasury teams often lack a consolidated view of investments, leading to missed opportunities and suboptimal returns.",
+      "painPoints": [
+        "Investment positions scattered across multiple banks and custodians",
+        "No consolidated view of portfolio performance or concentration",
+        "Manual tracking of maturities leads to missed rollover dates",
+        "Difficulty enforcing investment policy limits",
+        "Time-consuming reporting for management and regulators"
+      ]
+    },
+    "solution": {
+      "title": "Unified Investment Portfolio Intelligence",
+      "description": "TiJori aggregates all your treasury investments into a single platform with real-time analytics and automated management.",
+      "benefits": [
+        "Consolidated portfolio view across all banks and custodians",
+        "AI-driven yield optimization recommendations",
+        "Automated maturity alerts with rollover suggestions",
+        "Real-time policy compliance monitoring",
+        "One-click performance reports and regulatory submissions"
+      ]
+    },
+    "featuresSection": {
+      "title": "Complete Investment Management Capabilities",
+      "description": "Everything you need to manage treasury investments and maximize returns"
+    },
+    "features": {
+      "portfolioTracking": {
+        "title": "Portfolio Tracking",
+        "description": "Unified view of all treasury investments across fixed deposits, money market funds, bonds, and sukuk instruments"
+      },
+      "yieldOptimization": {
+        "title": "Yield Optimization",
+        "description": "AI-powered recommendations to maximize returns while maintaining liquidity requirements and risk thresholds"
+      },
+      "maturityManagement": {
+        "title": "Maturity Management",
+        "description": "Automated maturity tracking with rollover recommendations and reinvestment alerts based on market conditions"
+      },
+      "riskAssessment": {
+        "title": "Risk Assessment",
+        "description": "Counterparty risk scoring, concentration analysis, and policy compliance monitoring across your investment portfolio"
+      },
+      "performanceAnalytics": {
+        "title": "Performance Analytics",
+        "description": "Benchmark returns against market indices, track realized vs unrealized gains, and measure portfolio performance"
+      },
+      "policyCompliance": {
+        "title": "Policy Compliance",
+        "description": "Enforce investment policies automatically with pre-trade checks, limit monitoring, and exception reporting"
+      }
+    },
+    "screenshots": {
+      "title": "Investment Portfolio at a Glance",
+      "images": {
+        "portfolio": {
+          "alt": "TiJori investment management dashboard showing portfolio positions",
+          "caption": "Track all treasury investments with real-time valuations and maturity alerts"
+        }
+      }
+    },
+    "roi": {
+      "title": "Measurable Impact on Investment Returns",
+      "description": "Real results from enterprises using TiJori Investment Management",
+      "metrics": {
+        "portfolioYield": {
+          "value": "25%",
+          "label": "Increase in portfolio yield",
+          "sublabel": "Through optimized allocation"
+        },
+        "policyCompliance": {
+          "value": "100%",
+          "label": "Policy compliance rate",
+          "sublabel": "Automated pre-trade checks"
+        },
+        "timeSaved": {
+          "value": "10 hrs/week",
+          "label": "Time saved on reporting",
+          "sublabel": "Automated portfolio analytics"
+        }
+      }
+    },
+    "technicalSpecs": {
+      "investmentTypes": {
+        "title": "Investment Types",
+        "items": {
+          "instruments": { "label": "Instruments", "value": "Fixed deposits, money market, bonds, sukuk, murabaha" },
+          "multiCurrency": { "label": "Multi-Currency", "value": "SAR, USD, EUR, GBP, AED + 50 more" },
+          "pricingSources": { "label": "Pricing Sources", "value": "Bloomberg, Reuters, bank feeds" },
+          "accountingStandards": { "label": "Accounting Standards", "value": "IFRS 9, IAS 39, US GAAP" }
+        }
+      },
+      "riskCompliance": {
+        "title": "Risk & Compliance",
+        "items": {
+          "counterpartyLimits": { "label": "Counterparty Limits", "value": "Customizable per institution" },
+          "concentrationLimits": { "label": "Concentration Limits", "value": "By issuer, sector, geography" },
+          "policyEngine": { "label": "Policy Engine", "value": "Pre-trade & post-trade checks" },
+          "regulatory": { "label": "Regulatory", "value": "SAMA, CMA compliant reporting" }
+        }
+      },
+      "reporting": {
+        "title": "Reporting",
+        "items": {
+          "performanceReports": { "label": "Performance Reports", "value": "Daily, weekly, monthly, custom" },
+          "benchmarking": { "label": "Benchmarking", "value": "Against SAIBOR, SOFR, custom indices" },
+          "auditTrail": { "label": "Audit Trail", "value": "Full investment lifecycle history" },
+          "exportFormats": { "label": "Export Formats", "value": "PDF, Excel, CSV, API" }
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to optimize your treasury investments?",
+      "description": "See how TiJori can increase portfolio returns and automate investment management"
+    }
+  },
+  "bankFacilities": {
+    "seo": {
+      "title": "Bank Facility Management Software | Synclane",
+      "description": "Manage credit facilities, limits, and utilization across all banks. Track covenants and optimize facility usage.",
+      "keywords": ["bank facilities", "credit facility management", "facility utilization", "covenant compliance"]
+    },
+    "hero": {
+      "breadcrumb": "Platform / Bank Facilities Management",
+      "title": "Master Your Bank Credit Facilities",
+      "description": "Get complete visibility into your credit lines, overdrafts, and revolving facilities across all banks. TiJori helps CFOs optimize utilization, monitor covenants, and reduce borrowing costs."
+    },
+    "problem": {
+      "title": "The Facilities Management Challenge",
+      "description": "Organizations with multiple banking relationships struggle to track facility terms, monitor utilization, and ensure covenant compliance.",
+      "painPoints": [
+        "Facility details scattered across spreadsheets and emails",
+        "No real-time view of available credit across banks",
+        "Manual covenant calculations prone to errors",
+        "Missed renewal dates leading to unfavorable terms",
+        "Difficulty comparing facility costs across banks"
+      ]
+    },
+    "solution": {
+      "title": "Centralized Facilities Command Center",
+      "description": "TiJori consolidates all your bank facilities into a single platform with real-time tracking and automated compliance monitoring.",
+      "benefits": [
+        "Consolidated view of all facilities across all banks",
+        "Real-time utilization tracking with automated alerts",
+        "Automated covenant calculations with early warnings",
+        "Renewal calendar with proactive reminders",
+        "Bank relationship analytics for better negotiations"
+      ]
+    },
+    "featuresSection": {
+      "title": "Complete Facilities Management",
+      "description": "Everything you need to optimize your bank credit facilities and relationships"
+    },
+    "features": {
+      "facilityOverview": {
+        "title": "Facility Overview Dashboard",
+        "description": "See all your credit facilities, revolving lines, and overdrafts across banks in one consolidated view with real-time utilization rates."
+      },
+      "utilizationTracking": {
+        "title": "Utilization Tracking",
+        "description": "Monitor drawn vs. available amounts in real-time. Get alerts when utilization approaches limits or covenants are at risk."
+      },
+      "covenantMonitoring": {
+        "title": "Covenant Monitoring",
+        "description": "Track financial covenants like DSCR, leverage ratios, and liquidity requirements. Receive early warnings before potential breaches."
+      },
+      "feeTracking": {
+        "title": "Fee Tracking",
+        "description": "Monitor commitment fees, utilization fees, and other facility costs across all your banking relationships. Optimize facility structure."
+      },
+      "renewalManagement": {
+        "title": "Renewal Management",
+        "description": "Track facility expiry dates and renewal timelines. Get automated reminders and manage the renewal process end-to-end."
+      },
+      "bankRelationshipScoring": {
+        "title": "Bank Relationship Scoring",
+        "description": "Compare facility terms, pricing, and service quality across banks. Make data-driven decisions about your banking relationships."
+      }
+    },
+    "roi": {
+      "title": "Measurable Impact on Banking Costs",
+      "description": "Organizations using TiJori Bank Facilities Management report significant savings",
+      "metrics": {
+        "facilityCosts": {
+          "value": "15%",
+          "label": "Reduction in facility costs",
+          "sublabel": "Through optimized utilization"
+        },
+        "covenantBreaches": {
+          "value": "0",
+          "label": "Covenant breaches",
+          "sublabel": "With early warning alerts"
+        },
+        "facilityVisibility": {
+          "value": "100%",
+          "label": "Facility visibility",
+          "sublabel": "Across all banks real-time"
+        }
+      }
+    },
+    "useCases": {
+      "title": "Key Use Cases",
+      "description": "How CFOs and treasurers use TiJori for facilities management",
+      "items": {
+        "liquidityOptimization": {
+          "title": "Liquidity Optimization",
+          "description": "Know exactly how much credit is available across all your banks at any moment. Make informed decisions about which facility to draw from based on cost, terms, and covenant impact."
+        },
+        "covenantCompliance": {
+          "title": "Covenant Compliance",
+          "description": "Automate covenant calculations based on your latest financials. Get early warnings when metrics approach thresholds, giving you time to take corrective action."
+        },
+        "bankNegotiations": {
+          "title": "Bank Negotiations",
+          "description": "Use facility analytics to negotiate better terms. Compare pricing, fees, and service levels across banks to strengthen your negotiating position."
+        },
+        "boardReporting": {
+          "title": "Board Reporting",
+          "description": "Generate executive summaries of your credit facilities for board meetings. Show available headroom, covenant status, and upcoming renewals in clear visualizations."
+        }
+      }
+    },
+    "technicalSpecs": {
+      "facilityTypes": {
+        "title": "Facility Types",
+        "items": {
+          "creditLines": { "label": "Credit Lines", "value": "Revolving, committed, uncommitted" },
+          "termFacilities": { "label": "Term Facilities", "value": "Bilateral, syndicated, club deals" },
+          "workingCapital": { "label": "Working Capital", "value": "Overdrafts, trade finance lines" },
+          "specialized": { "label": "Specialized", "value": "Capex, acquisition, bridge facilities" }
+        }
+      },
+      "covenantTypes": {
+        "title": "Covenant Types",
+        "items": {
+          "financialRatios": { "label": "Financial Ratios", "value": "DSCR, leverage, interest coverage" },
+          "liquidityMetrics": { "label": "Liquidity Metrics", "value": "Current ratio, quick ratio" },
+          "balanceSheet": { "label": "Balance Sheet", "value": "Minimum net worth, maximum debt" },
+          "cashFlow": { "label": "Cash Flow", "value": "EBITDA thresholds, capex limits" }
+        }
+      },
+      "reportingIntegration": {
+        "title": "Reporting & Integration",
+        "items": {
+          "bankConnectivity": { "label": "Bank Connectivity", "value": "Real-time balance and utilization" },
+          "erpIntegration": { "label": "ERP Integration", "value": "SAP, Oracle, NetSuite for financials" },
+          "complianceReports": { "label": "Compliance Reports", "value": "Covenant certificates, utilization" },
+          "auditTrail": { "label": "Audit Trail", "value": "Complete amendment and draw history" }
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to optimize your bank facilities?",
+      "description": "See how TiJori can help you reduce borrowing costs and ensure covenant compliance"
+    }
+  },
+  "riskFx": {
+    "seo": {
+      "title": "FX Risk Management & Hedging Software | Synclane",
+      "description": "Monitor FX exposures and manage hedging strategies. Protect your business from currency volatility with intelligent risk management.",
+      "keywords": ["FX risk management", "currency hedging", "forex exposure", "treasury risk"]
+    },
+    "hero": {
+      "breadcrumb": "Platform / Risk & FX Management",
+      "title": "Intelligent FX Risk Management",
+      "description": "Monitor currency exposures, execute hedges, and protect your business from FX volatility — all from one platform."
+    },
+    "problem": {
+      "title": "The Challenge of FX Risk Management",
+      "description": "Managing currency exposures across multiple currencies and business units is complex and error-prone without the right tools.",
+      "painPoints": [
+        "Scattered FX exposure data across systems",
+        "Manual hedging decisions without real-time analysis",
+        "Difficulty tracking hedge effectiveness",
+        "No consolidated view of currency risk",
+        "Limited visibility into hedging costs"
+      ]
+    },
+    "solution": {
+      "title": "Unified FX Risk Intelligence",
+      "description": "TiJori consolidates your currency exposures and hedging activities into one intelligent platform with automated analysis and recommendations.",
+      "benefits": [
+        "Real-time exposure aggregation across all entities",
+        "AI-powered hedging recommendations",
+        "Automated hedge effectiveness tracking",
+        "Consolidated currency risk dashboard",
+        "Transparent hedging cost analysis"
+      ]
+    },
+    "featuresSection": {
+      "title": "Complete FX Risk Management Capabilities",
+      "description": "Everything you need to monitor, manage, and mitigate currency risk"
+    },
+    "features": {
+      "exposureTracking": {
+        "title": "Exposure Tracking",
+        "description": "Aggregate FX exposures from all sources including receivables, payables, intercompany, and forecasted transactions"
+      },
+      "hedgingStrategies": {
+        "title": "Hedging Strategies",
+        "description": "Design and execute hedging programs with forwards, options, and cross-currency swaps"
+      },
+      "riskAnalytics": {
+        "title": "Risk Analytics",
+        "description": "Value-at-Risk calculations, scenario analysis, and stress testing for comprehensive risk assessment"
+      },
+      "hedgeAccounting": {
+        "title": "Hedge Accounting",
+        "description": "IFRS 9 and ASC 815 compliant hedge accounting with automated effectiveness testing"
+      },
+      "marketRates": {
+        "title": "Market Rates",
+        "description": "Real-time FX rates from multiple providers with rate alerts and historical analysis"
+      },
+      "regulatoryReporting": {
+        "title": "Regulatory Reporting",
+        "description": "Automated reporting for EMIR, Dodd-Frank, and local regulatory requirements"
+      }
+    },
+    "roi": {
+      "title": "Measurable Impact on FX Costs",
+      "description": "Organizations using TiJori Risk & FX Management report significant improvements",
+      "metrics": {
+        "fxCosts": {
+          "value": "30%",
+          "label": "Reduction in FX costs",
+          "sublabel": "Through optimized hedging"
+        },
+        "exposureVisibility": {
+          "value": "100%",
+          "label": "Exposure visibility",
+          "sublabel": "Real-time consolidated view"
+        },
+        "hedgeEffectiveness": {
+          "value": "95%+",
+          "label": "Hedge effectiveness",
+          "sublabel": "Automated monitoring"
+        }
+      }
+    },
+    "technicalSpecs": {
+      "instruments": {
+        "title": "Instruments",
+        "items": {
+          "spotForwards": { "label": "Spot & Forwards", "value": "All major and exotic currency pairs" },
+          "options": { "label": "Options", "value": "Vanilla, digital, barrier options" },
+          "swaps": { "label": "Swaps", "value": "FX swaps, cross-currency swaps" },
+          "ndf": { "label": "NDF", "value": "Non-deliverable forwards" }
+        }
+      },
+      "riskMetrics": {
+        "title": "Risk Metrics",
+        "items": {
+          "var": { "label": "VaR", "value": "Historical, parametric, Monte Carlo" },
+          "sensitivity": { "label": "Sensitivity", "value": "Delta, gamma, vega analysis" },
+          "stressTesting": { "label": "Stress Testing", "value": "Custom scenario modeling" },
+          "backtesting": { "label": "Backtesting", "value": "Model validation" }
+        }
+      },
+      "compliance": {
+        "title": "Compliance",
+        "items": {
+          "hedgeAccounting": { "label": "Hedge Accounting", "value": "IFRS 9, ASC 815" },
+          "regulatory": { "label": "Regulatory", "value": "EMIR, Dodd-Frank, SAMA" },
+          "auditTrail": { "label": "Audit Trail", "value": "Full trade lifecycle history" },
+          "reporting": { "label": "Reporting", "value": "Management, regulatory, accounting" }
+        }
+      }
+    },
+    "workflow": {
+      "title": "End-to-End FX Risk Workflow",
+      "description": "From exposure identification to hedge execution and accounting",
+      "steps": {
+        "identify": {
+          "title": "Identify",
+          "description": "Aggregate exposures from ERPs, forecasts, and commitments"
+        },
+        "analyze": {
+          "title": "Analyze",
+          "description": "Assess net positions and P&L sensitivity to rate movements"
+        },
+        "hedge": {
+          "title": "Hedge",
+          "description": "Execute forwards, options, or swaps based on policy"
+        },
+        "document": {
+          "title": "Document",
+          "description": "Create hedge designations and effectiveness tests"
+        },
+        "report": {
+          "title": "Report",
+          "description": "Generate mark-to-market and compliance reports"
+        }
+      }
+    },
+    "screenshots": {
+      "title": "FX Exposure Dashboard",
+      "images": {
+        "exposure": {
+          "alt": "FX exposure tracking dashboard with currency breakdown",
+          "caption": "Real-time FX exposure tracking across all entities and currencies"
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to take control of your FX risk?",
+      "description": "See how TiJori can help you reduce currency volatility and optimize hedging costs"
+    }
+  },
+  "payments": {
+    "seo": {
+      "title": "Payment Hub | Multi-Bank Payment Processing | Synclane",
+      "description": "Centralized payment processing with multi-bank connectivity. Streamline payments, improve controls, and reduce costs.",
+      "keywords": ["payment hub", "treasury payments", "multi-bank payments", "payment processing"]
+    },
+    "hero": {
+      "breadcrumb": "Platform / Payment Hub",
+      "title": "Centralized Payment Processing",
+      "description": "Execute payments across all banks from a single platform. Improve controls, reduce costs, and accelerate processing times."
+    },
+    "problem": {
+      "title": "The Payment Complexity Challenge",
+      "description": "Managing payments across multiple banks with different portals, formats, and approval workflows creates inefficiency and risk.",
+      "painPoints": [
+        "Multiple bank portals with different credentials",
+        "Manual payment entry prone to errors",
+        "Inconsistent approval workflows",
+        "Limited visibility into payment status",
+        "Difficulty managing payment timing for cash optimization"
+      ]
+    },
+    "solution": {
+      "title": "Unified Payment Command Center",
+      "description": "TiJori centralizes all payment operations into a single platform with standardized workflows and multi-bank connectivity.",
+      "benefits": [
+        "Single interface for all bank payments",
+        "Automated payment file generation",
+        "Consistent approval workflows across all banks",
+        "Real-time payment status tracking",
+        "Intelligent payment scheduling for cash optimization"
+      ]
+    },
+    "featuresSection": {
+      "title": "Complete Payment Hub Capabilities",
+      "description": "Everything you need to streamline treasury payments"
+    },
+    "features": {
+      "multiBankPayments": {
+        "title": "Multi-Bank Payments",
+        "description": "Execute payments across all your banks from a single interface with automated file formatting"
+      },
+      "approvalWorkflows": {
+        "title": "Approval Workflows",
+        "description": "Configurable approval matrices based on amount, currency, beneficiary, and payment type"
+      },
+      "paymentTemplates": {
+        "title": "Payment Templates",
+        "description": "Create reusable templates for recurring payments to suppliers, employees, and intercompany transfers"
+      },
+      "bulkPayments": {
+        "title": "Bulk Payments",
+        "description": "Process thousands of payments in batches with automated validation and error handling"
+      },
+      "paymentTracking": {
+        "title": "Payment Tracking",
+        "description": "Real-time status updates from initiation through confirmation with automated reconciliation"
+      },
+      "fraudPrevention": {
+        "title": "Fraud Prevention",
+        "description": "Multi-factor authentication, beneficiary validation, and anomaly detection for payment security"
+      }
+    },
+    "roi": {
+      "title": "Measurable Impact on Payment Operations",
+      "description": "Organizations using TiJori Payment Hub report significant improvements",
+      "metrics": {
+        "processingTime": {
+          "value": "70%",
+          "label": "Faster payment processing",
+          "sublabel": "Automated workflows"
+        },
+        "paymentErrors": {
+          "value": "95%",
+          "label": "Reduction in payment errors",
+          "sublabel": "Automated validation"
+        },
+        "costSavings": {
+          "value": "40%",
+          "label": "Reduction in payment costs",
+          "sublabel": "Optimized bank selection"
+        }
+      }
+    },
+    "technicalSpecs": {
+      "paymentTypes": {
+        "title": "Payment Types",
+        "items": {
+          "domestic": { "label": "Domestic", "value": "SADAD, SARIE, ACH, wire transfers" },
+          "international": { "label": "International", "value": "SWIFT, cross-border payments" },
+          "bulk": { "label": "Bulk", "value": "Payroll, supplier batch payments" },
+          "intercompany": { "label": "Intercompany", "value": "Netting, pooling, transfers" }
+        }
+      },
+      "connectivity": {
+        "title": "Connectivity",
+        "items": {
+          "bankChannels": { "label": "Bank Channels", "value": "Host-to-host, SWIFT, API" },
+          "formats": { "label": "Formats", "value": "ISO 20022, PAIN.001, proprietary" },
+          "integration": { "label": "Integration", "value": "SAP, Oracle, NetSuite" },
+          "realtime": { "label": "Real-time", "value": "Status updates and confirmations" }
+        }
+      },
+      "security": {
+        "title": "Security",
+        "items": {
+          "authentication": { "label": "Authentication", "value": "MFA, biometric, token-based" },
+          "authorization": { "label": "Authorization", "value": "Multi-level approval matrices" },
+          "validation": { "label": "Validation", "value": "Beneficiary verification" },
+          "auditTrail": { "label": "Audit Trail", "value": "Complete payment history" }
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to streamline your payment operations?",
+      "description": "See how TiJori can reduce payment costs and improve processing efficiency"
+    }
+  },
+  "lgLc": {
+    "seo": {
+      "title": "LG/LC Management | Letters of Guarantee & Credit | Synclane",
+      "description": "Track letters of guarantee and letters of credit from issuance to expiry. Automate renewals and reduce operational risk.",
+      "keywords": ["LG management", "LC management", "letter of guarantee", "letter of credit", "trade finance"]
+    },
+    "hero": {
+      "breadcrumb": "Platform / LG/LC Management",
+      "title": "Complete LG/LC Lifecycle Management",
+      "description": "Track letters of guarantee and credit from issuance to expiry with automated alerts and renewal workflows."
+    },
+    "problem": {
+      "title": "The Trade Finance Visibility Challenge",
+      "description": "Managing letters of guarantee and credit across multiple banks without a centralized system creates risk and operational burden.",
+      "painPoints": [
+        "LG/LC details tracked in spreadsheets",
+        "Risk of missing expiry and renewal dates",
+        "Manual tracking of commissions and fees",
+        "No consolidated view of exposure",
+        "Difficulty coordinating with beneficiaries and banks"
+      ]
+    },
+    "solution": {
+      "title": "Unified Trade Finance Management",
+      "description": "TiJori centralizes all your letters of guarantee and credit with automated lifecycle management and proactive alerts.",
+      "benefits": [
+        "Complete visibility of all LG/LC across banks",
+        "Automated expiry and renewal alerts",
+        "Commission and fee tracking",
+        "Consolidated exposure reporting",
+        "Streamlined bank communication"
+      ]
+    },
+    "featuresSection": {
+      "title": "Complete LG/LC Management Capabilities",
+      "description": "Everything you need to manage letters of guarantee and credit"
+    },
+    "features": {
+      "lifecycleTracking": {
+        "title": "Lifecycle Tracking",
+        "description": "Track each LG/LC from application through issuance, amendments, and final release or expiry"
+      },
+      "expiryAlerts": {
+        "title": "Expiry Alerts",
+        "description": "Automated notifications for upcoming expiries with configurable lead times"
+      },
+      "renewalManagement": {
+        "title": "Renewal Management",
+        "description": "Streamlined renewal workflows with automatic bank request generation"
+      },
+      "feeTracking": {
+        "title": "Fee Tracking",
+        "description": "Monitor issuance fees, commissions, and amendment charges across all instruments"
+      },
+      "exposureReporting": {
+        "title": "Exposure Reporting",
+        "description": "Consolidated view of LG/LC exposure by bank, beneficiary, and business unit"
+      },
+      "documentManagement": {
+        "title": "Document Management",
+        "description": "Centralized storage of all LG/LC documents with version control and audit trail"
+      }
+    },
+    "roi": {
+      "title": "Measurable Impact on Trade Finance Operations",
+      "description": "Organizations using TiJori LG/LC Management report significant improvements",
+      "metrics": {
+        "visibility": {
+          "value": "100%",
+          "label": "LG/LC visibility",
+          "sublabel": "All instruments in one view"
+        },
+        "missedExpiries": {
+          "value": "0",
+          "label": "Missed expiry dates",
+          "sublabel": "Automated alert system"
+        },
+        "processingTime": {
+          "value": "60%",
+          "label": "Faster processing",
+          "sublabel": "Streamlined workflows"
+        }
+      }
+    },
+    "technicalSpecs": {
+      "instrumentTypes": {
+        "title": "Instrument Types",
+        "items": {
+          "lg": { "label": "Letters of Guarantee", "value": "Bid, performance, advance, retention" },
+          "lc": { "label": "Letters of Credit", "value": "Documentary, standby, revolving" },
+          "sblc": { "label": "SBLC", "value": "Standby letters of credit" },
+          "bankGuarantees": { "label": "Bank Guarantees", "value": "Financial, commercial, performance" }
+        }
+      },
+      "tracking": {
+        "title": "Tracking",
+        "items": {
+          "lifecycle": { "label": "Lifecycle", "value": "Application to release" },
+          "amendments": { "label": "Amendments", "value": "Full change history" },
+          "documents": { "label": "Documents", "value": "Centralized storage" },
+          "beneficiaries": { "label": "Beneficiaries", "value": "Contact management" }
+        }
+      },
+      "reporting": {
+        "title": "Reporting",
+        "items": {
+          "exposure": { "label": "Exposure Reports", "value": "By bank, beneficiary, type" },
+          "aging": { "label": "Aging Reports", "value": "Days to expiry analysis" },
+          "costs": { "label": "Cost Analysis", "value": "Fee and commission tracking" },
+          "audit": { "label": "Audit Trail", "value": "Complete action history" }
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to streamline your LG/LC management?",
+      "description": "See how TiJori can reduce operational risk and improve trade finance efficiency"
+    }
+  },
+  "connectivity": {
+    "seo": {
+      "title": "Bank & ERP Integrations | Oracle, SAP, Saudi & GCC Banks | Synclane",
+      "description": "Pre-built integrations with Saudi banks (SNB, Al Rajhi, Riyad Bank), GCC banks, and enterprise ERPs (Oracle Fusion, SAP S/4HANA). SWIFT and LEANtech open banking connectivity.",
+      "keywords": ["Oracle Fusion treasury", "SAP S/4HANA treasury", "Saudi bank integration", "Al Rajhi Bank API", "SNB integration", "LEANtech open banking", "SWIFT MT940"]
+    },
+    "hero": {
+      "breadcrumb": "Platform / Connectivity Hub",
+      "title": "Connect Your Entire Treasury Ecosystem",
+      "description": "200+ pre-built integrations with banks and ERPs. Automate data flow, eliminate manual reconciliation, and achieve real-time treasury visibility."
+    },
+    "stats": {
+      "saudiBanks": {
+        "value": "15+",
+        "label": "Saudi & GCC Banks"
+      },
+      "oracle": {
+        "value": "Oracle",
+        "label": "Fusion & EBS"
+      },
+      "sap": {
+        "value": "SAP",
+        "label": "S/4HANA & ECC"
+      },
+      "swift": {
+        "value": "SWIFT",
+        "label": "& Open Banking"
+      }
+    },
+    "search": {
+      "title": "Search Our Integration Library",
+      "description": "Find and connect to your banks, ERPs, and accounting systems in minutes"
+    },
+    "process": {
+      "title": "Simple Integration Process",
+      "description": "Get connected to your banks and ERPs in 4 easy steps",
+      "steps": {
+        "select": {
+          "title": "Select Integration",
+          "description": "Choose your bank or ERP from our integration library"
+        },
+        "configure": {
+          "title": "Configure Connection",
+          "description": "Provide credentials or API keys with our guided setup"
+        },
+        "map": {
+          "title": "Map Data Fields",
+          "description": "Automatically map accounts, entities, and GL codes"
+        },
+        "goLive": {
+          "title": "Go Live",
+          "description": "Start receiving real-time data within hours"
+        }
+      }
+    },
+    "featured": {
+      "title": "Featured Treasury Integrations",
+      "oracleFusion": {
+        "title": "Oracle Fusion Cloud Integration",
+        "description": "Native integration with Oracle Fusion ERP for treasury reconciliation, GL sync, and automated cash positioning. Real-time data flow between TiJori and Oracle's Cash Management module.",
+        "features": ["Full GL synchronization", "Cash Management module integration", "Automated journal entries"]
+      },
+      "sapS4hana": {
+        "title": "SAP S/4HANA Integration",
+        "description": "Real-time integration with SAP S/4HANA for treasury and cash operations. Sync SAP FI/CO data, manage multi-entity cash positions, and leverage in-memory processing for instant visibility.",
+        "features": ["SAP FI/CO module integration", "Multi-entity support", "Real-time data flow"]
+      },
+      "saudiBanks": {
+        "title": "Saudi Bank Connectivity",
+        "description": "Pre-built integrations with all major Saudi banks including SNB, Al Rajhi, Riyad Bank, SAB, and more. SWIFT connectivity and LEANtech open banking for real-time balance feeds.",
+        "features": ["All 8 Saudi banks supported", "SWIFT MT940 statements", "LEANtech open banking"]
+      },
+      "oracleEbs": {
+        "title": "Oracle E-Business Suite Integration",
+        "description": "Comprehensive integration with Oracle EBS for cash management, payables, receivables, and treasury operations. Full support for organizations transitioning to Fusion.",
+        "features": ["Oracle Cash Management", "AP/AR integration", "Multi-org support"]
+      }
+    },
+    "cta": {
+      "title": "Don't see your system?",
+      "description": "We build custom integrations for enterprise clients. Contact us to discuss your requirements."
+    }
+  },
+  "bankDirectory": {
+    "title": "Bank Integrations",
+    "description": "Direct connections to global banks for real-time balance reporting and payment processing",
+    "standards": {
+      "title": "Supported Banking Standards",
+      "swift": {
+        "name": "SWIFT",
+        "description": "MT940, MT942, MT101"
+      },
+      "iso20022": {
+        "name": "ISO 20022",
+        "description": "CAMT.053, PAIN.001"
+      },
+      "bai2": {
+        "name": "BAI2",
+        "description": "North American standard"
+      },
+      "api": {
+        "name": "API",
+        "description": "Real-time REST/SOAP"
+      }
+    }
+  },
+  "erpDirectory": {
+    "title": "ERP Integrations",
+    "description": "Seamless connectivity with leading enterprise resource planning systems",
+    "benefits": {
+      "title": "ERP Integration Benefits",
+      "bidirectional": {
+        "value": "2-way",
+        "label": "Bi-directional data sync"
+      },
+      "realtime": {
+        "value": "Real-time",
+        "label": "Automated data updates"
+      },
+      "reduction": {
+        "value": "90%",
+        "label": "Reduction in manual entry"
+      }
+    }
+  },
+  "technicalSpecs": {
+    "title": "Technical Specifications",
+    "contactText": "Need more technical details or have specific requirements?",
+    "contactLink": "Contact our technical team"
+  }
+}

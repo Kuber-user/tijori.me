@@ -1,0 +1,117 @@
+{
+  "seo": {
+    "title": "TiJori by Synclane — AI-Powered Treasury Management Platform",
+    "description": "TiJori — The AI-powered treasury management platform for real-time cash visibility, forecasting, and control. The intelligence layer for your cash & liquidity management.",
+    "keywords": ["treasury management system", "TMS", "cash flow forecasting", "liquidity management", "TiJori"]
+  },
+  "hero": {
+    "badge": "First Middle East Treasury Platform",
+    "greeting": "Say Hi to TiJori",
+    "headline": "The Intelligence Layer for Your Cash & Liquidity Management",
+    "subheadline": "TiJori gives CFOs and treasury teams real-time cash visibility, AI-powered forecasting, and seamless connectivity across banks and ERPs — so you can make faster, smarter decisions with your capital.",
+    "stats": {
+      "integrations": {
+        "value": "200+",
+        "label": "Bank & ERP Integrations"
+      },
+      "accuracy": {
+        "value": "95%+",
+        "label": "Forecast Accuracy"
+      },
+      "idleCash": {
+        "value": "30%",
+        "label": "Less Idle Cash"
+      }
+    },
+    "imageAlt": "TiJori Treasury Dashboard — real-time cash visibility"
+  },
+  "socialProof": {
+    "title": "Trusted Integrations with Leading Saudi Banks & ERPs",
+    "banks": [
+      "Saudi National Bank (SNB)",
+      "Al Rajhi Bank",
+      "Riyad Bank",
+      "Saudi Awal Bank (SAB)",
+      "Banque Saudi Fransi",
+      "Arab National Bank",
+      "Alinma Bank",
+      "Bank AlJazira"
+    ],
+    "erps": ["SAP", "Oracle", "Microsoft Dynamics", "NetSuite", "Odoo"],
+    "stats": {
+      "integrations": {
+        "value": "200+",
+        "label": "Integrations"
+      },
+      "facilities": {
+        "value": "$50B+",
+        "label": "Facilities Under Management"
+      },
+      "uptime": {
+        "value": "99.9%",
+        "label": "Uptime SLA"
+      }
+    }
+  },
+  "platformOverview": {
+    "title": "Complete Treasury Platform",
+    "description": "All the tools you need to manage global treasury operations from a single, unified platform",
+    "screenshotCaption": "TiJori Treasury Dashboard - Real-time cash visibility"
+  },
+  "threePillars": {
+    "title": "Comprehensive Treasury Management",
+    "description": "Three powerful capabilities working together to transform your treasury operations",
+    "pillars": {
+      "connect": {
+        "title": "Connect",
+        "description": "Integrate with 200+ banks and ERPs for automated data flow and real-time synchronization",
+        "features": ["Multi-bank aggregation", "ERP connectivity", "API integrations", "SWIFT messaging"]
+      },
+      "forecast": {
+        "title": "Forecast",
+        "description": "AI-powered cash forecasting with 95%+ accuracy for proactive liquidity planning",
+        "features": ["ML predictions", "Scenario modeling", "Variance analysis", "Rolling forecasts"]
+      },
+      "control": {
+        "title": "Control",
+        "description": "Complete visibility and control over global cash positions and treasury operations",
+        "features": ["Real-time dashboards", "Workflow automation", "Approval controls", "Audit trails"]
+      }
+    }
+  },
+  "roi": {
+    "title": "Measurable Impact on Your Treasury",
+    "description": "Join leading enterprises achieving tangible results with TiJori",
+    "metrics": {
+      "idleCash": {
+        "value": "30%",
+        "label": "Reduction in idle cash",
+        "description": "Optimize cash positioning across entities"
+      },
+      "timeSaved": {
+        "value": "15 hrs/week",
+        "label": "Time saved on treasury operations",
+        "description": "Automate manual processes and reconciliation"
+      },
+      "accuracy": {
+        "value": "95%+",
+        "label": "Cash forecast accuracy",
+        "description": "ML-powered predictions for better planning"
+      },
+      "monthEnd": {
+        "value": "50%",
+        "label": "Faster month-end close",
+        "description": "Automated reconciliation and reporting"
+      }
+    },
+    "testimonial": {
+      "quote": "TiJori transformed how we manage treasury. Real-time visibility across 50+ bank accounts.",
+      "author": "Nishant Shah",
+      "company": "Dubai Investments"
+    }
+  },
+  "cta": {
+    "title": "Ready to transform your treasury operations?",
+    "description": "Join leading enterprises optimizing their cash management with TiJori. See how our platform can reduce idle cash by 30% and save 15+ hours per week."
+  }
+}

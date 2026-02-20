@@ -1,0 +1,124 @@
+{
+  "buttons": {
+    "requestDemo": "طلب عرض توضيحي",
+    "explorePlatform": "استكشف المنصة",
+    "exploreFeatures": "استكشف الميزات",
+    "exploreCapabilities": "استكشف الإمكانيات",
+    "seeHowItWorks": "تعرف على آلية العمل",
+    "viewPricing": "عرض الأسعار",
+    "learnMore": "اعرف المزيد",
+    "getStarted": "ابدأ الآن",
+    "contactUs": "تواصل معنا",
+    "contactSales": "تواصل مع المبيعات",
+    "startTrial": "ابدأ الفترة التجريبية المجانية",
+    "startNow": "ابدأ الآن",
+    "submit": "إرسال الطلب",
+    "submitting": "جارٍ الإرسال...",
+    "getInTouch": "تواصل معنا",
+    "viewPositions": "عرض الوظائف المتاحة",
+    "browseIntegrations": "تصفح عمليات التكامل",
+    "requestIntegration": "طلب دعم التكامل",
+    "requestCustom": "طلب تكامل مخصص",
+    "clearSearch": "مسح البحث",
+    "explore": "استكشف"
+  },
+  "badges": {
+    "soc2": "SOC 2 Type II",
+    "gdpr": "متوافق مع GDPR",
+    "iso27001": "ISO 27001",
+    "encryption": "تشفير AES-256"
+  },
+  "trustSignals": {
+    "soc2Certified": "معتمد SOC 2 Type II",
+    "gdprCompliant": "متوافق مع GDPR",
+    "uptime": "ضمان تشغيل 99.9%",
+    "support": "دعم على مدار الساعة"
+  },
+  "footer": {
+    "tagline": "أول منصة لإدارة الخزينة في الشرق الأوسط",
+    "copyright": "جميع الحقوق محفوظة.",
+    "sections": {
+      "product": "المنتج",
+      "solutions": "الحلول",
+      "resources": "الموارد",
+      "company": "الشركة"
+    },
+    "product": {
+      "cashManagement": "إدارة النقدية",
+      "aiForecasting": "التنبؤ بالذكاء الاصطناعي",
+      "loans": "القروض",
+      "investments": "الاستثمارات",
+      "riskFx": "المخاطر والعملات",
+      "payments": "المدفوعات",
+      "lgLc": "خطابات الضمان/الاعتماد",
+      "connectivity": "الربط والتكامل"
+    },
+    "solutions": {
+      "cfo": "للمديرين الماليين",
+      "treasurer": "لمديري الخزينة",
+      "controller": "للمراقبين الماليين",
+      "semiGovernment": "شبه الحكومية",
+      "construction": "المقاولات",
+      "oilGas": "النفط والغاز",
+      "fmcg": "السلع الاستهلاكية",
+      "manufacturing": "التصنيع",
+      "realEstate": "العقارات",
+      "ecommerce": "التجارة الإلكترونية"
+    },
+    "resources": {
+      "trustSecurity": "الثقة والأمان"
+    },
+    "company": {
+      "about": "عن الشركة",
+      "contact": "تواصل معنا",
+      "pricing": "الأسعار"
+    }
+  },
+  "trustBadges": {
+    "soc2": "SOC 2 Type II",
+    "gdpr": "متوافق مع GDPR",
+    "iso27001": "ISO 27001",
+    "encryption": "تشفير AES-256"
+  },
+  "language": {
+    "switchToArabic": "عربي",
+    "switchToEnglish": "EN"
+  },
+  "integrations": {
+    "searchPlaceholder": "البحث عن عمليات التكامل (مثال: NetSuite, J.P. Morgan)...",
+    "categories": {
+      "all": "الكل",
+      "erp": "أنظمة ERP",
+      "bank": "البنوك",
+      "accounting": "المحاسبة"
+    },
+    "setupTime": "وقت الإعداد:",
+    "found": "تكامل",
+    "foundPlural": "عمليات تكامل",
+    "noResults": "لم يتم العثور على نتائج مطابقة لبحثك."
+  },
+  "form": {
+    "firstName": "الاسم الأول",
+    "lastName": "اسم العائلة",
+    "workEmail": "البريد الإلكتروني للعمل",
+    "companyName": "اسم الشركة",
+    "jobTitle": "المسمى الوظيفي",
+    "message": "الرسالة",
+    "required": "*",
+    "selectRole": "اختر دورك",
+    "roles": {
+      "cfo": "المدير المالي",
+      "treasurer": "مدير الخزينة",
+      "controller": "المراقب المالي",
+      "financeDirector": "مدير الشؤون المالية",
+      "other": "أخرى"
+    },
+    "placeholders": {
+      "firstName": "أحمد",
+      "lastName": "محمد",
+      "email": "ahmed.mohammed@company.com",
+      "company": "شركة الأمثلة",
+      "message": "أخبرنا عن احتياجاتك في إدارة الخزينة..."
+    }
+  }
+}

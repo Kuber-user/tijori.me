@@ -1,0 +1,367 @@
+{
+  "about": {
+    "seo": {
+      "title": "About TiJori | Treasury Technology Company | Synclane",
+      "description": "Built by treasury experts, for treasury teams. Learn about TiJori's mission, values, and the team behind the leading treasury management platform.",
+      "keywords": ["about TiJori", "treasury technology company", "treasury management team", "fintech leadership"]
+    },
+    "hero": {
+      "title": "Built by Treasury Experts, for Treasury Teams",
+      "description": "TiJori was founded by finance and technology professionals who experienced firsthand the inefficiencies of legacy treasury operations. We set out to build the platform we always wished existed."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "Our mission is to eliminate the operational complexity of global treasury management, enabling finance teams to focus on strategic decision-making rather than manual processes."
+    },
+    "values": {
+      "title": "Our Values",
+      "description": "The principles that guide every product decision, customer interaction, and line of code we write.",
+      "items": {
+        "precision": {
+          "title": "Precision",
+          "description": "Accuracy in every calculation, reconciliation, and report. Treasury operations demand exactness, and our platform is engineered to deliver it at scale."
+        },
+        "security": {
+          "title": "Security",
+          "description": "Enterprise-grade protection for your most sensitive financial data. SOC 2 compliant, bank-grade encryption, and rigorous access controls safeguard every transaction."
+        },
+        "innovation": {
+          "title": "Innovation",
+          "description": "AI-powered treasury intelligence that evolves with your business. We continuously invest in machine learning, automation, and predictive analytics to keep you ahead."
+        }
+      }
+    },
+    "partners": {
+      "title": "Our Partners",
+      "description": "Strategic partnerships that drive innovation and deliver world-class treasury solutions across the Middle East.",
+      "synclane": {
+        "name": "Synclane.io",
+        "role": "Official Partner",
+        "description": "An innovative company and official partner based in Saudi Arabia, providing cutting-edge treasury management solutions for enterprises across the Middle East.",
+        "person": "Meshaal Alsinani"
+      },
+      "seertree": {
+        "name": "SeerTree",
+        "role": "Founding Partner",
+        "description": "An innovative software house and founding partner specializing in Digital Transformation, building enterprise-grade solutions that power modern businesses.",
+        "person": "Shyam"
+      }
+    },
+    "cta": {
+      "title": "Join Our Team",
+      "description": "We are building the future of treasury management and looking for exceptional people who share our vision.",
+      "getInTouch": "Get in Touch",
+      "viewPositions": "View Open Positions"
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Contact TiJori | Request a Demo | Synclane",
+      "description": "Get in touch with TiJori. Request a personalized demo, speak with our treasury experts, or learn how we can transform your treasury operations.",
+      "keywords": ["contact TiJori", "treasury demo", "treasury management demo", "request demo"]
+    },
+    "hero": {
+      "title": "Get in Touch",
+      "description": "Whether you are exploring treasury management solutions or ready to schedule a personalized demo, our team is here to help."
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "description": "Fill out the form below and a member of our team will respond within one business day.",
+      "fields": {
+        "firstName": { "label": "First Name", "placeholder": "John" },
+        "lastName": { "label": "Last Name", "placeholder": "Smith" },
+        "workEmail": { "label": "Work Email", "placeholder": "john.smith@company.com" },
+        "companyName": { "label": "Company Name", "placeholder": "Acme Corporation" },
+        "jobTitle": { "label": "Job Title" },
+        "message": { "label": "Message", "placeholder": "Tell us about your treasury management needs..." }
+      },
+      "jobTitles": {
+        "select": "Select your role",
+        "cfo": "CFO",
+        "treasurer": "Treasurer",
+        "controller": "Controller",
+        "financeDirector": "Finance Director",
+        "other": "Other"
+      },
+      "submit": "Submit Request",
+      "submitting": "Submitting...",
+      "required": "*"
+    },
+    "success": {
+      "title": "Thank you for reaching out",
+      "description": "We have received your message and will respond within 24 hours. A member of our team will be in touch shortly."
+    },
+    "expectations": {
+      "title": "What to Expect",
+      "steps": {
+        "response": "Response within 24 hours",
+        "demo": "Personalized demo scheduled",
+        "plan": "Custom implementation plan"
+      }
+    }
+  },
+  "pricing": {
+    "seo": {
+      "title": "Pricing | Treasury Management Plans | Synclane",
+      "description": "Transparent pricing for every stage of treasury maturity. Explore Starter, Professional, and Enterprise plans designed for growing companies to global organizations.",
+      "keywords": ["treasury management pricing", "synclane pricing", "treasury software cost", "cash management plans"]
+    },
+    "hero": {
+      "title": "Transparent Pricing for Every Stage",
+      "description": "Whether you are a growing company or a global enterprise, Synclane offers a plan tailored to your treasury complexity and scale."
+    },
+    "badges": {
+      "mostPopular": "Most Popular"
+    },
+    "tiers": {
+      "starter": {
+        "name": "Starter",
+        "audience": "For growing companies",
+        "tagline": "Full Cash Management Module",
+        "price": "6,500",
+        "currency": "SAR/month",
+        "trialText": "Start immediately with a trial for 14 days, no prepayment needed",
+        "buttonText": "Start Your Free Trial",
+        "features": {
+          "header": "Core Capabilities:",
+          "items": [
+            "Cash Management module",
+            "AI-powered Cash Forecasting",
+            "Payments Hub",
+            "Settlement",
+            "Ready Accounting Entries",
+            "Real-time bank balance visibility",
+            "Multi-bank aggregation",
+            "Cash positioning reports",
+            "Variance analysis",
+            "Cash Pooling",
+            "Integrate with all your Saudi and UAE banks immediately",
+            "Email support"
+          ]
+        }
+      },
+      "professional": {
+        "name": "Professional",
+        "audience": "For mid-market teams",
+        "tagline": "Full Fledge TMS!",
+        "price": "15,500",
+        "currency": "SAR/month",
+        "popular": true,
+        "buttonText": "Start Now",
+        "features": {
+          "header": "Everything in Starter, plus:",
+          "items": [
+            "Multi-entity support",
+            "Loans Management module",
+            "Investment Management module",
+            "Derivatives",
+            "Trade Finance (LG/LC)",
+            "PDF report exports",
+            "Unlimited bank connections",
+            "Priority support"
+          ]
+        }
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "audience": "For global organizations",
+        "tagline": "TMS At Scale!",
+        "buttonText": "Contact Sales",
+        "features": {
+          "header": "Everything in Professional, plus:",
+          "items": [
+            "ERP Integration (Oracle, SAP)",
+            "Custom workflows",
+            "Dedicated CSM",
+            "White-glove implementation",
+            "SLA guarantees",
+            "SSO / SAML"
+          ]
+        }
+      }
+    },
+    "addons": {
+      "title": "Optional Add-ons",
+      "description": "Enhance your TiJori experience with powerful integrations",
+      "learnMore": "Learn More",
+      "swift": {
+        "title": "SWIFT Membership",
+        "description": "We offer SWIFT connection to help you integrate with international banks seamlessly. Enable MT940, MT942, MT101, and other MT messages for automated statement retrieval, payment initiation, and real-time balance reporting across your global banking network."
+      },
+      "powerbi": {
+        "title": "Power BI Analytics",
+        "description": "Pre-built Power BI dashboards and data models tailored specifically for treasury professionals. Includes cash flow visualization, liquidity trend analysis, forecast accuracy tracking, and executive-ready reporting templates that connect directly to your TiJori data."
+      },
+      "marketData": {
+        "title": "Market Data Feeds",
+        "description": "Real-time data feeds for equities and market rates including SAIBOR, LIBOR, SOFR, and other benchmark rates. Integrate live FX rates, yield curves, and equity prices directly into your treasury operations for accurate valuations and risk management."
+      }
+    },
+    "included": {
+      "title": "All Plans Include",
+      "description": "Every Synclane plan comes with the security, reliability, and support your treasury team expects.",
+      "items": {
+        "soc2": "SOC 2 Compliance",
+        "encryption": "Bank-Grade Encryption",
+        "users": "Unlimited Users",
+        "api": "API Access",
+        "updates": "Regular Updates"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Common questions about Synclane pricing and implementation.",
+      "items": {
+        "pricing": {
+          "question": "How is pricing determined?",
+          "answer": "Pricing is based on the number of legal entities, bank connections, and modules required. We work with each customer to build a package that aligns with their treasury complexity and organizational size. Contact our sales team for a tailored quote."
+        },
+        "contract": {
+          "question": "Is there a minimum contract?",
+          "answer": "Our standard agreements are annual contracts. We offer multi-year terms with preferential pricing for organizations that prefer longer commitments. All enterprise contracts include onboarding, training, and ongoing support."
+        },
+        "trial": {
+          "question": "Can we start with a trial?",
+          "answer": "Yes. We offer a guided proof-of-concept period where you can evaluate TiJori with your own data and bank connections. Our implementation team will work with you to ensure a meaningful evaluation within a defined timeframe."
+        },
+        "implementation": {
+          "question": "What is included in implementation?",
+          "answer": "Every Enterprise contract includes onboarding support, bank connectivity setup, data migration assistance, user training, and a dedicated implementation manager. Enterprise plans include white-glove implementation with custom workflow configuration and extended training."
+        }
+      }
+    },
+    "cta": {
+      "title": "Contact Sales for a Custom Quote",
+      "description": "Our team will work with you to design a package that fits your treasury requirements, organizational structure, and budget.",
+      "buttonText": "Contact Sales"
+    }
+  },
+  "trustSecurity": {
+    "seo": {
+      "title": "Trust & Security | Enterprise Security Standards | Synclane",
+      "description": "Bank-grade security for your treasury data. SOC 2 Type II certified, GDPR compliant, with AES-256 encryption and comprehensive access controls.",
+      "keywords": ["treasury security", "SOC 2 compliance", "bank-grade encryption", "treasury data protection"]
+    },
+    "hero": {
+      "title": "Enterprise-Grade Security for Your Treasury",
+      "description": "Your financial data deserves the highest level of protection. TiJori is built with security-first architecture and maintains rigorous compliance standards.",
+      "badge": "Trust & Security Center",
+      "requestReport": "Request SOC 2 Report"
+    },
+    "compliance": {
+      "title": "Certifications & Compliance",
+      "description": "Synclane maintains industry-leading security certifications, independently verified by accredited auditors, to give you confidence in the protection of your treasury data.",
+      "certs": {
+        "soc2": {
+          "name": "SOC 2 Type II",
+          "description": "Independently audited annually for security, availability, and confidentiality controls.",
+          "points": [
+            "Annual audits by independent third-party firm",
+            "Continuous control monitoring between audits",
+            "Covers security, availability, and confidentiality",
+            "Report available under NDA upon request"
+          ]
+        },
+        "gdpr": {
+          "name": "GDPR Compliant",
+          "description": "Full compliance with the EU General Data Protection Regulation for all customer data.",
+          "points": [
+            "EU data residency options available",
+            "Right to erasure and data portability supported",
+            "Designated Data Protection Officer (DPO)",
+            "Data Processing Agreements (DPA) provided"
+          ]
+        },
+        "iso27001": {
+          "name": "ISO 27001",
+          "description": "Certified Information Security Management System covering all treasury platform operations.",
+          "points": [
+            "ISMS certified by accredited certification body",
+            "Annual surveillance audits and triennial recertification",
+            "Risk-based approach to information security",
+            "Continuous improvement of security controls"
+          ]
+        }
+      }
+    },
+    "security": {
+      "title": "Security Architecture",
+      "description": "Defense-in-depth security controls protect your data at every layer, from encryption and authentication to access control and auditability.",
+      "features": {
+        "encryption": {
+          "title": "AES-256 Encryption",
+          "description": "All treasury data encrypted at rest using AES-256 and in transit using TLS 1.3. Encryption keys managed with automatic rotation through a dedicated key management service."
+        },
+        "mfa": {
+          "title": "Multi-Factor Authentication",
+          "description": "Enforce MFA across your organization with support for TOTP authenticator apps, FIDO2 hardware security keys, and enterprise SSO integration via SAML 2.0 and OIDC."
+        },
+        "rbac": {
+          "title": "Role-Based Access Control",
+          "description": "Define granular permissions by entity, function, and transaction amount. Restrict access to sensitive treasury operations with configurable role hierarchies."
+        },
+        "dualApproval": {
+          "title": "Dual Approval Workflows",
+          "description": "Configurable multi-level approval chains for payments, transfers, and sensitive operations. Set thresholds by amount, currency, or counterparty to enforce segregation of duties."
+        },
+        "auditLogs": {
+          "title": "Immutable Audit Logs",
+          "description": "Every user action, system event, and data change is recorded in a tamper-proof audit trail. Logs are retained for a minimum of seven years and exportable for external review."
+        },
+        "dataResidency": {
+          "title": "Data Residency Options",
+          "description": "Choose your data center region to meet regulatory and internal policy requirements. Available regions include US (East/West), EU (Frankfurt/Dublin), and APAC (Singapore/Sydney)."
+        }
+      }
+    },
+    "infrastructure": {
+      "title": "Infrastructure & Operations",
+      "description": "Our platform is engineered for reliability, resilience, and operational transparency, so your treasury operations never miss a beat.",
+      "items": {
+        "uptime": { "metric": "99.99%", "label": "Uptime SLA", "detail": "Contractual uptime guarantee with service credits for any shortfall" },
+        "deployment": { "metric": "Multi-Region", "label": "Deployment", "detail": "Active-active architecture across multiple availability zones for failover resilience" },
+        "backups": { "metric": "Daily", "label": "Encrypted Backups", "detail": "Automated daily backups with AES-256 encryption and 90-day retention policy" },
+        "monitoring": { "metric": "24/7", "label": "Security Monitoring", "detail": "Dedicated Security Operations Center with real-time threat detection and incident response" },
+        "pentest": { "metric": "Annual", "label": "Penetration Testing", "detail": "Comprehensive penetration tests conducted by independent third-party security firms" },
+        "bugBounty": { "metric": "Active", "label": "Bug Bounty Program", "detail": "Responsible disclosure program rewarding security researchers who identify vulnerabilities" }
+      }
+    },
+    "faq": {
+      "title": "Security FAQ",
+      "description": "Answers to the security and compliance questions we hear most from enterprise treasury teams during evaluation.",
+      "items": {
+        "encryption": {
+          "question": "How is my data encrypted?",
+          "answer": "All data is encrypted at rest using AES-256 and in transit using TLS 1.3. Encryption keys are managed through a dedicated key management service with automatic rotation on a regular schedule. Database-level encryption ensures that even raw storage access cannot expose sensitive treasury data. We also support customer-managed encryption keys (CMEK) for organizations that require full key ownership."
+        },
+        "storage": {
+          "question": "Where is my data stored?",
+          "answer": "Synclane offers data residency options across three regions: United States (US-East, US-West), European Union (Frankfurt, Dublin), and Asia-Pacific (Singapore, Sydney). You select your primary region during onboarding, and all data storage and processing remains within that region. This architecture supports compliance with local regulations including GDPR, data sovereignty laws, and internal corporate policies."
+        },
+        "incidents": {
+          "question": "How do you handle security incidents?",
+          "answer": "Our Security Operations Center monitors systems around the clock using automated threat detection, intrusion detection systems, and anomaly analysis. When a potential incident is identified, our documented incident response plan is activated immediately. Critical incidents are escalated within 15 minutes, affected customers are notified within 72 hours per GDPR requirements, and a post-incident review is conducted and shared with impacted parties. We maintain a public status page for real-time platform health updates."
+        },
+        "soc2Report": {
+          "question": "Can we get a copy of your SOC 2 report?",
+          "answer": "Yes. We provide our most recent SOC 2 Type II report to prospective and current customers under a mutual non-disclosure agreement. The report covers security, availability, and confidentiality trust service criteria and is issued annually by an independent third-party auditor. Contact our security team at security@synclane.io or reach out to your account manager to request a copy."
+        },
+        "sso": {
+          "question": "Do you support Single Sign-On (SSO)?",
+          "answer": "Yes. Synclane supports SAML 2.0 and OpenID Connect (OIDC) for enterprise Single Sign-On. We integrate with all major identity providers including Okta, Azure Active Directory, Google Workspace, OneLogin, and PingIdentity. SSO is included on all enterprise plans at no additional cost. We also support SCIM for automated user provisioning and deprovisioning to streamline identity lifecycle management."
+        }
+      }
+    },
+    "cta": {
+      "title": "Request Security Documentation",
+      "description": "Our security team is ready to provide the documentation and answers your compliance and procurement teams need to move forward with confidence.",
+      "requestReport": "Request SOC 2 Report",
+      "contactSecurity": "Contact Security Team"
+    }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "backHome": "Back to Home"
+  }
+}

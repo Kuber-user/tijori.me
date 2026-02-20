@@ -1,0 +1,124 @@
+{
+  "buttons": {
+    "requestDemo": "Request Demo",
+    "explorePlatform": "Explore Platform",
+    "exploreFeatures": "Explore Features",
+    "exploreCapabilities": "Explore Capabilities",
+    "seeHowItWorks": "See How It Works",
+    "viewPricing": "View Pricing",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us",
+    "contactSales": "Contact Sales",
+    "startTrial": "Start Your Free Trial",
+    "startNow": "Start Now",
+    "submit": "Submit Request",
+    "submitting": "Submitting...",
+    "getInTouch": "Get in Touch",
+    "viewPositions": "View Open Positions",
+    "browseIntegrations": "Browse Integrations",
+    "requestIntegration": "Request Integration Support",
+    "requestCustom": "Request Custom Integration",
+    "clearSearch": "Clear Search",
+    "explore": "Explore"
+  },
+  "badges": {
+    "soc2": "SOC 2 Type II",
+    "gdpr": "GDPR Compliant",
+    "iso27001": "ISO 27001",
+    "encryption": "AES-256 Encryption"
+  },
+  "trustSignals": {
+    "soc2Certified": "SOC 2 Type II Certified",
+    "gdprCompliant": "GDPR Compliant",
+    "uptime": "99.9% Uptime SLA",
+    "support": "24/7 Support"
+  },
+  "footer": {
+    "tagline": "First Middle East Treasury Platform",
+    "copyright": "All rights reserved.",
+    "sections": {
+      "product": "Product",
+      "solutions": "Solutions",
+      "resources": "Resources",
+      "company": "Company"
+    },
+    "product": {
+      "cashManagement": "Cash Management",
+      "aiForecasting": "AI Forecasting",
+      "loans": "Loans",
+      "investments": "Investments",
+      "riskFx": "Risk & FX",
+      "payments": "Payments",
+      "lgLc": "LG/LC",
+      "connectivity": "Connectivity"
+    },
+    "solutions": {
+      "cfo": "For CFOs",
+      "treasurer": "For Treasurers",
+      "controller": "For Controllers",
+      "semiGovernment": "Semi-Government",
+      "construction": "Construction",
+      "oilGas": "Oil & Gas",
+      "fmcg": "FMCG",
+      "manufacturing": "Manufacturing",
+      "realEstate": "Real Estate",
+      "ecommerce": "E-commerce"
+    },
+    "resources": {
+      "trustSecurity": "Trust & Security"
+    },
+    "company": {
+      "about": "About",
+      "contact": "Contact",
+      "pricing": "Pricing"
+    }
+  },
+  "trustBadges": {
+    "soc2": "SOC 2 Type II",
+    "gdpr": "GDPR Compliant",
+    "iso27001": "ISO 27001",
+    "encryption": "AES-256 Encryption"
+  },
+  "language": {
+    "switchToArabic": "عربي",
+    "switchToEnglish": "EN"
+  },
+  "integrations": {
+    "searchPlaceholder": "Search integrations (e.g., NetSuite, J.P. Morgan)...",
+    "categories": {
+      "all": "All",
+      "erp": "ERP",
+      "bank": "Bank",
+      "accounting": "Accounting"
+    },
+    "setupTime": "Setup:",
+    "found": "Integration",
+    "foundPlural": "Integrations",
+    "noResults": "No integrations found matching your search."
+  },
+  "form": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "workEmail": "Work Email",
+    "companyName": "Company Name",
+    "jobTitle": "Job Title",
+    "message": "Message",
+    "required": "*",
+    "selectRole": "Select your role",
+    "roles": {
+      "cfo": "CFO",
+      "treasurer": "Treasurer",
+      "controller": "Controller",
+      "financeDirector": "Finance Director",
+      "other": "Other"
+    },
+    "placeholders": {
+      "firstName": "John",
+      "lastName": "Smith",
+      "email": "john.smith@company.com",
+      "company": "Acme Corporation",
+      "message": "Tell us about your treasury management needs..."
+    }
+  }
+}

@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply antialiased;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* RTL Support - Arabic */
+  html[dir="rtl"] {
+    font-family: 'Noto Sans Arabic', 'Tahoma', 'Arial', sans-serif;
+  }
+
+  html[dir="rtl"] body {
+    text-align: right;
+  }
+
+  body {
+    @apply bg-white text-gray-900;
+  }
+
+  h1 {
+    @apply text-display-md md:text-display-lg font-bold text-primary-900;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl font-bold text-primary-900;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl font-semibold text-primary-900;
+  }
+
+  h4 {
+    @apply text-xl md:text-2xl font-semibold text-primary-700;
+  }
+
+  p {
+    @apply text-base md:text-lg text-gray-700 leading-relaxed;
+  }
+}
+
+@layer components {
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary-500 to-primary-600 bg-clip-text text-transparent;
+  }
+
+  .btn-primary {
+    @apply text-white px-6 py-3 rounded-lg font-semibold
+           hover:shadow-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+    background-image: linear-gradient(135deg, #5E78F0 0%, #3657EC 100%);
+  }
+
+  .btn-secondary {
+    @apply border-2 border-primary-500 text-primary-600 px-6 py-3 rounded-lg
+           font-semibold hover:bg-primary-50 transition-all focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+  }
+}
+
+/* Hero animation keyframes (used via inline styles) */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes slideUp {
+  0% { transform: translateY(30px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes slideInLeft {
+  0% { transform: translateX(-40px); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideInRight {
+  0% { transform: translateX(40px); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+/* RTL-specific styles */
+[dir="rtl"] .space-x-2 > :not([hidden]) ~ :not([hidden]),
+[dir="rtl"] .space-x-3 > :not([hidden]) ~ :not([hidden]),
+[dir="rtl"] .space-x-4 > :not([hidden]) ~ :not([hidden]),
+[dir="rtl"] .space-x-6 > :not([hidden]) ~ :not([hidden]),
+[dir="rtl"] .space-x-8 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 1;
+}
+
+[dir="rtl"] .ml-auto {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+[dir="rtl"] .mr-auto {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+[dir="rtl"] .ml-2, [dir="rtl"] .ml-3, [dir="rtl"] .ml-4 {
+  margin-left: 0;
+}
+
+[dir="rtl"] .mr-2, [dir="rtl"] .mr-3, [dir="rtl"] .mr-4 {
+  margin-right: 0;
+}
+
+[dir="rtl"] .pl-4, [dir="rtl"] .pl-6, [dir="rtl"] .pl-8 {
+  padding-left: 0;
+}
+
+[dir="rtl"] .pr-4, [dir="rtl"] .pr-6, [dir="rtl"] .pr-8 {
+  padding-right: 0;
+}
+
+/* Keep numbers LTR in RTL context */
+[dir="rtl"] .ltr-nums {
+  direction: ltr;
+  display: inline-block;
+}
+
+/* Flip icons that have directional meaning */
+[dir="rtl"] .rtl-flip {
+  transform: scaleX(-1);
+}
+
+/* Text alignment overrides for RTL */
+[dir="rtl"] .text-left {
+  text-align: right;
+}
+
+[dir="rtl"] .text-right {
+  text-align: left;
+}
+
+/* Keep certain elements LTR */
+[dir="rtl"] .keep-ltr {
+  direction: ltr;
+  text-align: left;
+}

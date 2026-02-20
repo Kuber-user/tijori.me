@@ -1,0 +1,67 @@
+{
+  "platform": {
+    "label": "Platform",
+    "title": "Platform",
+    "items": {
+      "cashManagement": "Cash Management",
+      "aiForecasting": "AI Cash Forecasting",
+      "loansManagement": "Loans Management",
+      "loans": "Loans Management",
+      "investmentManagement": "Investment Management",
+      "investments": "Investment Management",
+      "bankFacilities": "Bank Facilities",
+      "riskFx": "Risk & FX",
+      "paymentHub": "Payment Hub",
+      "payments": "Payment Hub",
+      "lgLc": "LG/LC Management",
+      "connectivity": "Connectivity Hub"
+    }
+  },
+  "solutions": {
+    "label": "Solutions",
+    "title": "Solutions",
+    "byRole": "By Role",
+    "byIndustry": "By Industry",
+    "roles": {
+      "cfo": "For CFOs",
+      "treasurer": "For Treasurers",
+      "controller": "For Controllers"
+    },
+    "industries": {
+      "construction": "Construction & Real Estate",
+      "realEstate": "Real Estate",
+      "semiGovernment": "Semi-Government",
+      "oilGas": "Oil & Gas",
+      "fmcg": "FMCG",
+      "ecommerce": "E-commerce",
+      "manufacturing": "Manufacturing"
+    },
+    "items": {
+      "cfo": "For CFOs",
+      "treasurer": "For Treasurers",
+      "controller": "For Controllers",
+      "construction": "Construction & Real Estate",
+      "semiGovernment": "Semi-Government",
+      "oilGas": "Oil & Gas",
+      "fmcg": "FMCG",
+      "ecommerce": "E-commerce",
+      "manufacturing": "Manufacturing"
+    }
+  },
+  "resources": {
+    "label": "Resources",
+    "title": "Resources",
+    "items": {
+      "trustSecurity": "Trust & Security"
+    }
+  },
+  "company": {
+    "label": "Company",
+    "title": "Company",
+    "items": {
+      "about": "About Us",
+      "contact": "Contact"
+    }
+  },
+  "pricing": "Pricing"
+}

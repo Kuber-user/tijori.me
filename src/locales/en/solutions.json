@@ -1,0 +1,786 @@
+{
+  "roles": {
+    "cfo": {
+      "seo": {
+        "title": "Treasury Management for CFOs | Strategic Cash Visibility | TiJori",
+        "description": "Executive treasury dashboards for CFOs. Real-time cash visibility, working capital optimization, strategic forecasting, and board-ready reporting across your entire organization.",
+        "keywords": ["CFO treasury management", "executive cash visibility", "working capital optimization", "strategic cash forecasting", "board reporting"]
+      },
+      "hero": {
+        "breadcrumb": "Solutions / CFO",
+        "title": "Strategic Cash Management for CFOs",
+        "description": "Gain complete visibility into your organization's cash position, optimize working capital allocation, and make strategic financial decisions backed by AI-powered insights and real-time data across all entities."
+      },
+      "challenges": {
+        "title": "The Strategic Challenges CFOs Face",
+        "description": "CFOs need real-time financial intelligence to drive strategic decisions, but fragmented treasury systems often create visibility gaps.",
+        "items": {
+          "visibility": {
+            "title": "Limited Cash Visibility",
+            "description": "Consolidating cash positions across multiple entities, banks, and currencies requires manual effort and produces stale data by the time it reaches the executive level."
+          },
+          "capital": {
+            "title": "Suboptimal Capital Allocation",
+            "description": "Without real-time visibility into liquidity across the organization, capital allocation decisions are made with incomplete information, leading to trapped cash and missed opportunities."
+          },
+          "reactive": {
+            "title": "Reactive Rather Than Strategic",
+            "description": "Treasury teams spend excessive time on operational tasks, leaving little capacity for strategic analysis, scenario planning, and proactive risk management."
+          }
+        }
+      },
+      "solutions": {
+        "title": "Strategic Treasury for Executive Leadership",
+        "description": "TiJori provides the executive-level visibility and strategic tools CFOs need to optimize cash management across the organization.",
+        "items": {
+          "dashboard": {
+            "title": "Executive Cash Visibility Dashboard",
+            "description": "Access consolidated cash positions across all entities, regions, and currencies from a single executive dashboard. Drill down into any segment for granular analysis without waiting for reports."
+          },
+          "workingCapital": {
+            "title": "Working Capital Optimization",
+            "description": "Identify trapped cash across the organization and optimize working capital deployment. AI-powered recommendations highlight opportunities to reduce idle balances and improve cash efficiency."
+          },
+          "forecasting": {
+            "title": "Strategic Cash Forecasting",
+            "description": "Make informed capital allocation decisions with AI-powered forecasts that incorporate historical patterns, scheduled transactions, and business seasonality across multiple time horizons."
+          },
+          "reporting": {
+            "title": "Board-Ready Reporting",
+            "description": "Generate comprehensive treasury reports for board presentations and stakeholder updates. Automated reporting ensures consistency, accuracy, and timely delivery of critical financial metrics."
+          }
+        }
+      },
+      "industryShowcase": {
+        "title": "Executive Financial Leadership",
+        "subtitle": "Treasury intelligence for strategic decision-making"
+      },
+      "roi": {
+        "title": "Measurable Strategic Impact",
+        "description": "CFOs using TiJori achieve measurable improvements in cash visibility, capital efficiency, and strategic decision-making.",
+        "metrics": {
+          "visibility": {
+            "value": "Complete Visibility",
+            "sublabel": "Real-time consolidated view of cash positions across all entities, banks, and currencies"
+          },
+          "idleCash": {
+            "value": "30% Less Idle Cash",
+            "sublabel": "AI-powered recommendations optimize working capital deployment and reduce trapped balances"
+          },
+          "reports": {
+            "value": "Board-Ready Reports",
+            "sublabel": "Automated generation of executive dashboards and stakeholder reporting"
+          }
+        }
+      },
+      "cta": {
+        "title": "Transform Your Strategic Treasury",
+        "description": "See how TiJori delivers executive-level visibility, working capital optimization, and strategic insights for CFOs."
+      }
+    },
+    "treasurer": {
+      "seo": {
+        "title": "Treasury Management Solutions for Treasurers | Synclane",
+        "description": "Operational excellence for treasury teams. Automate reconciliation, streamline payments, and optimize daily cash management.",
+        "keywords": ["treasury operations", "cash management", "treasury automation", "bank reconciliation"]
+      },
+      "hero": {
+        "breadcrumb": "Solutions / Treasurers",
+        "title": "Operational Excellence for Treasury Teams",
+        "description": "Automate daily operations, streamline multi-bank payments, and optimize cash positioning with intelligent treasury tools designed for treasury professionals."
+      },
+      "challenges": {
+        "title": "Daily Challenges Treasury Teams Face",
+        "description": "Treasurers spend too much time on manual operations instead of strategic cash optimization.",
+        "items": {
+          "manualProcesses": {
+            "title": "Manual, Time-Consuming Processes",
+            "description": "Daily cash positioning, bank reconciliation, and payment processing consume hours of manual work across multiple banking portals."
+          },
+          "fragmentation": {
+            "title": "Fragmented Banking Relationships",
+            "description": "Managing multiple bank accounts, portals, and formats creates operational complexity and increases the risk of errors."
+          },
+          "limitedTime": {
+            "title": "Limited Time for Optimization",
+            "description": "Operational overhead leaves little time for cash optimization, investment decisions, and strategic treasury initiatives."
+          }
+        }
+      },
+      "solutions": {
+        "title": "Streamlined Treasury Operations",
+        "description": "TiJori automates routine tasks so treasury teams can focus on what matters: optimizing cash and reducing costs.",
+        "items": {
+          "cashPositioning": {
+            "title": "Automated Cash Positioning",
+            "description": "Real-time cash positions aggregated automatically from all connected banks. No more logging into multiple portals or waiting for end-of-day reports."
+          },
+          "paymentHub": {
+            "title": "Unified Payment Hub",
+            "description": "Initiate and approve payments across all banks from one platform. Configurable approval workflows ensure control without slowing operations."
+          },
+          "reconciliation": {
+            "title": "Automated Reconciliation",
+            "description": "Bank statements automatically matched to transactions with AI-powered exception handling. Reduce reconciliation time by 90%."
+          },
+          "forecasting": {
+            "title": "Cash Flow Forecasting",
+            "description": "AI-powered forecasts help optimize liquidity buffers and identify investment opportunities in advance."
+          }
+        }
+      },
+      "industryShowcase": {
+        "title": "Treasury Operations Excellence",
+        "subtitle": "Tools designed for treasury professionals"
+      },
+      "roi": {
+        "title": "Measurable Operational Impact",
+        "description": "Treasury teams using TiJori achieve significant time savings and operational improvements.",
+        "metrics": {
+          "timeSaved": {
+            "value": "15+ Hours/Week",
+            "sublabel": "Saved on manual cash positioning, reconciliation, and reporting tasks"
+          },
+          "reconciliation": {
+            "value": "90% Faster",
+            "sublabel": "Automated reconciliation with AI-powered exception handling"
+          },
+          "singlePlatform": {
+            "value": "Single Platform",
+            "sublabel": "Manage all banks, accounts, and payments from one unified interface"
+          }
+        }
+      },
+      "cta": {
+        "title": "Streamline Your Treasury Operations",
+        "description": "See how TiJori automates daily tasks and gives treasury teams time to focus on strategic initiatives."
+      }
+    },
+    "controller": {
+      "seo": {
+        "title": "Treasury Control & Compliance Solutions | Synclane",
+        "description": "Complete financial control and compliance for controllers. Automated reconciliation, comprehensive audit trails, and regulatory reporting.",
+        "keywords": ["financial control", "treasury compliance", "automated reconciliation", "audit trails", "regulatory reporting"]
+      },
+      "hero": {
+        "breadcrumb": "Solutions / Controllers",
+        "title": "Complete Financial Control & Compliance",
+        "description": "Automated reconciliation, comprehensive audit trails, and streamlined regulatory reporting for financial controllers who need accuracy and accountability."
+      },
+      "challenges": {
+        "title": "Control & Compliance Challenges",
+        "description": "Controllers need complete visibility and audit trails, but legacy systems create gaps in financial control.",
+        "items": {
+          "reconciliation": {
+            "title": "Manual Reconciliation Burden",
+            "description": "Month-end reconciliation across multiple systems and banks is time-consuming, error-prone, and delays financial close."
+          },
+          "auditTrails": {
+            "title": "Incomplete Audit Trails",
+            "description": "Fragmented systems make it difficult to maintain complete audit trails and demonstrate compliance to auditors."
+          },
+          "reporting": {
+            "title": "Regulatory Reporting Complexity",
+            "description": "Meeting regulatory requirements across jurisdictions requires manual data gathering and format conversion."
+          }
+        }
+      },
+      "solutions": {
+        "title": "Built for Financial Control",
+        "description": "TiJori provides the controls, visibility, and audit capabilities controllers need for accurate financial reporting.",
+        "items": {
+          "autoReconciliation": {
+            "title": "Automated Bank Reconciliation",
+            "description": "Real-time reconciliation of bank transactions with ERP entries. AI-powered matching handles exceptions and reduces manual intervention."
+          },
+          "auditTrail": {
+            "title": "Complete Audit Trail",
+            "description": "Every transaction, approval, and change is logged with timestamps, user IDs, and before/after states. Ready for internal and external audits."
+          },
+          "segregation": {
+            "title": "Segregation of Duties",
+            "description": "Configurable approval workflows enforce proper segregation of duties for payments, transfers, and account changes."
+          },
+          "regulatory": {
+            "title": "Regulatory Reporting",
+            "description": "Automated generation of regulatory reports in required formats. Stay compliant with SAMA, central bank, and other regulatory requirements."
+          }
+        }
+      },
+      "industryShowcase": {
+        "title": "Financial Control Excellence",
+        "subtitle": "Built for accuracy and compliance"
+      },
+      "roi": {
+        "title": "Measurable Control Improvements",
+        "description": "Controllers using TiJori achieve faster close cycles and stronger compliance posture.",
+        "metrics": {
+          "closeCycle": {
+            "value": "50% Faster Close",
+            "sublabel": "Automated reconciliation accelerates month-end and year-end close processes"
+          },
+          "auditReady": {
+            "value": "Audit-Ready",
+            "sublabel": "Complete audit trails with SOC 2 certified controls and comprehensive logging"
+          },
+          "compliance": {
+            "value": "100% Compliance",
+            "sublabel": "Automated regulatory reporting ensures timely, accurate submissions"
+          }
+        }
+      },
+      "cta": {
+        "title": "Strengthen Your Financial Controls",
+        "description": "See how TiJori delivers automated reconciliation, complete audit trails, and regulatory compliance."
+      }
+    }
+  },
+  "industries": {
+    "construction": {
+      "seo": {
+        "title": "Treasury Management for Construction | Project Cash Management | TiJori",
+        "description": "Project-based cash management for construction companies. Track retention, manage bank guarantees, optimize subcontractor payments, and forecast project-level cash flows.",
+        "keywords": ["construction treasury management", "project cash management", "bank guarantee tracking", "retention management", "construction cash forecasting"]
+      },
+      "hero": {
+        "breadcrumb": "Solutions / Construction & Real Estate",
+        "title": "Treasury Management for Construction & Real Estate",
+        "description": "Gain complete visibility into project-level cash positions, automate retention and milestone tracking, manage bank guarantees efficiently, and optimize subcontractor payments across your entire portfolio."
+      },
+      "challenges": {
+        "title": "The Treasury Challenges in Construction",
+        "description": "Construction companies face unique treasury complexities that require specialized solutions beyond generic treasury management systems.",
+        "items": {
+          "visibility": {
+            "title": "Project Cash Visibility",
+            "description": "Managing cash across dozens of active projects with different funding sources, billing cycles, and payment terms creates significant visibility gaps and operational complexity."
+          },
+          "retention": {
+            "title": "Retention & Guarantee Tracking",
+            "description": "Tracking retention amounts, bank guarantees, and performance bonds across multiple projects and banks requires meticulous oversight that spreadsheets cannot reliably provide."
+          },
+          "payments": {
+            "title": "Subcontractor Payment Management",
+            "description": "Coordinating payments to numerous subcontractors while managing cash flow timing, work verification, and compliance with contract terms creates substantial administrative burden."
+          }
+        }
+      },
+      "solutions": {
+        "title": "Purpose-Built for Construction Treasury",
+        "description": "TiJori delivers the project-level granularity, guarantee management automation, and payment optimization capabilities that construction companies require.",
+        "items": {
+          "projectCash": {
+            "title": "Project-Based Cash Management",
+            "description": "Track cash positions at the individual project level with automated allocation of funds, progress billing reconciliation, and real-time visibility into project liquidity."
+          },
+          "retention": {
+            "title": "Retention & Milestone Tracking",
+            "description": "Automate retention calculations, track milestone-based payments, and manage progress billing schedules with integrated cash flow forecasting for each project phase."
+          },
+          "guarantee": {
+            "title": "Bank Guarantee Management",
+            "description": "Centralized tracking of performance bonds, bid bonds, and advance payment guarantees with automated renewal alerts and limit utilization monitoring across all banking relationships."
+          },
+          "subcontractor": {
+            "title": "Subcontractor Payment Optimization",
+            "description": "Manage complex subcontractor payment schedules, automate payment approvals based on work completion, and optimize payment timing to maximize working capital efficiency."
+          }
+        }
+      },
+      "industryShowcase": {
+        "title": "Building the Future",
+        "subtitle": "Treasury solutions designed for the construction industry"
+      },
+      "roi": {
+        "title": "Measurable Project Impact",
+        "description": "Construction firms using TiJori achieve measurable improvements in treasury operations and project financial management.",
+        "metrics": {
+          "visibility": {
+            "value": "Project-Level Visibility",
+            "sublabel": "Real-time cash positions across every active project with automated progress billing reconciliation"
+          },
+          "guarantees": {
+            "value": "Automated Guarantee Tracking",
+            "sublabel": "Centralized management of all bank guarantees with renewal alerts and limit monitoring"
+          },
+          "payments": {
+            "value": "Optimized Payment Timing",
+            "sublabel": "Improved working capital through intelligent subcontractor payment scheduling"
+          }
+        }
+      },
+      "cta": {
+        "title": "Optimize Your Construction Treasury",
+        "description": "See how TiJori delivers complete project visibility, automated guarantee management, and payment optimization for construction companies."
+      }
+    },
+    "realEstate": {
+      "seo": {
+        "title": "Treasury Management for Real Estate | Portfolio Cash Management | TiJori",
+        "description": "Multi-entity cash management for real estate portfolios. Automate capital call tracking, REIT distribution compliance, and project-level cash forecasting.",
+        "keywords": ["real estate treasury management", "portfolio cash management", "REIT compliance", "capital call tracking", "property cash forecasting"]
+      },
+      "hero": {
+        "breadcrumb": "Solutions / Real Estate",
+        "title": "Treasury Management for Real Estate Portfolios",
+        "description": "Gain complete cash visibility across every entity, property, and fund in your portfolio. Automate capital call management, ensure REIT distribution compliance, and forecast with precision at the project level."
+      },
+      "challenges": {
+        "title": "The Treasury Challenges in Real Estate",
+        "description": "Real estate portfolios create unique treasury complexity that spreadsheets and manual processes cannot address at scale.",
+        "items": {
+          "multiEntity": {
+            "title": "Multi-Entity Cash Management",
+            "description": "Managing cash positions across dozens or hundreds of legal entities, SPVs, and property-level accounts creates significant operational burden and limits visibility into aggregate liquidity."
+          },
+          "capitalCalls": {
+            "title": "Capital Call & Funding Tracking",
+            "description": "Coordinating capital calls across multiple funds, tracking investor commitments against drawdowns, and managing project funding timelines requires meticulous oversight."
+          },
+          "reitCompliance": {
+            "title": "REIT Compliance & Distributions",
+            "description": "Maintaining compliance with REIT distribution requirements demands precise cash flow calculations, timely disbursements, and comprehensive audit documentation."
+          }
+        }
+      },
+      "solutions": {
+        "title": "Purpose-Built for Real Estate Treasury",
+        "description": "TiJori delivers the entity-level granularity, capital management automation, and compliance capabilities that real estate portfolios require.",
+        "items": {
+          "entityVisibility": {
+            "title": "Entity-Level Cash Visibility",
+            "description": "Consolidate cash positions across every property, fund, and legal entity in your portfolio with real-time balance aggregation and automated reporting."
+          },
+          "capitalCalls": {
+            "title": "Automated Capital Call Tracking",
+            "description": "Track capital calls and investor commitments across all funds with automated notifications, payment matching, and real-time status dashboards."
+          },
+          "reitCompliance": {
+            "title": "REIT Distribution Compliance",
+            "description": "Ensure timely and accurate REIT distribution calculations with automated compliance reporting, audit trails, and regulatory-ready documentation."
+          },
+          "forecasting": {
+            "title": "Project-Level Cash Forecasting",
+            "description": "Build granular cash forecasts at the individual property and project level, incorporating construction draws, lease payments, and operating expenses."
+          }
+        }
+      },
+      "industryShowcase": {
+        "title": "Building Portfolio Value",
+        "subtitle": "Treasury solutions for real estate investment"
+      },
+      "roi": {
+        "title": "Measurable Portfolio Impact",
+        "description": "Real estate firms using TiJori achieve measurable improvements in treasury operations and portfolio oversight.",
+        "metrics": {
+          "visibility": {
+            "value": "Complete Portfolio Visibility",
+            "sublabel": "Real-time cash positions across every entity, property, and fund in your portfolio"
+          },
+          "capitalCalls": {
+            "value": "Automated Capital Calls",
+            "sublabel": "Eliminate manual tracking with automated call issuance, payment matching, and status reporting"
+          },
+          "compliance": {
+            "value": "REIT Compliance Ready",
+            "sublabel": "Automated distribution calculations and regulatory documentation for audit-ready compliance"
+          }
+        }
+      },
+      "cta": {
+        "title": "Optimize Your Real Estate Treasury",
+        "description": "See how TiJori delivers complete portfolio visibility, automated capital management, and REIT-ready compliance for real estate firms."
+      }
+    },
+    "oilGas": {
+      "seo": {
+        "title": "Treasury Management for Oil & Gas | Energy Sector Treasury | TiJori",
+        "description": "Specialized treasury management for oil and gas companies. Commodity hedging integration, JV accounting, multi-currency operations, and capex management for energy sector.",
+        "keywords": ["oil gas treasury management", "energy sector treasury", "commodity hedging", "JV accounting", "production sharing treasury"]
+      },
+      "hero": {
+        "breadcrumb": "Solutions / Oil & Gas",
+        "title": "Treasury Management for Oil & Gas Companies",
+        "description": "Integrate commodity risk management with treasury operations, automate JV cash calls and distributions, manage multi-currency exposures, and track capex funding across your global energy operations."
+      },
+      "challenges": {
+        "title": "The Treasury Challenges in Oil & Gas",
+        "description": "Oil and gas companies face unique treasury complexities driven by commodity price volatility, complex partnership structures, and global multi-currency operations.",
+        "items": {
+          "commodityVolatility": {
+            "title": "Commodity Price Volatility",
+            "description": "Oil and gas price fluctuations create significant cash flow uncertainty, requiring sophisticated hedging strategies and real-time visibility into exposure positions."
+          },
+          "jvStructures": {
+            "title": "Complex JV Structures",
+            "description": "Managing cash calls, distributions, and inter-company funding across numerous joint ventures and production sharing agreements demands meticulous tracking and automation."
+          },
+          "multiCurrency": {
+            "title": "Global Multi-Currency Operations",
+            "description": "Operating across multiple jurisdictions with different currencies creates FX exposure that must be managed alongside commodity price risk for effective treasury management."
+          }
+        }
+      },
+      "solutions": {
+        "title": "Purpose-Built for Energy Sector Treasury",
+        "description": "TiJori delivers the commodity integration, JV automation, and multi-currency capabilities that oil and gas companies require.",
+        "items": {
+          "commodityRisk": {
+            "title": "Commodity Price Risk Management",
+            "description": "Integrate commodity hedging with treasury operations, track hedge effectiveness, and manage the P&L impact of oil and gas price volatility on cash flows and working capital."
+          },
+          "jvAccounting": {
+            "title": "JV & Production Sharing Accounting",
+            "description": "Automate cash calls and distributions for joint ventures, track production sharing agreements, and manage complex inter-company funding arrangements with complete transparency."
+          },
+          "multiCurrency": {
+            "title": "Multi-Currency Operations",
+            "description": "Manage treasury operations across multiple currencies with integrated FX hedging, exposure tracking, and automated currency conversion for global oil and gas operations."
+          },
+          "capex": {
+            "title": "Capex & Project Funding",
+            "description": "Track capital expenditure against approved budgets, manage project drawdowns and facility utilization, and forecast funding requirements for exploration and production activities."
+          }
+        }
+      },
+      "industryShowcase": {
+        "title": "Powering Energy Operations",
+        "subtitle": "Treasury solutions for the oil and gas industry"
+      },
+      "roi": {
+        "title": "Measurable Energy Sector Impact",
+        "description": "Oil and gas companies using TiJori achieve measurable improvements in treasury operations and risk management.",
+        "metrics": {
+          "riskView": {
+            "value": "Integrated Risk View",
+            "sublabel": "Combined visibility into commodity hedges, FX positions, and cash flows in one platform"
+          },
+          "jvOperations": {
+            "value": "Automated JV Operations",
+            "sublabel": "Streamlined cash calls, distributions, and inter-company funding across all partnerships"
+          },
+          "currencyControl": {
+            "value": "Global Currency Control",
+            "sublabel": "Real-time FX exposure tracking and automated hedging across all operating currencies"
+          }
+        }
+      },
+      "cta": {
+        "title": "Optimize Your Energy Sector Treasury",
+        "description": "See how TiJori delivers integrated risk management, JV automation, and global currency control for oil and gas companies."
+      }
+    },
+    "fmcg": {
+      "seo": {
+        "title": "Treasury Management for FMCG | Consumer Goods Treasury | TiJori",
+        "description": "Working capital optimization for FMCG companies. Distributor collections, supplier payments, seasonal forecasting, and cash conversion cycle management for consumer goods.",
+        "keywords": ["FMCG treasury management", "consumer goods treasury", "working capital optimization", "distributor collections", "seasonal cash forecasting"]
+      },
+      "hero": {
+        "breadcrumb": "Solutions / FMCG",
+        "title": "Treasury Management for FMCG Companies",
+        "description": "Optimize your cash conversion cycle, automate distributor collections, manage supplier payments strategically, and forecast cash needs for seasonal demand with precision across your consumer goods operations."
+      },
+      "challenges": {
+        "title": "The Treasury Challenges in FMCG",
+        "description": "FMCG companies face unique treasury pressures from thin margins, extensive distribution networks, and seasonal demand patterns that require specialized solutions.",
+        "items": {
+          "workingCapital": {
+            "title": "Working Capital Pressure",
+            "description": "Thin margins and high volumes demand optimized cash conversion cycles. Every day of improvement in DSO or DPO can release millions in trapped working capital."
+          },
+          "collections": {
+            "title": "Fragmented Collections",
+            "description": "Managing receivables across thousands of distributors and retail accounts with varying payment behaviors creates collection complexity and cash flow uncertainty."
+          },
+          "seasonalDemand": {
+            "title": "Seasonal Demand Volatility",
+            "description": "Promotional campaigns, seasonal peaks, and new product launches create significant cash flow variability that requires sophisticated forecasting capabilities."
+          }
+        }
+      },
+      "solutions": {
+        "title": "Purpose-Built for FMCG Treasury",
+        "description": "TiJori delivers the working capital optimization, collections automation, and seasonal forecasting capabilities that FMCG companies require.",
+        "items": {
+          "workingCapital": {
+            "title": "Working Capital Optimization",
+            "description": "Optimize cash conversion cycles across procurement, inventory, and receivables with AI-powered recommendations for payment timing and collection strategies."
+          },
+          "collections": {
+            "title": "Distributor & Retailer Collections",
+            "description": "Automate receivables tracking across thousands of distributors and retail accounts with predictive payment analytics, aging analysis, and collection prioritization."
+          },
+          "supplierPayments": {
+            "title": "Supplier Payment Management",
+            "description": "Manage complex supplier payment schedules, optimize early payment discounts, and maintain strong supplier relationships while maximizing working capital efficiency."
+          },
+          "seasonalForecasting": {
+            "title": "Seasonal Cash Flow Forecasting",
+            "description": "Predict cash requirements for seasonal demand fluctuations, promotional campaigns, and new product launches with ML-powered forecasting models trained on FMCG patterns."
+          }
+        }
+      },
+      "industryShowcase": {
+        "title": "Driving Consumer Goods Excellence",
+        "subtitle": "Treasury solutions for fast-moving consumer goods"
+      },
+      "roi": {
+        "title": "Measurable FMCG Impact",
+        "description": "FMCG companies using TiJori achieve measurable improvements in working capital efficiency and cash flow visibility.",
+        "metrics": {
+          "cashCycle": {
+            "value": "Optimized Cash Cycle",
+            "sublabel": "Reduced DSO and optimized DPO through intelligent payment and collection strategies"
+          },
+          "collections": {
+            "value": "Automated Collections",
+            "sublabel": "AI-powered prioritization and tracking across thousands of distributor accounts"
+          },
+          "forecasting": {
+            "value": "Seasonal Forecasting",
+            "sublabel": "ML models trained on FMCG patterns for accurate demand-driven cash forecasting"
+          }
+        }
+      },
+      "cta": {
+        "title": "Optimize Your FMCG Treasury",
+        "description": "See how TiJori delivers working capital optimization, collection automation, and seasonal forecasting for FMCG companies."
+      }
+    },
+    "ecommerce": {
+      "seo": {
+        "title": "Treasury Management for E-commerce | Payment Reconciliation | TiJori",
+        "description": "Automate payment processor reconciliation, manage multi-currency operations, and scale treasury processes for high-volume e-commerce businesses.",
+        "keywords": ["e-commerce treasury management", "payment reconciliation", "multi-currency cash management", "FX hedging", "e-commerce cash forecasting"]
+      },
+      "hero": {
+        "breadcrumb": "Solutions / E-commerce",
+        "title": "Optimize Cash Flow for High-Volume Commerce",
+        "description": "Automate payment reconciliation across every processor, gain control over multi-currency operations, and build treasury infrastructure that scales with your transaction volume."
+      },
+      "challenges": {
+        "title": "The Treasury Challenges in E-commerce",
+        "description": "High-volume commerce generates treasury complexity that compounds with every new payment channel, market, and currency.",
+        "items": {
+          "reconciliation": {
+            "title": "Payment Processor Reconciliation",
+            "description": "Reconciling settlements from Stripe, PayPal, Adyen, and other processors against bank deposits consumes days of effort each month, with discrepancies that are difficult to trace."
+          },
+          "multiCurrency": {
+            "title": "Multi-Currency Operations & FX Exposure",
+            "description": "Selling across international markets creates unmanaged foreign exchange exposure. Without real-time visibility into currency positions, FX volatility erodes margins and complicates forecasting."
+          },
+          "rapidGrowth": {
+            "title": "Rapid Growth Outpacing Manual Processes",
+            "description": "Transaction volumes that double or triple year-over-year quickly overwhelm spreadsheet-based treasury workflows, creating operational risk and delaying critical financial decisions."
+          }
+        }
+      },
+      "solutions": {
+        "title": "Treasury Infrastructure Built for Commerce Scale",
+        "description": "TiJori automates the treasury workflows that high-growth commerce businesses need to maintain financial control at scale.",
+        "items": {
+          "reconciliation": {
+            "title": "Automated Payment Processor Reconciliation",
+            "description": "Reconcile transactions across Stripe, PayPal, Adyen, and other processors automatically. Match settlements to bank deposits and resolve discrepancies in minutes rather than days."
+          },
+          "multiCurrency": {
+            "title": "Multi-Currency Cash Positioning",
+            "description": "Maintain real-time visibility into cash positions across all operating currencies. Consolidate balances from global accounts and track net exposure by currency pair with automated reporting."
+          },
+          "fxHedging": {
+            "title": "Dynamic FX Hedging",
+            "description": "Protect marketplace revenues from currency volatility with intelligent hedging recommendations. Automate hedge execution based on configurable exposure thresholds and risk parameters."
+          },
+          "forecasting": {
+            "title": "Scalable Cash Forecasting",
+            "description": "Build accurate cash forecasts that account for seasonal demand patterns, promotional cycles, and marketplace payout schedules. Adapt forecasting models as your business scales."
+          }
+        }
+      },
+      "industryShowcase": {
+        "title": "Powering Global Commerce",
+        "subtitle": "Treasury solutions for high-growth e-commerce"
+      },
+      "roi": {
+        "title": "Measurable Financial Impact",
+        "description": "E-commerce businesses using TiJori achieve significant improvements in operational efficiency and financial performance.",
+        "metrics": {
+          "reconciliation": {
+            "value": "Reconcile in Minutes Not Days",
+            "sublabel": "Automated matching across all payment processors eliminates days of manual reconciliation effort each month"
+          },
+          "fxImpact": {
+            "value": "Reduce FX Impact by 25%",
+            "sublabel": "Proactive currency hedging and real-time exposure monitoring protect international revenue margins"
+          },
+          "scalability": {
+            "value": "Scale Without Adding Headcount",
+            "sublabel": "Automated treasury workflows handle 10x transaction growth without proportional increases in treasury staff"
+          }
+        }
+      },
+      "cta": {
+        "title": "Scale Your Treasury Operations",
+        "description": "See how TiJori automates reconciliation, manages multi-currency complexity, and scales treasury operations for high-growth commerce."
+      }
+    },
+    "manufacturing": {
+      "seo": {
+        "title": "Treasury Management for Manufacturing | Working Capital Optimization | TiJori",
+        "description": "Optimize working capital for manufacturing operations. Supply chain finance management, inventory-aware cash forecasting, and automated intercompany netting.",
+        "keywords": ["manufacturing treasury management", "working capital optimization", "supply chain finance", "intercompany netting", "vendor payment optimization"]
+      },
+      "hero": {
+        "breadcrumb": "Solutions / Manufacturing",
+        "title": "Working Capital Optimization for Manufacturers",
+        "description": "Unlock trapped working capital across your supply chain, automate intercompany netting, and orchestrate global vendor payments from a single treasury platform."
+      },
+      "challenges": {
+        "title": "The Treasury Challenges in Manufacturing",
+        "description": "Global manufacturing operations create working capital complexity that demands purpose-built treasury infrastructure.",
+        "items": {
+          "supplyChain": {
+            "title": "Supply Chain Financing & Vendor Payments",
+            "description": "Balancing early payment discounts against cash preservation requires real-time visibility into payables, vendor terms, and available liquidity that manual processes cannot provide."
+          },
+          "inventoryFunding": {
+            "title": "Inventory Funding Across Global Operations",
+            "description": "Raw materials, work-in-progress, and finished goods tie up significant capital across multiple geographies. Without inventory-aware forecasting, treasury teams cannot accurately predict funding needs."
+          },
+          "intercompany": {
+            "title": "Complex Intercompany Transactions",
+            "description": "Manufacturing subsidiaries generate high volumes of intercompany transactions across currencies and jurisdictions. Without automated netting, redundant payments inflate banking costs and FX exposure."
+          }
+        }
+      },
+      "solutions": {
+        "title": "Treasury Solutions for Manufacturing Operations",
+        "description": "TiJori integrates with your supply chain and ERP systems to deliver working capital optimization across every stage of the manufacturing cycle.",
+        "items": {
+          "supplyChainFinance": {
+            "title": "Supply Chain Finance Program Management",
+            "description": "Centralize supply chain financing programs across your vendor base. Optimize early payment discounts, manage dynamic discounting, and track program performance with comprehensive analytics."
+          },
+          "inventoryForecasting": {
+            "title": "Inventory-Aware Cash Forecasting",
+            "description": "Integrate inventory levels, procurement schedules, and production plans into cash forecasts. Anticipate funding requirements tied to raw material purchases and production cycles."
+          },
+          "intercompanyNetting": {
+            "title": "Automated Intercompany Netting",
+            "description": "Eliminate redundant cross-border payments with multilateral netting across subsidiaries. Reduce transaction volumes, minimize FX conversion costs, and simplify intercompany settlement."
+          },
+          "paymentOrchestration": {
+            "title": "Global Payment Orchestration",
+            "description": "Orchestrate vendor payments across regions and currencies through a single platform. Optimize payment routing, reduce banking fees, and ensure on-time settlement."
+          }
+        }
+      },
+      "industryShowcase": {
+        "title": "Engineering Financial Excellence",
+        "subtitle": "Treasury solutions for modern manufacturing"
+      },
+      "roi": {
+        "title": "Measurable Operational Impact",
+        "description": "Manufacturers using TiJori achieve significant improvements in working capital efficiency and treasury operations.",
+        "metrics": {
+          "workingCapital": {
+            "value": "Optimize Working Capital by 20%",
+            "sublabel": "Release trapped cash through supply chain finance optimization, payment term management, and intelligent liquidity allocation"
+          },
+          "paymentCosts": {
+            "value": "Reduce Payment Costs by 40%",
+            "sublabel": "Automated payment routing, intercompany netting, and bank fee optimization significantly lower transaction costs"
+          },
+          "netting": {
+            "value": "Automated Intercompany Netting",
+            "sublabel": "Multilateral netting across subsidiaries eliminates redundant cross-border payments and reduces FX conversion costs"
+          }
+        }
+      },
+      "cta": {
+        "title": "Optimize Your Manufacturing Treasury",
+        "description": "See how TiJori delivers working capital optimization, automated netting, and global payment orchestration for manufacturers."
+      }
+    },
+    "semiGovernment": {
+      "seo": {
+        "title": "Treasury Management for Saudi Semi-Government | Vision 2030 | TiJori",
+        "description": "Enterprise treasury management for Saudi semi-government organizations supporting Vision 2030. Multi-entity fund management, mega project treasury, and governance controls for GREs.",
+        "keywords": ["Saudi semi-government treasury", "Vision 2030 treasury", "GRE treasury management", "mega project treasury", "SAMA compliance"]
+      },
+      "hero": {
+        "breadcrumb": "Solutions / Saudi Semi-Government",
+        "title": "Treasury Management for Saudi Semi-Government & Vision 2030 Entities",
+        "description": "Purpose-built treasury solutions for Government-Related Entities (GREs), Vision 2030 mega projects, and sovereign organizations. Manage multi-billion riyal cash flows across transformational mega projects with complete visibility and SAMA-compliant governance."
+      },
+      "challenges": {
+        "title": "The Treasury Challenges for Vision 2030 Entities",
+        "description": "Saudi semi-government organizations and GREs face unprecedented treasury complexity as they execute Vision 2030's transformational mega projects.",
+        "items": {
+          "megaProject": {
+            "title": "Mega Project Treasury Complexity",
+            "description": "Managing cash flows across Vision 2030 mega projects and national development programs requires tracking billions of riyals across multiple phases, contractors, and funding sources."
+          },
+          "greConsolidation": {
+            "title": "Multi-Entity GRE Consolidation",
+            "description": "Consolidating treasury operations across Government-Related Entities, subsidiaries, and joint ventures with different stakeholders creates significant visibility challenges."
+          },
+          "samaRegulatory": {
+            "title": "SAMA Regulatory & Governance Requirements",
+            "description": "Meeting Saudi Central Bank (SAMA) requirements, board oversight expectations, and audit standards while maintaining complete traceability across all treasury operations."
+          }
+        }
+      },
+      "solutions": {
+        "title": "Purpose-Built for Saudi GREs & Vision 2030",
+        "description": "TiJori delivers the mega project treasury capabilities, GRE consolidation, and SAMA-compliant governance controls that Saudi semi-government organizations require.",
+        "items": {
+          "megaProject": {
+            "title": "Vision 2030 Project Treasury",
+            "description": "Track cash positions at the mega project level with dedicated fund management. Manage contractor payments, milestone disbursements, and multi-phase funding with complete visibility."
+          },
+          "greConsolidation": {
+            "title": "GRE Consolidation & Reporting",
+            "description": "Consolidate treasury operations across Government-Related Entities with segregated reporting by entity, project, and funding source. Real-time dashboards for executive oversight."
+          },
+          "samaCompliance": {
+            "title": "SAMA Compliance & Controls",
+            "description": "Automated regulatory reporting aligned with Saudi Central Bank (SAMA) requirements. Built-in compliance controls, audit trails, and governance workflows for Saudi regulatory standards."
+          },
+          "sovereignWealth": {
+            "title": "Sovereign Wealth Integration",
+            "description": "Interface capabilities for coordination with PIF and other sovereign wealth entities. Track allocated capital, investment commitments, and funding drawdowns with comprehensive reporting."
+          }
+        }
+      },
+      "industryShowcase": {
+        "title": "Powering Saudi Vision 2030",
+        "subtitle": "Treasury solutions for the Kingdom's transformation"
+      },
+      "roi": {
+        "title": "Measurable Impact for Vision 2030 Entities",
+        "description": "Saudi semi-government organizations using TiJori achieve measurable improvements in mega project treasury and SAMA compliance.",
+        "metrics": {
+          "projectVisibility": {
+            "value": "Complete Project Visibility",
+            "sublabel": "Real-time cash positions across mega projects, GREs, and subsidiaries with consolidated reporting"
+          },
+          "samaCompliance": {
+            "value": "SAMA Compliance Ready",
+            "sublabel": "Built-in regulatory controls and automated reporting aligned with Saudi Central Bank requirements"
+          },
+          "governance": {
+            "value": "Audit-Ready Governance",
+            "sublabel": "Complete audit trails and approval workflows for board oversight and regulatory authorities"
+          }
+        }
+      },
+      "cta": {
+        "title": "Treasury Solutions for Vision 2030",
+        "description": "See how TiJori powers mega project treasury, GRE consolidation, and SAMA-compliant governance for Saudi semi-government organizations."
+      }
+    }
+  }
+}

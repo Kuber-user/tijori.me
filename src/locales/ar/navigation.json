@@ -1,0 +1,67 @@
+{
+  "platform": {
+    "label": "المنصة",
+    "title": "المنصة",
+    "items": {
+      "cashManagement": "إدارة النقدية",
+      "aiForecasting": "التنبؤ بالتدفقات النقدية بالذكاء الاصطناعي",
+      "loansManagement": "إدارة القروض",
+      "loans": "إدارة القروض",
+      "investmentManagement": "إدارة الاستثمارات",
+      "investments": "إدارة الاستثمارات",
+      "bankFacilities": "التسهيلات البنكية",
+      "riskFx": "إدارة المخاطر والعملات",
+      "paymentHub": "مركز المدفوعات",
+      "payments": "مركز المدفوعات",
+      "lgLc": "إدارة خطابات الضمان والاعتماد",
+      "connectivity": "مركز الربط والتكامل"
+    }
+  },
+  "solutions": {
+    "label": "الحلول",
+    "title": "الحلول",
+    "byRole": "حسب الدور",
+    "byIndustry": "حسب القطاع",
+    "roles": {
+      "cfo": "للمديرين الماليين",
+      "treasurer": "لمديري الخزينة",
+      "controller": "للمراقبين الماليين"
+    },
+    "industries": {
+      "construction": "المقاولات والعقارات",
+      "realEstate": "العقارات",
+      "semiGovernment": "شبه الحكومي",
+      "oilGas": "النفط والغاز",
+      "fmcg": "السلع الاستهلاكية",
+      "ecommerce": "التجارة الإلكترونية",
+      "manufacturing": "التصنيع"
+    },
+    "items": {
+      "cfo": "للمديرين الماليين",
+      "treasurer": "لمديري الخزينة",
+      "controller": "للمراقبين الماليين",
+      "construction": "المقاولات والعقارات",
+      "semiGovernment": "شبه الحكومي",
+      "oilGas": "النفط والغاز",
+      "fmcg": "السلع الاستهلاكية",
+      "ecommerce": "التجارة الإلكترونية",
+      "manufacturing": "التصنيع"
+    }
+  },
+  "resources": {
+    "label": "الموارد",
+    "title": "الموارد",
+    "items": {
+      "trustSecurity": "الثقة والأمان"
+    }
+  },
+  "company": {
+    "label": "الشركة",
+    "title": "الشركة",
+    "items": {
+      "about": "من نحن",
+      "contact": "تواصل معنا"
+    }
+  },
+  "pricing": "الأسعار"
+}
