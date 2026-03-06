@@ -35,18 +35,18 @@ export default function CTASection() {
 
           {/* Trust Signals */}
           <div className="flex flex-wrap justify-center items-center gap-6 pt-8 border-t border-white/20">
-            {/*<div className="flex items-center text-white/80 text-sm">
+            <div className="flex items-center text-white/80 text-sm">
               <svg className={`w-5 h-5 ${isRTL ? 'ml-2' : 'mr-2'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
-              {tCommon('trustSignals.soc2')}
+              {tCommon('trustSignals.soc2Certified')}
             </div>
             <div className="flex items-center text-white/80 text-sm">
               <svg className={`w-5 h-5 ${isRTL ? 'ml-2' : 'mr-2'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
-              {tCommon('trustSignals.gdpr')}
-            </div>*/}
+              {tCommon('trustSignals.gdprCompliant')}
+            </div>
             <div className="flex items-center text-white/80 text-sm">
               <svg className={`w-5 h-5 ${isRTL ? 'ml-2' : 'mr-2'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />

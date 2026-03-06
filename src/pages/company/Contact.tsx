@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import type { FormEvent } from 'react';
 import { useTranslation } from 'react-i18next';
+import emailjs from '@emailjs/browser';
 import SEOHead from '../../components/seo/SEOHead';
 import Container from '../../components/common/Container';
 import Section from '../../components/common/Section';
@@ -20,6 +21,19 @@ const jobTitleValues = ['', 'cfo', 'treasurer', 'controller', 'finance-director'
 
 const expectationStepKeys = ['response', 'demo', 'plan'] as const;
 
+const FREE_DOMAINS = new Set([
+  'gmail.com', 'googlemail.com', 'yahoo.com', 'yahoo.co.uk', 'ymail.com',
+  'hotmail.com', 'hotmail.co.uk', 'hotmail.fr', 'outlook.com', 'outlook.sa',
+  'live.com', 'msn.com', 'icloud.com', 'me.com', 'mac.com',
+  'aol.com', 'protonmail.com', 'proton.me', 'zoho.com',
+  'mail.com', 'inbox.com', 'yandex.com', 'yandex.ru', 'gmx.com', 'gmx.net',
+]);
+
+function isWorkEmail(email: string): boolean {
+  const domain = email.split('@')[1]?.toLowerCase();
+  return !!domain && !FREE_DOMAINS.has(domain);
+}
+
 export default function Contact() {
   const { t, i18n } = useTranslation('company');
   const isRTL = i18n.language === 'ar';
@@ -35,39 +49,63 @@ export default function Contact() {
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [emailError, setEmailError] = useState('');
+  const [submitError, setSubmitError] = useState('');
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
+    if (name === 'workEmail') setEmailError('');
+    if (submitError) setSubmitError('');
   };
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
+
+    if (!isWorkEmail(formData.workEmail)) {
+      setEmailError(
+        isRTL
+          ? 'يرجى استخدام بريد إلكتروني مؤسسي. لا يُقبل Gmail أو Hotmail أو Outlook.'
+          : 'Please use your work email. Personal email addresses (Gmail, Hotmail, Outlook, etc.) are not accepted.'
+      );
+      return;
+    }
+
     setIsSubmitting(true);
+    setSubmitError('');
 
     try {
-      // Replace with WordPress REST API endpoint
-      const response = await fetch('/wp-json/synclane/v1/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
-      });
+      await emailjs.send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        {
+          from_name: `${formData.firstName} ${formData.lastName}`,
+          from_email: formData.workEmail,
+          company: formData.companyName,
+          job_title: formData.jobTitle,
+          message: formData.message || '—',
+          to_email: 'info@synclane.io',
+        },
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      );
 
-      if (response.ok) {
-        setIsSubmitted(true);
-        setFormData({
-          firstName: '',
-          lastName: '',
-          workEmail: '',
-          companyName: '',
-          jobTitle: '',
-          message: '',
-        });
-      }
+      setIsSubmitted(true);
+      setFormData({
+        firstName: '',
+        lastName: '',
+        workEmail: '',
+        companyName: '',
+        jobTitle: '',
+        message: '',
+      });
     } catch {
-      // Handle error silently for now
+      setSubmitError(
+        isRTL
+          ? 'حدث خطأ أثناء إرسال رسالتك. يرجى المحاولة مجدداً أو التواصل معنا مباشرةً.'
+          : 'Something went wrong sending your message. Please try again or contact us directly.'
+      );
     } finally {
       setIsSubmitting(false);
     }
@@ -178,9 +216,12 @@ export default function Contact() {
                       required
                       value={formData.workEmail}
                       onChange={handleChange}
-                      className={inputClasses}
+                      className={`${inputClasses} ${emailError ? 'border-red-400 focus:border-red-500 focus:ring-red-500' : ''}`}
                       placeholder={t('contact.form.fields.workEmail.placeholder')}
                     />
+                    {emailError && (
+                      <p className="mt-1.5 text-sm text-red-500">{emailError}</p>
+                    )}
                   </div>
 
                   <div className="grid sm:grid-cols-2 gap-6">
@@ -243,6 +284,12 @@ export default function Contact() {
                       placeholder={t('contact.form.fields.message.placeholder')}
                     />
                   </div>
+
+                  {submitError && (
+                    <div className="rounded-lg bg-red-50 border border-red-200 px-4 py-3 text-sm text-red-600">
+                      {submitError}
+                    </div>
+                  )}
 
                   <div>
                     <Button
