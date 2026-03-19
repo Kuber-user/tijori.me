@@ -151,7 +151,7 @@ export default function PlatformOverview() {
         <div className="mt-16 text-center">
           <div className="inline-block bg-gray-100 rounded-xl p-4 shadow-xl">
             <img
-              src="/assets/screenshots/Homepage.png"
+              src="/assets/screenshots/Bank Balances.png"
               alt={t('platformOverview.screenshotCaption')}
               className="rounded-lg w-full max-w-4xl"
               loading="lazy"

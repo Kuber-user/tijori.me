@@ -22,8 +22,8 @@ export default function Home() {
 
       <Hero />
       <SocialProofBar />
-      <ThreePillars />
       <PlatformOverview />
+      <ThreePillars />
       <ROIMetrics />
       <CTASection />
     </>

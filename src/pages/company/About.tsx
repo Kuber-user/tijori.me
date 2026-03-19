@@ -27,18 +27,18 @@ const valueIcons: Record<string, React.ReactNode> = {
 const partnersData = [
   {
     key: 'synclane',
-    personImage: '/assets/screenshots/Meshaal.jpeg',
     logo: '/assets/logos/Synclane Logo.png',
-    logoClass: 'h-6',
+    logoClass: 'h-8',
     textColor: 'text-primary-600',
+    accentBg: 'bg-primary-50',
     website: 'https://synclane.io',
   },
   {
     key: 'seertree',
-    personImage: '/assets/screenshots/Shyam.jfif',
     logo: '/assets/screenshots/seertree.png',
-    logoClass: 'h-12',
+    logoClass: 'h-14',
     textColor: 'text-green-600',
+    accentBg: 'bg-green-50',
     website: 'https://seertree.com',
   },
 ];
@@ -128,28 +128,21 @@ export default function About() {
                 key={partner.key}
                 className="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow duration-200 text-center border border-gray-100"
               >
-                {/* Person Photo */}
-                <img
-                  src={partner.personImage}
-                  alt={t(`about.partners.${partner.key}.person`)}
-                  className="w-32 h-32 rounded-full object-cover mx-auto mb-4"
-                />
-
-                {/* Person Name */}
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                  {t(`about.partners.${partner.key}.person`)}
-                </h3>
-
                 {/* Company Logo */}
-                <img
-                  src={partner.logo}
-                  alt={t(`about.partners.${partner.key}.name`)}
-                  className={`${partner.logoClass} mx-auto mb-4`}
-                />
+                <div className={`w-20 h-20 rounded-2xl ${partner.accentBg} flex items-center justify-center mx-auto mb-6`}>
+                  <img
+                    src={partner.logo}
+                    alt={t(`about.partners.${partner.key}.name`)}
+                    className={`${partner.logoClass} object-contain`}
+                  />
+                </div>
 
                 {/* Company Name & Role */}
-                <p className={`${partner.textColor} font-medium text-sm mb-3`}>
-                  {t(`about.partners.${partner.key}.name`)} — {t(`about.partners.${partner.key}.role`)}
+                <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                  {t(`about.partners.${partner.key}.name`)}
+                </h3>
+                <p className={`${partner.textColor} font-medium text-sm mb-4`}>
+                  {t(`about.partners.${partner.key}.role`)}
                 </p>
 
                 {/* Description */}

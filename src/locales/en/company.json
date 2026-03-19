@@ -115,9 +115,9 @@
     },
     "tiers": {
       "starter": {
-        "name": "Starter",
-        "audience": "For growing companies",
-        "tagline": "Full Cash Management Module",
+        "name": "Facilities Management Edition",
+        "audience": "",
+        "tagline": "Core Treasury Operations",
         "price": "6,500",
         "currency": "SAR/month",
         "trialText": "Start immediately with a trial for 14 days, no prepayment needed",
@@ -125,51 +125,53 @@
         "features": {
           "header": "Core Capabilities:",
           "items": [
-            "Cash Management module",
-            "AI-powered Cash Forecasting",
-            "Payments Hub",
-            "Settlement",
-            "Ready Accounting Entries",
-            "Real-time bank balance visibility",
-            "Multi-bank aggregation",
-            "Cash positioning reports",
-            "Variance analysis",
-            "Cash Pooling",
-            "Integrate with all your Saudi and UAE banks immediately",
-            "Email support"
+            "Facilities Management",
+            "Loans Management",
+            "Trade Finance (LC/LG)",
+            "Settlements",
+            "Ready Accounting Entries"
           ]
         }
       },
       "professional": {
-        "name": "Professional",
-        "audience": "For mid-market teams",
-        "tagline": "Full Fledge TMS!",
-        "price": "15,500",
+        "name": "Professional Edition",
+        "audience": "",
+        "tagline": "Full Treasury Operations",
+        "price": "10,000",
         "currency": "SAR/month",
         "popular": true,
         "buttonText": "Start Now",
         "features": {
-          "header": "Everything in Starter, plus:",
+          "header": "Everything in Facilities Management Edition, plus:",
           "items": [
+            "Investment Management (Fixed Deposits, Portfolio, Equity, Bonds, Discounted Securities, Loans to Related Parties)",
+            "Derivatives (FX Forwards, FX Spots, IR Swap)",
             "Multi-entity support",
-            "Loans Management module",
-            "Investment Management module",
-            "Derivatives",
-            "Trade Finance (LG/LC)",
-            "PDF report exports",
-            "Unlimited bank connections",
+            "PDF Report Exports",
+            "Email support",
             "Priority support"
           ]
         }
       },
       "enterprise": {
         "name": "Enterprise",
-        "audience": "For global organizations",
-        "tagline": "TMS At Scale!",
+        "audience": "",
+        "tagline": "TMS At Scale",
         "buttonText": "Contact Sales",
         "features": {
-          "header": "Everything in Professional, plus:",
+          "header": "Everything in Professional Edition, plus:",
           "items": [
+            "Cash & Liquidity Management",
+            "Payments Hub",
+            "Cash Pooling",
+            "AI-powered Cash Forecasting",
+            "Multi-bank account aggregation",
+            "Real-time bank balance visibility",
+            "Cash positioning reports",
+            "Variance analysis",
+            "Integrate with all Saudi and UAE banks",
+            "Unlimited bank connections",
+            "Derivatives (Options, Futures, Commodity Swap, Forward Rate Agreement)",
             "ERP Integration (Oracle, SAP)",
             "Custom workflows",
             "Dedicated CSM",
@@ -226,7 +228,7 @@
         },
         "implementation": {
           "question": "What is included in implementation?",
-          "answer": "Every Enterprise contract includes onboarding support, bank connectivity setup, data migration assistance, user training, and a dedicated implementation manager. Enterprise plans include white-glove implementation with custom workflow configuration and extended training."
+          "answer": "Every Enterprise contract includes onboarding support, bank connectivity setup, data migration assistance, user training, and a dedicated implementation manager. Enterprise plans include white-glove implementation with custom workflow configuration and extended training. Professional Edition includes priority support and a dedicated onboarding session."
         }
       }
     },

@@ -1,29 +1,28 @@
 {
   "seo": {
-    "title": "TiJori by Synclane — AI-Powered Treasury Management Platform",
+    "title": "TiJori — AI-Powered Treasury Management Platform",
     "description": "TiJori — The AI-powered treasury management platform for real-time cash visibility, forecasting, and control. The intelligence layer for your cash & liquidity management.",
     "keywords": ["treasury management system", "TMS", "cash flow forecasting", "liquidity management", "TiJori"]
   },
   "hero": {
     "badge": "First Middle East Treasury Platform",
-    "greeting": "Say Hi to TiJori",
-    "headline": "The Intelligence Layer for Your Cash & Liquidity Management",
-    "subheadline": "TiJori gives CFOs and treasury teams real-time cash visibility, AI-powered forecasting, and seamless connectivity across banks and ERPs — so you can make faster, smarter decisions with your capital.",
+    "headline": "Somewhere in Your Portfolio, a Bank Guarantee Is About to Expire. Do You Know Which One?",
+    "subheadline": "Tijori tracks every BG, LC, loan and facility — with alerts before it costs you.",
     "stats": {
+      "facilitiesManaged": {
+        "value": "$50B+",
+        "label": "Facilities Under Management"
+      },
       "integrations": {
         "value": "200+",
         "label": "Bank & ERP Integrations"
       },
-      "accuracy": {
-        "value": "95%+",
-        "label": "Forecast Accuracy"
-      },
-      "idleCash": {
-        "value": "30%",
-        "label": "Less Idle Cash"
+      "timeSaved": {
+        "value": "15+",
+        "label": "Hours Saved Weekly"
       }
     },
-    "imageAlt": "TiJori Treasury Dashboard — real-time cash visibility"
+    "imageAlt": "TiJori Treasury Operations Dashboard"
   },
   "socialProof": {
     "title": "Trusted Integrations with Leading Saudi Banks & ERPs",

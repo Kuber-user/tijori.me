@@ -1,6 +1,5 @@
 import { useTranslation } from 'react-i18next';
 import Container from '../common/Container';
-import Badge from '../common/Badge';
 import LocalizedLink from '../common/LocalizedLink';
 
 export default function Footer() {
@@ -115,7 +114,7 @@ export default function Footer() {
           </div>
 
           {/* Trust Badges */}
-          <div className="flex flex-wrap gap-3 mb-8 pb-8 border-b border-primary-700">
+          {/*<div className="flex flex-wrap gap-3 mb-8 pb-8 border-b border-primary-700">
             <Badge variant="primary" className="bg-primary-700 text-white">
               {t('trustBadges.soc2')}
             </Badge>
@@ -128,7 +127,7 @@ export default function Footer() {
             <Badge variant="primary" className="bg-primary-700 text-white">
               {t('trustBadges.encryption')}
             </Badge>
-          </div>
+          </div>*/}
 
           {/* Bottom Bar */}
           <div className="flex flex-col md:flex-row justify-between items-center">
