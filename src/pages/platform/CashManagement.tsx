@@ -103,7 +103,7 @@ export default function CashManagement() {
   ];
 
   const productSchema = createProductSchema(
-    'Synclane Cash Management',
+    'TiJori Cash Management',
     'Real-time cash visibility and liquidity management across all bank accounts'
   );
 

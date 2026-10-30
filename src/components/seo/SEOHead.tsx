@@ -13,8 +13,8 @@ export default function SEOHead({
   canonical,
   children
 }: SEOHeadProps) {
-  const siteUrl = 'https://synclane.io';
-  const fullTitle = title.includes('Synclane') ? title : `${title} | Synclane`;
+  const siteUrl = 'https://tijori.me';
+  const fullTitle = title.includes('TiJori') ? title : `${title} | TiJori`;
   const canonicalUrl = canonical || siteUrl;
 
   return (
@@ -31,7 +31,7 @@ export default function SEOHead({
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={`${siteUrl}${ogImage}`} />
-      <meta property="og:site_name" content="Synclane" />
+      <meta property="og:site_name" content="TiJori" />
 
       {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />

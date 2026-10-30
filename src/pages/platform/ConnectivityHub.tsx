@@ -31,7 +31,7 @@ export default function ConnectivityHub() {
   const featuredKeys = ['oracleFusion', 'sapS4hana', 'saudiBanks', 'oracleEbs'] as const;
 
   const productSchema = createProductSchema(
-    'Synclane Connectivity Hub',
+    'TiJori Connectivity Hub',
     '200+ integrations with banks and ERPs for automated treasury data flow'
   );
 

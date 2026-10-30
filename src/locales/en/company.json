@@ -1,7 +1,7 @@
 {
   "about": {
     "seo": {
-      "title": "About TiJori | Treasury Technology Company | Synclane",
+      "title": "About TiJori | Treasury Technology Company",
       "description": "Built by treasury experts, for treasury teams. Learn about TiJori's mission, values, and the team behind the leading treasury management platform.",
       "keywords": ["about TiJori", "treasury technology company", "treasury management team", "fintech leadership"]
     },
@@ -23,7 +23,7 @@
         },
         "security": {
           "title": "Security",
-          "description": "Enterprise-grade protection for your most sensitive financial data. SOC 2 compliant, bank-grade encryption, and rigorous access controls safeguard every transaction."
+          "description": "Enterprise-grade protection for your most sensitive financial data. Bank-grade encryption, dual approvals and rigorous access controls safeguard every transaction."
         },
         "innovation": {
           "title": "Innovation",
@@ -56,7 +56,7 @@
   },
   "contact": {
     "seo": {
-      "title": "Contact TiJori | Request a Demo | Synclane",
+      "title": "Contact TiJori | Request a Demo",
       "description": "Get in touch with TiJori. Request a personalized demo, speak with our treasury experts, or learn how we can transform your treasury operations.",
       "keywords": ["contact TiJori", "treasury demo", "treasury management demo", "request demo"]
     },
@@ -102,13 +102,13 @@
   },
   "pricing": {
     "seo": {
-      "title": "Pricing | Treasury Management Plans | Synclane",
+      "title": "Pricing | Treasury Management Plans",
       "description": "Transparent pricing for every stage of treasury maturity. Explore Starter, Professional, and Enterprise plans designed for growing companies to global organizations.",
-      "keywords": ["treasury management pricing", "synclane pricing", "treasury software cost", "cash management plans"]
+      "keywords": ["treasury management pricing", "tijori pricing", "treasury software cost", "cash management plans"]
     },
     "hero": {
       "title": "Transparent Pricing for Every Stage",
-      "description": "Whether you are a growing company or a global enterprise, Synclane offers a plan tailored to your treasury complexity and scale."
+      "description": "Whether you are a growing company or a global enterprise, TiJori offers a plan tailored to your treasury complexity and scale."
     },
     "badges": {
       "mostPopular": "Most Popular"
@@ -201,9 +201,9 @@
     },
     "included": {
       "title": "All Plans Include",
-      "description": "Every Synclane plan comes with the security, reliability, and support your treasury team expects.",
+      "description": "Every TiJori plan comes with the security, reliability, and support your treasury team expects.",
       "items": {
-        "soc2": "SOC 2 Compliance",
+        "soc2": "Role-Based Access Controls",
         "encryption": "Bank-Grade Encryption",
         "users": "Unlimited Users",
         "api": "API Access",
@@ -212,7 +212,7 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "description": "Common questions about Synclane pricing and implementation.",
+      "description": "Common questions about TiJori pricing and implementation.",
       "items": {
         "pricing": {
           "question": "How is pricing determined?",
@@ -240,19 +240,19 @@
   },
   "trustSecurity": {
     "seo": {
-      "title": "Trust & Security | Enterprise Security Standards | Synclane",
-      "description": "Bank-grade security for your treasury data. SOC 2 Type II certified, GDPR compliant, with AES-256 encryption and comprehensive access controls.",
-      "keywords": ["treasury security", "SOC 2 compliance", "bank-grade encryption", "treasury data protection"]
+      "title": "Trust & Security | Enterprise Security Standards",
+      "description": "Bank-grade security for your treasury data: AES-256 encryption, multi-factor authentication, role-based access and dual approval workflows.",
+      "keywords": ["treasury security", "bank-grade encryption", "treasury data protection"]
     },
     "hero": {
       "title": "Enterprise-Grade Security for Your Treasury",
       "description": "Your financial data deserves the highest level of protection. TiJori is built with security-first architecture and maintains rigorous compliance standards.",
       "badge": "Trust & Security Center",
-      "requestReport": "Request SOC 2 Report"
+      "requestReport": "Request Security Documentation"
     },
     "compliance": {
       "title": "Certifications & Compliance",
-      "description": "Synclane maintains industry-leading security certifications, independently verified by accredited auditors, to give you confidence in the protection of your treasury data.",
+      "description": "TiJori maintains industry-leading security certifications, independently verified by accredited auditors, to give you confidence in the protection of your treasury data.",
       "certs": {
         "soc2": {
           "name": "SOC 2 Type II",
@@ -338,11 +338,11 @@
         },
         "storage": {
           "question": "Where is my data stored?",
-          "answer": "Synclane offers data residency options across three regions: United States (US-East, US-West), European Union (Frankfurt, Dublin), and Asia-Pacific (Singapore, Sydney). You select your primary region during onboarding, and all data storage and processing remains within that region. This architecture supports compliance with local regulations including GDPR, data sovereignty laws, and internal corporate policies."
+          "answer": "TiJori offers data residency options across three regions: United States (US-East, US-West), European Union (Frankfurt, Dublin), and Asia-Pacific (Singapore, Sydney). You select your primary region during onboarding, and all data storage and processing remains within that region. This architecture supports compliance with local regulations including GDPR, data sovereignty laws, and internal corporate policies."
         },
         "incidents": {
           "question": "How do you handle security incidents?",
-          "answer": "Our Security Operations Center monitors systems around the clock using automated threat detection, intrusion detection systems, and anomaly analysis. When a potential incident is identified, our documented incident response plan is activated immediately. Critical incidents are escalated within 15 minutes, affected customers are notified within 72 hours per GDPR requirements, and a post-incident review is conducted and shared with impacted parties. We maintain a public status page for real-time platform health updates."
+          "answer": "Our Security Operations Center monitors systems around the clock using automated threat detection, intrusion detection systems, and anomaly analysis. When a potential incident is identified, our documented incident response plan is activated immediately. Critical incidents are escalated within 15 minutes, affected customers are notified promptly, and a post-incident review is conducted and shared with impacted parties. We maintain a public status page for real-time platform health updates."
         },
         "soc2Report": {
           "question": "Can we get a copy of your SOC 2 report?",
@@ -350,14 +350,14 @@
         },
         "sso": {
           "question": "Do you support Single Sign-On (SSO)?",
-          "answer": "Yes. Synclane supports SAML 2.0 and OpenID Connect (OIDC) for enterprise Single Sign-On. We integrate with all major identity providers including Okta, Azure Active Directory, Google Workspace, OneLogin, and PingIdentity. SSO is included on all enterprise plans at no additional cost. We also support SCIM for automated user provisioning and deprovisioning to streamline identity lifecycle management."
+          "answer": "Yes. TiJori supports SAML 2.0 and OpenID Connect (OIDC) for enterprise Single Sign-On. We integrate with all major identity providers including Okta, Azure Active Directory, Google Workspace, OneLogin, and PingIdentity. SSO is included on all enterprise plans at no additional cost. We also support SCIM for automated user provisioning and deprovisioning to streamline identity lifecycle management."
         }
       }
     },
     "cta": {
       "title": "Request Security Documentation",
       "description": "Our security team is ready to provide the documentation and answers your compliance and procurement teams need to move forward with confidence.",
-      "requestReport": "Request SOC 2 Report",
+      "requestReport": "Request Security Documentation",
       "contactSecurity": "Contact Security Team"
     }
   },

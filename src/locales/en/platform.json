@@ -58,7 +58,7 @@
   },
   "cashManagement": {
     "seo": {
-      "title": "Cash & Liquidity Management Software | Synclane",
+      "title": "Cash & Liquidity Management Software",
       "description": "Real-time cash visibility across all bank accounts. Reduce idle cash by 30% with automated multi-bank aggregation and liquidity optimization.",
       "keywords": ["cash management software", "liquidity management", "multi-bank aggregation", "cash visibility"]
     },
@@ -79,7 +79,7 @@
       ]
     },
     "solution": {
-      "title": "The Synclane Solution",
+      "title": "The TiJori Solution",
       "description": "Automated multi-bank connectivity delivers real-time cash positions, instant reconciliation, and actionable insights — all in one dashboard.",
       "benefits": [
         "Real-time cash positions across all 200+ banks",
@@ -120,7 +120,7 @@
       }
     },
     "screenshots": {
-      "title": "See Synclane in Action",
+      "title": "See TiJori in Action",
       "images": {
         "bankBalances": {
           "alt": "Real-time bank balances dashboard across all accounts",
@@ -189,7 +189,7 @@
   },
   "aiForecasting": {
     "seo": {
-      "title": "AI Cash Forecasting | ML-Powered Predictions | Synclane",
+      "title": "AI Cash Forecasting | ML-Powered Predictions",
       "description": "Achieve 95%+ cash forecast accuracy with machine learning. Proactive liquidity planning for CFOs and treasury teams.",
       "keywords": ["AI cash forecasting", "cash flow prediction", "ML treasury", "liquidity planning"]
     },
@@ -343,7 +343,7 @@
   },
   "loansManagement": {
     "seo": {
-      "title": "Loans & Facility Management Software | Synclane",
+      "title": "Loans & Facility Management Software",
       "description": "Track bank facilities, loans, covenants, and amortization schedules in one place. Complete visibility into your debt portfolio.",
       "keywords": ["loan management software", "facility management", "covenant tracking", "debt management"]
     },
@@ -461,7 +461,7 @@
   },
   "investmentManagement": {
     "seo": {
-      "title": "Treasury Investment Management Software | Synclane",
+      "title": "Treasury Investment Management Software",
       "description": "Optimize short-term investments and track portfolio performance. Maximize returns on excess cash with intelligent investment decisions.",
       "keywords": ["investment management", "treasury investments", "money market", "portfolio tracking"]
     },
@@ -588,7 +588,7 @@
   },
   "bankFacilities": {
     "seo": {
-      "title": "Bank Facility Management Software | Synclane",
+      "title": "Bank Facility Management Software",
       "description": "Manage credit facilities, limits, and utilization across all banks. Track covenants and optimize facility usage.",
       "keywords": ["bank facilities", "credit facility management", "facility utilization", "covenant compliance"]
     },
@@ -728,7 +728,7 @@
   },
   "riskFx": {
     "seo": {
-      "title": "FX Risk Management & Hedging Software | Synclane",
+      "title": "FX Risk Management & Hedging Software",
       "description": "Monitor FX exposures and manage hedging strategies. Protect your business from currency volatility with intelligent risk management.",
       "keywords": ["FX risk management", "currency hedging", "forex exposure", "treasury risk"]
     },
@@ -881,7 +881,7 @@
   },
   "payments": {
     "seo": {
-      "title": "Payment Hub | Multi-Bank Payment Processing | Synclane",
+      "title": "Payment Hub | Multi-Bank Payment Processing",
       "description": "Centralized payment processing with multi-bank connectivity. Streamline payments, improve controls, and reduce costs.",
       "keywords": ["payment hub", "treasury payments", "multi-bank payments", "payment processing"]
     },
@@ -999,7 +999,7 @@
   },
   "lgLc": {
     "seo": {
-      "title": "LG/LC Management | Letters of Guarantee & Credit | Synclane",
+      "title": "LG/LC Management | Letters of Guarantee & Credit",
       "description": "Track letters of guarantee and letters of credit from issuance to expiry. Automate renewals and reduce operational risk.",
       "keywords": ["LG management", "LC management", "letter of guarantee", "letter of credit", "trade finance"]
     },
@@ -1117,7 +1117,7 @@
   },
   "connectivity": {
     "seo": {
-      "title": "Bank & ERP Integrations | Oracle, SAP, Saudi & GCC Banks | Synclane",
+      "title": "Bank & ERP Integrations | Oracle, SAP, Saudi & GCC Banks",
       "description": "Pre-built integrations with Saudi banks (SNB, Al Rajhi, Riyad Bank), GCC banks, and enterprise ERPs (Oracle Fusion, SAP S/4HANA). SWIFT and LEANtech open banking connectivity.",
       "keywords": ["Oracle Fusion treasury", "SAP S/4HANA treasury", "Saudi bank integration", "Al Rajhi Bank API", "SNB integration", "LEANtech open banking", "SWIFT MT940"]
     },

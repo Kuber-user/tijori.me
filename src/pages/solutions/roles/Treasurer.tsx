@@ -80,11 +80,11 @@ export default function Treasurer() {
   ];
 
   const workflowSteps = [
-    { time: '8:00 AM', title: 'Automated Bank Balance Aggregation', description: 'Synclane retrieves opening balances and prior-day statements from all connected banks. Your consolidated cash position is ready before you arrive.' },
+    { time: '8:00 AM', title: 'Automated Bank Balance Aggregation', description: 'TiJori retrieves opening balances and prior-day statements from all connected banks. Your consolidated cash position is ready before you arrive.' },
     { time: '9:00 AM', title: 'Review Cash Position & Variances', description: 'Examine the real-time cash dashboard, review variances against forecasts, and identify any unexpected movements or exceptions requiring attention.' },
     { time: '10:00 AM', title: 'Initiate & Approve Payments', description: 'Process scheduled payments, approve pending requests through the dual-approval workflow, and release payment files to banking partners.' },
     { time: '2:00 PM', title: 'Monitor Intraday Positions', description: 'Track intraday balance movements, review incoming receipts against expectations, and adjust short-term investment or borrowing decisions accordingly.' },
-    { time: '5:00 PM', title: 'Automated End-of-Day Reporting', description: 'Synclane generates closing position reports, reconciliation summaries, and variance analyses automatically. Reports are distributed to stakeholders on schedule.' }
+    { time: '5:00 PM', title: 'Automated End-of-Day Reporting', description: 'TiJori generates closing position reports, reconciliation summaries, and variance analyses automatically. Reports are distributed to stakeholders on schedule.' }
   ];
 
   return (
@@ -115,7 +115,7 @@ export default function Treasurer() {
               <Button
                 variant="outline"
                 size="lg"
-                href="#how-synclane-helps"
+                href="#how-tijori-helps"
                 className="bg-white/10 backdrop-blur-sm text-white border-white/30 hover:bg-white/20"
               >
                 {tCommon('buttons.seeHowItWorks')}
@@ -149,10 +149,10 @@ export default function Treasurer() {
         </Container>
       </Section>
 
-      {/* How Synclane Helps */}
+      {/* How TiJori Helps */}
       <Section background="gray" padding="lg">
         <Container>
-          <div className="text-center mb-12" id="how-synclane-helps">
+          <div className="text-center mb-12" id="how-tijori-helps">
             <h2 className="mb-4">{t('roles.treasurer.solutions.title')}</h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
               {t('roles.treasurer.solutions.description')}
@@ -177,9 +177,9 @@ export default function Treasurer() {
       <Section background="white" padding="lg">
         <Container>
           <div className="text-center mb-12">
-            <h2 className="mb-4">Your Daily Workflow with Synclane</h2>
+            <h2 className="mb-4">Your Daily Workflow with TiJori</h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-              From opening balance aggregation to end-of-day reporting, Synclane structures and automates your entire treasury day.
+              From opening balance aggregation to end-of-day reporting, TiJori structures and automates your entire treasury day.
             </p>
           </div>
 
@@ -208,7 +208,7 @@ export default function Treasurer() {
       <Section background="gray" padding="lg">
         <Container>
           <div className="text-center mb-12">
-            <h2 className="mb-4">See Synclane in Action</h2>
+            <h2 className="mb-4">See TiJori in Action</h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
               A unified platform for bank balance visibility and payment execution.
             </p>
