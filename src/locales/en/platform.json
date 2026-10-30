@@ -159,7 +159,7 @@
         "items": {
           "supportedBanks": { "label": "Supported Banks", "value": "30+ banks via SWIFT across the UAE, KSA, Turkey, Egypt and Pakistan" },
           "connectionMethods": { "label": "Connection Methods", "value": "SWIFT, API, Host-to-host, file" },
-          "statementFormats": { "label": "Statement Formats", "value": "MT940, MT942, BAI2, CAMT.053" },
+          "statementFormats": { "label": "Statement Formats", "value": "MT940, MT942, CAMT.053" },
           "updateFrequency": { "label": "Update Frequency", "value": "Real-time or intraday" }
         }
       },
@@ -1116,8 +1116,8 @@
   "connectivity": {
     "seo": {
       "title": "Bank & ERP Integrations | Oracle, SAP, Saudi & GCC Banks",
-      "description": "Pre-built integrations with Saudi banks (SNB, Al Rajhi, Riyad Bank), GCC banks, and enterprise ERPs (Oracle Fusion, SAP S/4HANA). SWIFT and LEANtech open banking connectivity.",
-      "keywords": ["Oracle Fusion treasury", "SAP S/4HANA treasury", "Saudi bank integration", "Al Rajhi Bank API", "SNB integration", "LEANtech open banking", "SWIFT MT940"]
+      "description": "SWIFT connectivity to 30+ banks across the UAE, KSA, Turkey, Egypt and Pakistan, KSA open banking through BWA Tech, and ERP integrations including Oracle Fusion.",
+      "keywords": ["Oracle Fusion treasury","SWIFT treasury connectivity","SWIFT MT940","KSA open banking","GCC bank integration","Emirates NBD integration","FAB integration"]
     },
     "hero": {
       "breadcrumb": "Platform / Connectivity Hub",
@@ -1126,8 +1126,8 @@
     },
     "stats": {
       "saudiBanks": {
-        "value": "15+",
-        "label": "Saudi & GCC Banks"
+        "value": "30+",
+        "label": "Banks via SWIFT"
       },
       "oracle": {
         "value": "Oracle",
@@ -1181,9 +1181,9 @@
         "features": ["SAP FI/CO module integration", "Multi-entity support", "Real-time data flow"]
       },
       "saudiBanks": {
-        "title": "Saudi Bank Connectivity",
-        "description": "Pre-built integrations with all major Saudi banks including SNB, Al Rajhi, Riyad Bank, SAB, and more. SWIFT connectivity and LEANtech open banking for real-time balance feeds.",
-        "features": ["All 8 Saudi banks supported", "SWIFT MT940 statements", "LEANtech open banking"]
+        "title": "KSA & GCC Bank Connectivity",
+        "description": "SWIFT connectivity to 30+ banks, including Alinma, FAB, Emirates NBD and QNB. In KSA, open banking through our partner BWA Tech covers most Saudi banks, and direct B2B integrations with SNB and Bank Albilad are going live soon.",
+        "features": ["30+ banks via SWIFT","KSA open banking via BWA Tech","SNB & Bank Albilad B2B coming soon"]
       },
       "oracleEbs": {
         "title": "Oracle E-Business Suite Integration",
@@ -1198,7 +1198,7 @@
   },
   "bankDirectory": {
     "title": "Bank Integrations",
-    "description": "Direct connections to global banks for real-time balance reporting and payment processing",
+    "description": "30+ banks connected via SWIFT across the UAE, KSA, Turkey, Egypt and Pakistan, plus open banking for most KSA banks through our partner BWA Tech",
     "standards": {
       "title": "Supported Banking Standards",
       "swift": {
@@ -1209,9 +1209,9 @@
         "name": "ISO 20022",
         "description": "CAMT.053, PAIN.001"
       },
-      "bai2": {
-        "name": "BAI2",
-        "description": "North American standard"
+      "openBanking": {
+        "name": "Open Banking",
+        "description": "KSA via BWA Tech"
       },
       "api": {
         "name": "API",
