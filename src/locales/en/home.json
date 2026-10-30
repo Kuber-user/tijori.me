@@ -10,8 +10,8 @@
     "subheadline": "Tijori tracks every BG, LC, loan and facility — with alerts before it costs you.",
     "stats": {
       "facilitiesManaged": {
-        "value": "$50B+",
-        "label": "Facilities Under Management"
+        "value": "$43B+",
+        "label": "Transactions Managed at Live Clients"
       },
       "integrations": {
         "value": "30+",
