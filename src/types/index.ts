@@ -2,9 +2,9 @@ export interface Integration {
   id: string;
   name: string;
   category: 'ERP' | 'Bank' | 'Accounting';
-  logo: string;
+  logo?: string;
   description: string;
-  setupTime: string;
+  setupTime?: string;
   features: string[];
   slug: string;
 }

@@ -1,6 +1,6 @@
 {
   "buttons": {
-    "requestDemo": "طلب عرض توضيحي",
+    "requestDemo": "احجز عرضاً توضيحياً لمدة 30 دقيقة",
     "explorePlatform": "استكشف المنصة",
     "exploreFeatures": "استكشف الميزات",
     "exploreCapabilities": "استكشف الإمكانيات",
@@ -85,7 +85,7 @@
     "switchToEnglish": "EN"
   },
   "integrations": {
-    "searchPlaceholder": "البحث عن عمليات التكامل (مثال: NetSuite, J.P. Morgan)...",
+    "searchPlaceholder": "البحث عن عمليات التكامل (مثال: Oracle، الإمارات دبي الوطني)...",
     "categories": {
       "all": "الكل",
       "erp": "أنظمة ERP",

@@ -14,8 +14,8 @@
         "label": "Facilities Under Management"
       },
       "integrations": {
-        "value": "200+",
-        "label": "Bank & ERP Integrations"
+        "value": "30+",
+        "label": "Banks Connected via SWIFT"
       },
       "timeSaved": {
         "value": "15+",
@@ -25,26 +25,34 @@
     "imageAlt": "TiJori Treasury Operations Dashboard"
   },
   "socialProof": {
-    "title": "Trusted Integrations with Leading Saudi Banks & ERPs",
+    "title": "Connected via SWIFT to 30+ Banks across the UAE, KSA, Turkey, Egypt & Pakistan",
     "banks": [
-      "Saudi National Bank (SNB)",
-      "Al Rajhi Bank",
-      "Riyad Bank",
-      "Saudi Awal Bank (SAB)",
-      "Banque Saudi Fransi",
-      "Arab National Bank",
+      "First Abu Dhabi Bank",
+      "Emirates NBD",
+      "ADCB",
+      "Abu Dhabi Islamic Bank",
+      "Mashreq",
       "Alinma Bank",
-      "Bank AlJazira"
+      "QNB",
+      "National Bank of Kuwait",
+      "HSBC",
+      "Citi",
+      "Standard Chartered",
+      "BNP Paribas",
+      "CIB Egypt",
+      "Banque Misr",
+      "Akbank",
+      "Habib Bank Limited"
     ],
-    "erps": ["SAP", "Oracle", "Microsoft Dynamics", "NetSuite", "Odoo"],
+    "erps": ["Oracle", "SAP", "Microsoft Dynamics"],
     "stats": {
       "integrations": {
-        "value": "200+",
-        "label": "Integrations"
+        "value": "5",
+        "label": "Countries with Live Bank Connectivity"
       },
       "facilities": {
-        "value": "$50B+",
-        "label": "Facilities Under Management"
+        "value": "T+3",
+        "label": "Month-End Close at Live Clients"
       },
       "uptime": {
         "value": "99.9%",
@@ -54,7 +62,7 @@
   },
   "platformOverview": {
     "title": "Complete Treasury Platform",
-    "description": "All the tools you need to manage global treasury operations from a single, unified platform",
+    "description": "Facilities, loans, LG/LC, cash and payments for multi-bank, multi-entity groups — in one platform",
     "screenshotCaption": "TiJori Treasury Dashboard - Real-time cash visibility"
   },
   "threePillars": {
@@ -63,7 +71,7 @@
     "pillars": {
       "connect": {
         "title": "Connect",
-        "description": "Integrate with 200+ banks and ERPs for automated data flow and real-time synchronization",
+        "description": "SWIFT connectivity to 30+ banks, open banking for most KSA banks through our partner, and ERP integration",
         "features": ["Multi-bank aggregation", "ERP connectivity", "API integrations", "SWIFT messaging"]
       },
       "forecast": {
@@ -73,24 +81,24 @@
       },
       "control": {
         "title": "Control",
-        "description": "Complete visibility and control over global cash positions and treasury operations",
+        "description": "Complete visibility and control over cash positions and treasury operations across all your entities",
         "features": ["Real-time dashboards", "Workflow automation", "Approval controls", "Audit trails"]
       }
     }
   },
   "roi": {
     "title": "Measurable Impact on Your Treasury",
-    "description": "Join leading enterprises achieving tangible results with TiJori",
+    "description": "Results measured at live TiJori clients",
     "metrics": {
       "idleCash": {
         "value": "30%",
         "label": "Reduction in idle cash",
-        "description": "Optimize cash positioning across entities"
+        "description": "Client result from the Idle Cash Report and SWIFT connectivity to 31 banks"
       },
       "timeSaved": {
         "value": "15 hrs/week",
         "label": "Time saved on treasury operations",
-        "description": "Automate manual processes and reconciliation"
+        "description": "Client result from online revaluations and Oracle Fusion integration"
       },
       "accuracy": {
         "value": "95%+",
@@ -100,7 +108,7 @@
       "monthEnd": {
         "value": "50%",
         "label": "Faster month-end close",
-        "description": "Automated reconciliation and reporting"
+        "description": "Client result: period close now completed at T+3"
       }
     },
     "testimonial": {
@@ -111,6 +119,6 @@
   },
   "cta": {
     "title": "Ready to transform your treasury operations?",
-    "description": "Join leading enterprises optimizing their cash management with TiJori. See how our platform can reduce idle cash by 30% and save 15+ hours per week."
+    "description": "See how TiJori clients cut idle cash by 30% and save 15+ hours a week — in a 30-minute demo."
   }
 }

@@ -84,7 +84,6 @@ export default function RiskFX() {
     {
       category: t('riskFx.technicalSpecs.riskMetrics.title'),
       items: [
-        { label: t('riskFx.technicalSpecs.riskMetrics.items.var.label'), value: t('riskFx.technicalSpecs.riskMetrics.items.var.value') },
         { label: t('riskFx.technicalSpecs.riskMetrics.items.sensitivity.label'), value: t('riskFx.technicalSpecs.riskMetrics.items.sensitivity.value') },
         { label: t('riskFx.technicalSpecs.riskMetrics.items.stressTesting.label'), value: t('riskFx.technicalSpecs.riskMetrics.items.stressTesting.value') },
         { label: t('riskFx.technicalSpecs.riskMetrics.items.backtesting.label'), value: t('riskFx.technicalSpecs.riskMetrics.items.backtesting.value') }
@@ -94,7 +93,6 @@ export default function RiskFX() {
       category: t('riskFx.technicalSpecs.compliance.title'),
       items: [
         { label: t('riskFx.technicalSpecs.compliance.items.hedgeAccounting.label'), value: t('riskFx.technicalSpecs.compliance.items.hedgeAccounting.value') },
-        { label: t('riskFx.technicalSpecs.compliance.items.regulatory.label'), value: t('riskFx.technicalSpecs.compliance.items.regulatory.value') },
         { label: t('riskFx.technicalSpecs.compliance.items.auditTrail.label'), value: t('riskFx.technicalSpecs.compliance.items.auditTrail.value') },
         { label: t('riskFx.technicalSpecs.compliance.items.reporting.label'), value: t('riskFx.technicalSpecs.compliance.items.reporting.value') }
       ]

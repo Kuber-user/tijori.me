@@ -9,28 +9,11 @@ import Button from '../../components/common/Button';
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
-  name: 'Synclane',
-  url: 'https://synclane.io',
-  logo: 'https://synclane.io/logo.png',
+  name: 'TiJori',
+  url: 'https://tijori.me',
+  logo: 'https://tijori.me/favicon-tijori.png',
   description:
-    'Enterprise treasury management platform with SOC 2 Type II, GDPR, and ISO 27001 certified security.',
-  address: {
-    '@type': 'PostalAddress',
-    addressCountry: 'US'
-  },
-  sameAs: ['https://www.linkedin.com/company/synclane'],
-  hasCredential: [
-    {
-      '@type': 'EducationalOccupationalCredential',
-      credentialCategory: 'certification',
-      name: 'SOC 2 Type II'
-    },
-    {
-      '@type': 'EducationalOccupationalCredential',
-      credentialCategory: 'certification',
-      name: 'ISO 27001'
-    }
-  ]
+    'Treasury management platform for Middle East corporates, with AES-256 encryption, role-based access and dual approval workflows.'
 };
 
 const breadcrumbSchema = {
@@ -41,13 +24,13 @@ const breadcrumbSchema = {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://synclane.io/'
+      item: 'https://tijori.me/'
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Resources',
-      item: 'https://synclane.io/resources'
+      item: 'https://tijori.me/resources'
     },
     {
       '@type': 'ListItem',
@@ -74,7 +57,7 @@ const faqSchema = {
       name: 'Where is my data stored?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Synclane offers data residency options across three regions: United States (US-East, US-West), European Union (Frankfurt, Dublin), and Asia-Pacific (Singapore, Sydney). You choose your primary region during onboarding, and all data processing remains within that region to meet local regulatory requirements.'
+        text: 'Your data stays in your region. TiJori is deployed either in your own Oracle Cloud (OCI) tenancy or on OCI hosted in your region, with disaster recovery in a separate region.'
       }
     },
     {
@@ -82,15 +65,7 @@ const faqSchema = {
       name: 'How do you handle security incidents?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Our Security Operations Center operates 24/7 with automated threat detection and a documented incident response plan. Critical incidents are escalated within 15 minutes, and affected customers are notified within 72 hours per GDPR requirements. Post-incident reviews are conducted for every security event.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Can we get a copy of your SOC 2 report?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Yes. We provide our most recent SOC 2 Type II report to prospective and current customers under NDA. Contact our security team or your account manager to request a copy. Reports are issued annually by an independent third-party auditor.'
+        text: 'If a security incident is identified, our team responds 24/7 and works on it around the clock until it is resolved. Affected customers are notified promptly, and we share a post-incident review with them.'
       }
     },
     {
@@ -98,30 +73,10 @@ const faqSchema = {
       name: 'Do you support Single Sign-On (SSO)?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Synclane supports SAML 2.0 and OpenID Connect (OIDC) for enterprise SSO integration. We work with all major identity providers including Okta, Azure AD, Google Workspace, and OneLogin. SSO is available on all enterprise plans at no additional cost.'
+        text: 'Yes. TiJori supports single sign-on with Microsoft (Entra ID, formerly Azure Active Directory), so your team signs in with their existing company accounts.'
       }
     }
   ]
-};
-
-const certKeys = ['soc2', 'gdpr', 'iso27001'] as const;
-
-const certIcons: Record<string, React.ReactNode> = {
-  soc2: (
-    <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-    </svg>
-  ),
-  gdpr: (
-    <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-    </svg>
-  ),
-  iso27001: (
-    <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-    </svg>
-  )
 };
 
 const securityFeatureKeys = ['encryption', 'mfa', 'rbac', 'dualApproval', 'auditLogs', 'dataResidency'] as const;
@@ -159,8 +114,8 @@ const securityIcons: Record<string, React.ReactNode> = {
   )
 };
 
-const infraKeys = ['uptime', 'deployment', 'backups', 'monitoring', 'pentest', 'bugBounty'] as const;
-const faqKeys = ['encryption', 'storage', 'incidents', 'soc2Report', 'sso'] as const;
+const infraKeys = ['uptime', 'deployment', 'backups', 'monitoring', 'pentest'] as const;
+const faqKeys = ['encryption', 'storage', 'incidents', 'sso'] as const;
 
 export default function TrustSecurity() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -175,7 +130,6 @@ export default function TrustSecurity() {
         title={t('trustSecurity.seo.title')}
         description={t('trustSecurity.seo.description')}
         keywords={seoKeywords}
-        canonical="https://synclane.io/resources/trust-security"
       />
       <SchemaMarkup schema={organizationSchema} />
       <SchemaMarkup schema={breadcrumbSchema} />
@@ -199,53 +153,6 @@ export default function TrustSecurity() {
                 {t('trustSecurity.hero.requestReport')}
               </Button>
             </div>
-          </div>
-        </Container>
-      </Section>
-
-      {/* Certifications & Compliance */}
-      <Section background="white" padding="lg" id="compliance">
-        <Container>
-          <div className="text-center mb-12">
-            <h2 className="mb-4">{t('trustSecurity.compliance.title')}</h2>
-            <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-              {t('trustSecurity.compliance.description')}
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {certKeys.map((key) => {
-              const points = t(`trustSecurity.compliance.certs.${key}.points`, { returnObjects: true }) as string[];
-              return (
-                <div
-                  key={key}
-                  className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg transition-shadow duration-300"
-                >
-                  <div className={`flex items-center gap-4 mb-4 ${isRTL ? 'flex-row-reverse text-right' : ''}`}>
-                    <div className="text-primary-600 flex-shrink-0">{certIcons[key]}</div>
-                    <h3 className="text-xl font-bold">{t(`trustSecurity.compliance.certs.${key}.name`)}</h3>
-                  </div>
-                  <p className="text-gray-600 mb-5 text-sm leading-relaxed">
-                    {t(`trustSecurity.compliance.certs.${key}.description`)}
-                  </p>
-                  <ul className="space-y-2">
-                    {points.map((point, idx) => (
-                      <li key={idx} className={`flex items-start gap-2 text-sm text-gray-700 ${isRTL ? 'flex-row-reverse text-right' : ''}`}>
-                        <svg
-                          className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>{point}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              );
-            })}
           </div>
         </Container>
       </Section>

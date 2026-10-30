@@ -16,7 +16,7 @@ export default function NotFound() {
   return (
     <>
       <SEOHead
-        title="Page Not Found | Synclane"
+        title="Page Not Found | TiJori"
         description="The page you're looking for doesn't exist."
       />
 

@@ -52,20 +52,20 @@
     },
     "connectivity": {
       "title": "Connectivity Hub",
-      "description": "200+ pre-built integrations with banks and ERPs",
+      "description": "SWIFT connectivity to 30+ banks, KSA open banking and ERP integrations",
       "icon": "Link"
     }
   },
   "cashManagement": {
     "seo": {
-      "title": "Cash & Liquidity Management Software | Synclane",
+      "title": "Cash & Liquidity Management Software",
       "description": "Real-time cash visibility across all bank accounts. Reduce idle cash by 30% with automated multi-bank aggregation and liquidity optimization.",
       "keywords": ["cash management software", "liquidity management", "multi-bank aggregation", "cash visibility"]
     },
     "hero": {
       "breadcrumb": "Platform / Cash Management",
       "title": "Real-Time Cash Visibility Across Your Enterprise",
-      "description": "Consolidate cash positions from 200+ banks in seconds. Eliminate spreadsheets and see your true liquidity position in real-time."
+      "description": "Consolidate cash positions from 30+ SWIFT-connected banks in seconds. Eliminate spreadsheets and see your true liquidity position in real-time."
     },
     "problem": {
       "title": "The Challenge",
@@ -79,10 +79,10 @@
       ]
     },
     "solution": {
-      "title": "The Synclane Solution",
+      "title": "The TiJori Solution",
       "description": "Automated multi-bank connectivity delivers real-time cash positions, instant reconciliation, and actionable insights — all in one dashboard.",
       "benefits": [
-        "Real-time cash positions across all 200+ banks",
+        "Real-time cash positions across all your connected banks",
         "Automated daily cash position reports",
         "Instant liquidity visibility across entities",
         "AI-driven idle cash optimization recommendations",
@@ -96,7 +96,7 @@
     "features": {
       "multiBankAggregation": {
         "title": "Multi-Bank Aggregation",
-        "description": "Consolidate cash positions across 200+ banks in real-time with automated data synchronization"
+        "description": "Consolidate cash positions across all your connected banks in real-time with automated data synchronization"
       },
       "cashPositioning": {
         "title": "Cash Positioning",
@@ -120,7 +120,7 @@
       }
     },
     "screenshots": {
-      "title": "See Synclane in Action",
+      "title": "See TiJori in Action",
       "images": {
         "bankBalances": {
           "alt": "Real-time bank balances dashboard across all accounts",
@@ -157,9 +157,9 @@
       "integrations": {
         "title": "Integrations",
         "items": {
-          "supportedBanks": { "label": "Supported Banks", "value": "200+ global and regional banks" },
+          "supportedBanks": { "label": "Supported Banks", "value": "30+ banks via SWIFT across the UAE, KSA, Turkey, Egypt and Pakistan" },
           "connectionMethods": { "label": "Connection Methods", "value": "SWIFT, API, Host-to-host, file" },
-          "statementFormats": { "label": "Statement Formats", "value": "MT940, MT942, BAI2, CAMT.053" },
+          "statementFormats": { "label": "Statement Formats", "value": "MT940, MT942, CAMT.053" },
           "updateFrequency": { "label": "Update Frequency", "value": "Real-time or intraday" }
         }
       },
@@ -189,7 +189,7 @@
   },
   "aiForecasting": {
     "seo": {
-      "title": "AI Cash Forecasting | ML-Powered Predictions | Synclane",
+      "title": "AI Cash Forecasting | ML-Powered Predictions",
       "description": "Achieve 95%+ cash forecast accuracy with machine learning. Proactive liquidity planning for CFOs and treasury teams.",
       "keywords": ["AI cash forecasting", "cash flow prediction", "ML treasury", "liquidity planning"]
     },
@@ -343,7 +343,7 @@
   },
   "loansManagement": {
     "seo": {
-      "title": "Loans & Facility Management Software | Synclane",
+      "title": "Loans & Facility Management Software",
       "description": "Track bank facilities, loans, covenants, and amortization schedules in one place. Complete visibility into your debt portfolio.",
       "keywords": ["loan management software", "facility management", "covenant tracking", "debt management"]
     },
@@ -447,8 +447,8 @@
       "integration": {
         "title": "Integration",
         "items": {
-          "bankConnectivity": { "label": "Bank Connectivity", "value": "Direct feeds from 200+ banks" },
-          "erpSync": { "label": "ERP Sync", "value": "SAP, Oracle, NetSuite, Dynamics" },
+          "bankConnectivity": { "label": "Bank Connectivity", "value": "Direct feeds from 30+ banks via SWIFT" },
+          "erpSync": { "label": "ERP Sync", "value": "Oracle, SAP, Dynamics or any ERP via API/SFTP" },
           "glPosting": { "label": "GL Posting", "value": "Automated journal entries" },
           "dataUpdates": { "label": "Data Updates", "value": "Real-time or scheduled sync" }
         }
@@ -461,7 +461,7 @@
   },
   "investmentManagement": {
     "seo": {
-      "title": "Treasury Investment Management Software | Synclane",
+      "title": "Treasury Investment Management Software",
       "description": "Optimize short-term investments and track portfolio performance. Maximize returns on excess cash with intelligent investment decisions.",
       "keywords": ["investment management", "treasury investments", "money market", "portfolio tracking"]
     },
@@ -588,7 +588,7 @@
   },
   "bankFacilities": {
     "seo": {
-      "title": "Bank Facility Management Software | Synclane",
+      "title": "Bank Facility Management Software",
       "description": "Manage credit facilities, limits, and utilization across all banks. Track covenants and optimize facility usage.",
       "keywords": ["bank facilities", "credit facility management", "facility utilization", "covenant compliance"]
     },
@@ -715,7 +715,7 @@
         "title": "Reporting & Integration",
         "items": {
           "bankConnectivity": { "label": "Bank Connectivity", "value": "Real-time balance and utilization" },
-          "erpIntegration": { "label": "ERP Integration", "value": "SAP, Oracle, NetSuite for financials" },
+          "erpIntegration": { "label": "ERP Integration", "value": "Oracle, SAP, Dynamics or any ERP via API/SFTP" },
           "complianceReports": { "label": "Compliance Reports", "value": "Covenant certificates, utilization" },
           "auditTrail": { "label": "Audit Trail", "value": "Complete amendment and draw history" }
         }
@@ -728,7 +728,7 @@
   },
   "riskFx": {
     "seo": {
-      "title": "FX Risk Management & Hedging Software | Synclane",
+      "title": "FX Risk Management & Hedging Software",
       "description": "Monitor FX exposures and manage hedging strategies. Protect your business from currency volatility with intelligent risk management.",
       "keywords": ["FX risk management", "currency hedging", "forex exposure", "treasury risk"]
     },
@@ -774,19 +774,19 @@
       },
       "riskAnalytics": {
         "title": "Risk Analytics",
-        "description": "Value-at-Risk calculations, scenario analysis, and stress testing for comprehensive risk assessment"
+        "description": "Scenario analysis and stress testing for comprehensive risk assessment"
       },
       "hedgeAccounting": {
         "title": "Hedge Accounting",
-        "description": "IFRS 9 and ASC 815 compliant hedge accounting with automated effectiveness testing"
+        "description": "IFRS 9 compliant hedge accounting with automated effectiveness testing"
       },
       "marketRates": {
         "title": "Market Rates",
         "description": "Real-time FX rates from multiple providers with rate alerts and historical analysis"
       },
       "regulatoryReporting": {
-        "title": "Regulatory Reporting",
-        "description": "Automated reporting for EMIR, Dodd-Frank, and local regulatory requirements"
+        "title": "Management & Audit Reporting",
+        "description": "Management, accounting and audit reports covering your full FX exposure and hedge positions"
       }
     },
     "roi": {
@@ -815,7 +815,7 @@
         "title": "Instruments",
         "items": {
           "spotForwards": { "label": "Spot & Forwards", "value": "All major and exotic currency pairs" },
-          "options": { "label": "Options", "value": "Vanilla, digital, barrier options" },
+          "options": { "label": "Options", "value": "Vanilla options" },
           "swaps": { "label": "Swaps", "value": "FX swaps, cross-currency swaps" },
           "ndf": { "label": "NDF", "value": "Non-deliverable forwards" }
         }
@@ -823,7 +823,6 @@
       "riskMetrics": {
         "title": "Risk Metrics",
         "items": {
-          "var": { "label": "VaR", "value": "Historical, parametric, Monte Carlo" },
           "sensitivity": { "label": "Sensitivity", "value": "Delta, gamma, vega analysis" },
           "stressTesting": { "label": "Stress Testing", "value": "Custom scenario modeling" },
           "backtesting": { "label": "Backtesting", "value": "Model validation" }
@@ -832,8 +831,7 @@
       "compliance": {
         "title": "Compliance",
         "items": {
-          "hedgeAccounting": { "label": "Hedge Accounting", "value": "IFRS 9, ASC 815" },
-          "regulatory": { "label": "Regulatory", "value": "EMIR, Dodd-Frank, SAMA" },
+          "hedgeAccounting": { "label": "Hedge Accounting", "value": "IFRS 9" },
           "auditTrail": { "label": "Audit Trail", "value": "Full trade lifecycle history" },
           "reporting": { "label": "Reporting", "value": "Management, regulatory, accounting" }
         }
@@ -881,7 +879,7 @@
   },
   "payments": {
     "seo": {
-      "title": "Payment Hub | Multi-Bank Payment Processing | Synclane",
+      "title": "Payment Hub | Multi-Bank Payment Processing",
       "description": "Centralized payment processing with multi-bank connectivity. Streamline payments, improve controls, and reduce costs.",
       "keywords": ["payment hub", "treasury payments", "multi-bank payments", "payment processing"]
     },
@@ -978,7 +976,7 @@
         "items": {
           "bankChannels": { "label": "Bank Channels", "value": "Host-to-host, SWIFT, API" },
           "formats": { "label": "Formats", "value": "ISO 20022, PAIN.001, proprietary" },
-          "integration": { "label": "Integration", "value": "SAP, Oracle, NetSuite" },
+          "integration": { "label": "Integration", "value": "Oracle, SAP, Dynamics or any ERP via API/SFTP" },
           "realtime": { "label": "Real-time", "value": "Status updates and confirmations" }
         }
       },
@@ -999,7 +997,7 @@
   },
   "lgLc": {
     "seo": {
-      "title": "LG/LC Management | Letters of Guarantee & Credit | Synclane",
+      "title": "LG/LC Management | Letters of Guarantee & Credit",
       "description": "Track letters of guarantee and letters of credit from issuance to expiry. Automate renewals and reduce operational risk.",
       "keywords": ["LG management", "LC management", "letter of guarantee", "letter of credit", "trade finance"]
     },
@@ -1117,19 +1115,19 @@
   },
   "connectivity": {
     "seo": {
-      "title": "Bank & ERP Integrations | Oracle, SAP, Saudi & GCC Banks | Synclane",
-      "description": "Pre-built integrations with Saudi banks (SNB, Al Rajhi, Riyad Bank), GCC banks, and enterprise ERPs (Oracle Fusion, SAP S/4HANA). SWIFT and LEANtech open banking connectivity.",
-      "keywords": ["Oracle Fusion treasury", "SAP S/4HANA treasury", "Saudi bank integration", "Al Rajhi Bank API", "SNB integration", "LEANtech open banking", "SWIFT MT940"]
+      "title": "Bank & ERP Integrations | Oracle, SAP, Saudi & GCC Banks",
+      "description": "SWIFT connectivity to 30+ banks across the UAE, KSA, Turkey, Egypt and Pakistan, KSA open banking through BWA Tech, and ERP integrations including Oracle Fusion.",
+      "keywords": ["Oracle Fusion treasury","SWIFT treasury connectivity","SWIFT MT940","KSA open banking","GCC bank integration","Emirates NBD integration","FAB integration"]
     },
     "hero": {
       "breadcrumb": "Platform / Connectivity Hub",
       "title": "Connect Your Entire Treasury Ecosystem",
-      "description": "200+ pre-built integrations with banks and ERPs. Automate data flow, eliminate manual reconciliation, and achieve real-time treasury visibility."
+      "description": "SWIFT connectivity to 30+ banks, KSA open banking and ERP integrations. Automate data flow, eliminate manual reconciliation, and achieve real-time treasury visibility."
     },
     "stats": {
       "saudiBanks": {
-        "value": "15+",
-        "label": "Saudi & GCC Banks"
+        "value": "30+",
+        "label": "Banks via SWIFT"
       },
       "oracle": {
         "value": "Oracle",
@@ -1183,9 +1181,9 @@
         "features": ["SAP FI/CO module integration", "Multi-entity support", "Real-time data flow"]
       },
       "saudiBanks": {
-        "title": "Saudi Bank Connectivity",
-        "description": "Pre-built integrations with all major Saudi banks including SNB, Al Rajhi, Riyad Bank, SAB, and more. SWIFT connectivity and LEANtech open banking for real-time balance feeds.",
-        "features": ["All 8 Saudi banks supported", "SWIFT MT940 statements", "LEANtech open banking"]
+        "title": "KSA & GCC Bank Connectivity",
+        "description": "SWIFT connectivity to 30+ banks, including Alinma, FAB, Emirates NBD and QNB. In KSA, open banking through our partner BWA Tech covers most Saudi banks, and direct B2B integrations with SNB and Bank Albilad are going live soon.",
+        "features": ["30+ banks via SWIFT","KSA open banking via BWA Tech","SNB & Bank Albilad B2B coming soon"]
       },
       "oracleEbs": {
         "title": "Oracle E-Business Suite Integration",
@@ -1200,7 +1198,7 @@
   },
   "bankDirectory": {
     "title": "Bank Integrations",
-    "description": "Direct connections to global banks for real-time balance reporting and payment processing",
+    "description": "30+ banks connected via SWIFT across the UAE, KSA, Turkey, Egypt and Pakistan, plus open banking for most KSA banks through our partner BWA Tech",
     "standards": {
       "title": "Supported Banking Standards",
       "swift": {
@@ -1211,9 +1209,9 @@
         "name": "ISO 20022",
         "description": "CAMT.053, PAIN.001"
       },
-      "bai2": {
-        "name": "BAI2",
-        "description": "North American standard"
+      "openBanking": {
+        "name": "Open Banking",
+        "description": "KSA via BWA Tech"
       },
       "api": {
         "name": "API",

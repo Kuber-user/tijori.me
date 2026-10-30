@@ -43,7 +43,7 @@ export default function ProblemSolutionBlock({ problem, solution }: ProblemSolut
           {/* Solution */}
           <div className="bg-white p-8 md:p-10 rounded-xl shadow-lg">
             <div className="inline-block px-3 py-1 bg-primary-100 text-primary-700 rounded-full text-sm font-semibold mb-4">
-              The Synclane Solution
+              The TiJori Solution
             </div>
             <h2 className="mb-6">{solution.title}</h2>
             <p className="text-gray-600 text-lg mb-6">

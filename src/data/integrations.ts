@@ -1,14 +1,13 @@
 import type { Integration } from '../types';
 
 export const integrations: Integration[] = [
-  // ERPs - Focus on Oracle and SAP
+  // ERPs - Oracle, SAP and Microsoft Dynamics, plus any ERP via API or SFTP
   {
     id: 'oracle-fusion',
     name: 'Oracle Fusion Cloud',
     category: 'ERP',
     logo: '/assets/logos/oracle.svg',
     description: 'Native integration with Oracle Fusion ERP for treasury reconciliation, GL sync, and automated cash positioning across all modules',
-    setupTime: '4-6 hours',
     features: ['GL data sync', 'Cash Management module', 'Payment processing', 'Journal entry automation'],
     slug: 'oracle-fusion'
   },
@@ -18,7 +17,6 @@ export const integrations: Integration[] = [
     category: 'ERP',
     logo: '/assets/logos/oracle.svg',
     description: 'Comprehensive integration with Oracle EBS for cash management, payables, receivables, and treasury operations',
-    setupTime: '4-6 hours',
     features: ['Oracle Cash Management', 'AP/AR integration', 'Multi-org support', 'Custom field mapping'],
     slug: 'oracle-ebs'
   },
@@ -28,7 +26,6 @@ export const integrations: Integration[] = [
     category: 'ERP',
     logo: '/assets/logos/sap.svg',
     description: 'Real-time integration with SAP S/4HANA for treasury and cash operations with in-memory processing capabilities',
-    setupTime: '4-6 hours',
     features: ['SAP FI/CO integration', 'Treasury module sync', 'Multi-entity support', 'Real-time data flow'],
     slug: 'sap-s4hana'
   },
@@ -38,7 +35,6 @@ export const integrations: Integration[] = [
     category: 'ERP',
     logo: '/assets/logos/sap.svg',
     description: 'Legacy SAP ECC integration for organizations managing treasury operations during S/4HANA transition',
-    setupTime: '4-6 hours',
     features: ['SAP Treasury module', 'GL data sync', 'Bank reconciliation', 'Payment processing'],
     slug: 'sap-ecc'
   },
@@ -48,19 +44,16 @@ export const integrations: Integration[] = [
     category: 'ERP',
     logo: '/assets/logos/dynamics.svg',
     description: 'Native Microsoft Dynamics 365 Finance integration for unified treasury operations',
-    setupTime: '3-5 hours',
     features: ['D365 Finance sync', 'Bank reconciliation', 'Cash flow forecasting', 'Multi-currency support'],
     slug: 'microsoft-dynamics'
   },
   {
-    id: 'netsuite',
-    name: 'NetSuite',
+    id: 'any-erp',
+    name: 'Any ERP via API or SFTP',
     category: 'ERP',
-    logo: '/assets/logos/netsuite.svg',
-    description: 'Full bi-directional sync with NetSuite GL, AR, AP for automated cash forecasting and reconciliation',
-    setupTime: '2-4 hours',
-    features: ['GL sync', 'Auto-reconciliation', 'Invoice matching', 'Real-time data flow'],
-    slug: 'netsuite'
+    description: 'TiJori is ERP-agnostic: we connect to any ERP through APIs or SFTP file exchange',
+    features: ['API integration', 'SFTP file exchange', 'GL and payment data sync'],
+    slug: 'any-erp'
   },
 
   // Connectivity - SWIFT and Open Banking
@@ -68,154 +61,286 @@ export const integrations: Integration[] = [
     id: 'swift',
     name: 'SWIFT Network',
     category: 'Bank',
-    logo: '/assets/logos/swift.svg',
-    description: 'Direct SWIFT connectivity for MT940, MT942, MT101, and ISO 20022 messaging across all connected banks',
-    setupTime: '2-3 days',
-    features: ['MT940 statements', 'MT942 intraday', 'MT101 payments', 'ISO 20022 ready'],
+    description: 'SWIFT connectivity through our partner’s SWIFTNet BIC to 30+ banks across the UAE, KSA, Turkey, Egypt and Pakistan',
+    features: ['MT940 statements', 'MT942 intraday', 'MT101 payments'],
     slug: 'swift-network'
   },
   {
-    id: 'leantech',
-    name: 'LEANtech Open Banking',
+    id: 'bwatech',
+    name: 'BWA Tech Open Banking',
     category: 'Bank',
-    logo: '/assets/logos/leantech.svg',
-    description: 'Open banking aggregation for real-time bank feeds across Saudi and GCC banks without manual file uploads',
-    setupTime: '1-2 days',
-    features: ['Real-time balances', 'Transaction feeds', 'Payment initiation', 'Multi-bank aggregation'],
-    slug: 'leantech'
+    description: 'Open banking in KSA through our partner BWA Tech, covering most Saudi banks, so companies can transmit payments without manual file uploads',
+    features: ['Payment transmission', 'Covers most KSA banks', 'No manual file uploads'],
+    slug: 'bwa-tech'
   },
 
-  // Saudi Banks
+  // KSA direct B2B integrations
   {
     id: 'snb',
     name: 'Saudi National Bank (SNB)',
     category: 'Bank',
-    logo: '/assets/logos/snb.svg',
-    description: 'Direct connectivity to Saudi National Bank for real-time balance reporting and payment initiation',
-    setupTime: '1-2 days',
-    features: ['SWIFT MT940', 'Host-to-host', 'Payment files', 'Real-time balances'],
+    description: 'Direct B2B integration with Saudi National Bank (Al Ahli), going live soon',
+    setupTime: 'Going live soon',
+    features: ['Direct B2B integration'],
     slug: 'saudi-national-bank'
   },
   {
-    id: 'alrajhi',
-    name: 'Al Rajhi Bank',
+    id: 'albilad',
+    name: 'Bank Albilad',
     category: 'Bank',
-    logo: '/assets/logos/alrajhi.svg',
-    description: 'Automated data integration with Al Rajhi Bank for corporate treasury operations',
-    setupTime: '1-2 days',
-    features: ['SWIFT messaging', 'Corporate banking', 'Multi-currency', 'Payment processing'],
-    slug: 'al-rajhi-bank'
-  },
-  {
-    id: 'riyad',
-    name: 'Riyad Bank',
-    category: 'Bank',
-    logo: '/assets/logos/riyad.svg',
-    description: 'Secure integration with Riyad Bank for treasury management and cash positioning',
-    setupTime: '1-2 days',
-    features: ['Statement retrieval', 'Payment initiation', 'Balance reporting', 'Account aggregation'],
-    slug: 'riyad-bank'
-  },
-  {
-    id: 'sab',
-    name: 'SAB',
-    category: 'Bank',
-    logo: '/assets/logos/sab.svg',
-    description: 'Connect SAB (Saudi Awal Bank) for streamlined cash management and reporting',
-    setupTime: '1-2 days',
-    features: ['SWIFT connectivity', 'Cash pooling', 'Trade finance', 'Corporate banking'],
-    slug: 'sab'
-  },
-  {
-    id: 'bsf',
-    name: 'Banque Saudi Fransi',
-    category: 'Bank',
-    logo: '/assets/logos/bsf.svg',
-    description: 'Integration with Banque Saudi Fransi for treasury operations and liquidity management',
-    setupTime: '1-2 days',
-    features: ['Account reporting', 'Payment processing', 'Trade services', 'Cash management'],
-    slug: 'banque-saudi-fransi'
-  },
-  {
-    id: 'anb',
-    name: 'Arab National Bank',
-    category: 'Bank',
-    logo: '/assets/logos/anb.svg',
-    description: 'Automated connectivity to Arab National Bank for cash visibility and payment operations',
-    setupTime: '1-2 days',
-    features: ['SWIFT MT940', 'Payment files', 'Balance aggregation', 'Transaction history'],
-    slug: 'arab-national-bank'
-  },
-  {
-    id: 'alinma',
-    name: 'Alinma Bank',
-    category: 'Bank',
-    logo: '/assets/logos/alinma.svg',
-    description: 'Connect Alinma Bank for Sharia-compliant treasury management and cash operations',
-    setupTime: '1-2 days',
-    features: ['Statement feeds', 'Payment processing', 'Islamic banking', 'Cash positioning'],
-    slug: 'alinma-bank'
-  },
-  {
-    id: 'baj',
-    name: 'Bank AlJazira',
-    category: 'Bank',
-    logo: '/assets/logos/baj.svg',
-    description: 'Integration with Bank AlJazira for corporate banking and treasury connectivity',
-    setupTime: '1-2 days',
-    features: ['Account reporting', 'Payment initiation', 'Trade finance', 'Multi-account'],
-    slug: 'bank-aljazira'
+    description: 'Direct B2B integration with Bank Albilad, going live soon',
+    setupTime: 'Going live soon',
+    features: ['Direct B2B integration'],
+    slug: 'bank-albilad'
   },
 
-  // Emirates Banks
+  // Banks connected via SWIFT
+  {
+    id: 'fab',
+    name: 'First Abu Dhabi Bank (FAB)',
+    category: 'Bank',
+    description: 'UAE · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'fab'
+  },
   {
     id: 'enbd',
     name: 'Emirates NBD',
     category: 'Bank',
-    logo: '/assets/logos/enbd.svg',
-    description: 'Direct connectivity to Emirates NBD for UAE and regional treasury operations',
-    setupTime: '1-2 days',
-    features: ['SWIFT messaging', 'API integration', 'Multi-currency', 'Real-time balances'],
-    slug: 'emirates-nbd'
+    description: 'UAE · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'enbd'
   },
   {
     id: 'adcb',
     name: 'Abu Dhabi Commercial Bank (ADCB)',
     category: 'Bank',
-    logo: '/assets/logos/adcb.svg',
-    description: 'Automated integration with ADCB for cash management and payment processing',
-    setupTime: '1-2 days',
-    features: ['Account aggregation', 'Payment files', 'Balance reporting', 'Cash pooling'],
+    description: 'UAE · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'adcb'
   },
   {
-    id: 'fab',
-    name: 'First Abu Dhabi Bank (FAB)',
+    id: 'adib',
+    name: 'Abu Dhabi Islamic Bank (ADIB)',
     category: 'Bank',
-    logo: '/assets/logos/fab.svg',
-    description: 'Connect FAB for comprehensive treasury management across UAE operations',
-    setupTime: '1-2 days',
-    features: ['SWIFT connectivity', 'Trade finance', 'Cash management', 'FX services'],
-    slug: 'first-abu-dhabi-bank'
+    description: 'UAE · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'adib'
   },
   {
     id: 'mashreq',
     name: 'Mashreq Bank',
     category: 'Bank',
-    logo: '/assets/logos/mashreq.svg',
-    description: 'Integration with Mashreq Bank for regional cash visibility and payment operations',
-    setupTime: '1-2 days',
-    features: ['Statement retrieval', 'Payment initiation', 'Multi-currency', 'Corporate banking'],
-    slug: 'mashreq-bank'
+    description: 'UAE · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'mashreq'
   },
   {
-    id: 'dib',
-    name: 'Dubai Islamic Bank',
+    id: 'alinma',
+    name: 'Alinma Bank',
     category: 'Bank',
-    logo: '/assets/logos/dib.svg',
-    description: 'Connect Dubai Islamic Bank for Sharia-compliant treasury operations',
-    setupTime: '1-2 days',
-    features: ['Islamic banking', 'Statement feeds', 'Payment processing', 'Balance reporting'],
-    slug: 'dubai-islamic-bank'
+    description: 'KSA · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'alinma'
+  },
+  {
+    id: 'qnb',
+    name: 'QNB',
+    category: 'Bank',
+    description: 'Qatar · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'qnb'
+  },
+  {
+    id: 'nbk',
+    name: 'National Bank of Kuwait (NBK)',
+    category: 'Bank',
+    description: 'Kuwait · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'nbk'
+  },
+  {
+    id: 'abk',
+    name: 'Al Ahli Bank of Kuwait (ABK)',
+    category: 'Bank',
+    description: 'Kuwait · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'abk'
+  },
+  {
+    id: 'aub',
+    name: 'Ahli United Bank (AUB)',
+    category: 'Bank',
+    description: 'Bahrain · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'aub'
+  },
+  {
+    id: 'bank-abc',
+    name: 'Bank ABC',
+    category: 'Bank',
+    description: 'Bahrain · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'bank-abc'
+  },
+  {
+    id: 'cib',
+    name: 'Commercial International Bank (CIB)',
+    category: 'Bank',
+    description: 'Egypt · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'cib'
+  },
+  {
+    id: 'banque-misr',
+    name: 'Banque Misr',
+    category: 'Bank',
+    description: 'Egypt · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'banque-misr'
+  },
+  {
+    id: 'aaib',
+    name: 'Arab African International Bank (AAIB)',
+    category: 'Bank',
+    description: 'Egypt · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'aaib'
+  },
+  {
+    id: 'attijariwafa',
+    name: 'Attijariwafa Bank',
+    category: 'Bank',
+    description: 'Morocco · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'attijariwafa'
+  },
+  {
+    id: 'akbank',
+    name: 'Akbank',
+    category: 'Bank',
+    description: 'Turkey · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'akbank'
+  },
+  {
+    id: 'garanti',
+    name: 'Garanti BBVA',
+    category: 'Bank',
+    description: 'Turkey · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'garanti'
+  },
+  {
+    id: 'teb',
+    name: 'TEB',
+    category: 'Bank',
+    description: 'Turkey · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'teb'
+  },
+  {
+    id: 'ziraat',
+    name: 'Ziraat Bankası',
+    category: 'Bank',
+    description: 'Turkey · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'ziraat'
+  },
+  {
+    id: 'vakifbank',
+    name: 'VakıfBank',
+    category: 'Bank',
+    description: 'Turkey · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'vakifbank'
+  },
+  {
+    id: 'halkbank',
+    name: 'Halkbank',
+    category: 'Bank',
+    description: 'Turkey · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'halkbank'
+  },
+  {
+    id: 'hbl',
+    name: 'Habib Bank Limited (HBL)',
+    category: 'Bank',
+    description: 'Pakistan · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'hbl'
+  },
+  {
+    id: 'kotak',
+    name: 'Kotak Mahindra Bank',
+    category: 'Bank',
+    description: 'India · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'kotak'
+  },
+  {
+    id: 'hsbc',
+    name: 'HSBC',
+    category: 'Bank',
+    description: 'Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'hsbc'
+  },
+  {
+    id: 'citi',
+    name: 'Citi',
+    category: 'Bank',
+    description: 'Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'citi'
+  },
+  {
+    id: 'scb',
+    name: 'Standard Chartered',
+    category: 'Bank',
+    description: 'Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'scb'
+  },
+  {
+    id: 'bnp',
+    name: 'BNP Paribas',
+    category: 'Bank',
+    description: 'Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'bnp'
+  },
+  {
+    id: 'julius-baer',
+    name: 'Julius Baer',
+    category: 'Bank',
+    description: 'Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'julius-baer'
+  },
+  {
+    id: 'safra-sarasin',
+    name: 'J. Safra Sarasin',
+    category: 'Bank',
+    description: 'Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'safra-sarasin'
+  },
+  {
+    id: 'bank-of-baroda',
+    name: 'Bank of Baroda',
+    category: 'Bank',
+    description: 'Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'bank-of-baroda'
+  },
+  {
+    id: 'santander',
+    name: 'Santander',
+    category: 'Bank',
+    description: 'Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'santander'
   },
 ];

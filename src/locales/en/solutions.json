@@ -80,7 +80,7 @@
     },
     "treasurer": {
       "seo": {
-        "title": "Treasury Management Solutions for Treasurers | Synclane",
+        "title": "Treasury Management Solutions for Treasurers",
         "description": "Operational excellence for treasury teams. Automate reconciliation, streamline payments, and optimize daily cash management.",
         "keywords": ["treasury operations", "cash management", "treasury automation", "bank reconciliation"]
       },
@@ -158,7 +158,7 @@
     },
     "controller": {
       "seo": {
-        "title": "Treasury Control & Compliance Solutions | Synclane",
+        "title": "Treasury Control & Compliance Solutions",
         "description": "Complete financial control and compliance for controllers. Automated reconciliation, comprehensive audit trails, and regulatory reporting.",
         "keywords": ["financial control", "treasury compliance", "automated reconciliation", "audit trails", "regulatory reporting"]
       },
@@ -221,7 +221,7 @@
           },
           "auditReady": {
             "value": "Audit-Ready",
-            "sublabel": "Complete audit trails with SOC 2 certified controls and comprehensive logging"
+            "sublabel": "Complete audit trails with approval controls and comprehensive logging"
           },
           "compliance": {
             "value": "100% Compliance",
