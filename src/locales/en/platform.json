@@ -448,7 +448,7 @@
         "title": "Integration",
         "items": {
           "bankConnectivity": { "label": "Bank Connectivity", "value": "Direct feeds from 30+ banks via SWIFT" },
-          "erpSync": { "label": "ERP Sync", "value": "SAP, Oracle, NetSuite, Dynamics" },
+          "erpSync": { "label": "ERP Sync", "value": "Oracle, SAP, Dynamics or any ERP via API/SFTP" },
           "glPosting": { "label": "GL Posting", "value": "Automated journal entries" },
           "dataUpdates": { "label": "Data Updates", "value": "Real-time or scheduled sync" }
         }
@@ -715,7 +715,7 @@
         "title": "Reporting & Integration",
         "items": {
           "bankConnectivity": { "label": "Bank Connectivity", "value": "Real-time balance and utilization" },
-          "erpIntegration": { "label": "ERP Integration", "value": "SAP, Oracle, NetSuite for financials" },
+          "erpIntegration": { "label": "ERP Integration", "value": "Oracle, SAP, Dynamics or any ERP via API/SFTP" },
           "complianceReports": { "label": "Compliance Reports", "value": "Covenant certificates, utilization" },
           "auditTrail": { "label": "Audit Trail", "value": "Complete amendment and draw history" }
         }
@@ -976,7 +976,7 @@
         "items": {
           "bankChannels": { "label": "Bank Channels", "value": "Host-to-host, SWIFT, API" },
           "formats": { "label": "Formats", "value": "ISO 20022, PAIN.001, proprietary" },
-          "integration": { "label": "Integration", "value": "SAP, Oracle, NetSuite" },
+          "integration": { "label": "Integration", "value": "Oracle, SAP, Dynamics or any ERP via API/SFTP" },
           "realtime": { "label": "Real-time", "value": "Status updates and confirmations" }
         }
       },

@@ -85,7 +85,7 @@
     "switchToEnglish": "EN"
   },
   "integrations": {
-    "searchPlaceholder": "Search integrations (e.g., NetSuite, J.P. Morgan)...",
+    "searchPlaceholder": "Search integrations (e.g., Oracle, Emirates NBD)...",
     "categories": {
       "all": "All",
       "erp": "ERP",

@@ -65,7 +65,7 @@ const faqSchema = {
       name: 'How do you handle security incidents?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Our Security Operations Center operates 24/7 with automated threat detection and a documented incident response plan. Critical incidents are escalated within 15 minutes, and affected customers are notified promptly. Post-incident reviews are conducted for every security event.'
+        text: 'If a security incident is identified, our team responds 24/7 and works on it around the clock until it is resolved. Affected customers are notified promptly, and we share a post-incident review with them.'
       }
     },
     {

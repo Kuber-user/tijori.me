@@ -1,14 +1,13 @@
 import type { Integration } from '../types';
 
 export const integrations: Integration[] = [
-  // ERPs - Focus on Oracle and SAP
+  // ERPs - Oracle, SAP and Microsoft Dynamics, plus any ERP via API or SFTP
   {
     id: 'oracle-fusion',
     name: 'Oracle Fusion Cloud',
     category: 'ERP',
     logo: '/assets/logos/oracle.svg',
     description: 'Native integration with Oracle Fusion ERP for treasury reconciliation, GL sync, and automated cash positioning across all modules',
-    setupTime: '4-6 hours',
     features: ['GL data sync', 'Cash Management module', 'Payment processing', 'Journal entry automation'],
     slug: 'oracle-fusion'
   },
@@ -18,7 +17,6 @@ export const integrations: Integration[] = [
     category: 'ERP',
     logo: '/assets/logos/oracle.svg',
     description: 'Comprehensive integration with Oracle EBS for cash management, payables, receivables, and treasury operations',
-    setupTime: '4-6 hours',
     features: ['Oracle Cash Management', 'AP/AR integration', 'Multi-org support', 'Custom field mapping'],
     slug: 'oracle-ebs'
   },
@@ -28,7 +26,6 @@ export const integrations: Integration[] = [
     category: 'ERP',
     logo: '/assets/logos/sap.svg',
     description: 'Real-time integration with SAP S/4HANA for treasury and cash operations with in-memory processing capabilities',
-    setupTime: '4-6 hours',
     features: ['SAP FI/CO integration', 'Treasury module sync', 'Multi-entity support', 'Real-time data flow'],
     slug: 'sap-s4hana'
   },
@@ -38,7 +35,6 @@ export const integrations: Integration[] = [
     category: 'ERP',
     logo: '/assets/logos/sap.svg',
     description: 'Legacy SAP ECC integration for organizations managing treasury operations during S/4HANA transition',
-    setupTime: '4-6 hours',
     features: ['SAP Treasury module', 'GL data sync', 'Bank reconciliation', 'Payment processing'],
     slug: 'sap-ecc'
   },
@@ -48,19 +44,16 @@ export const integrations: Integration[] = [
     category: 'ERP',
     logo: '/assets/logos/dynamics.svg',
     description: 'Native Microsoft Dynamics 365 Finance integration for unified treasury operations',
-    setupTime: '3-5 hours',
     features: ['D365 Finance sync', 'Bank reconciliation', 'Cash flow forecasting', 'Multi-currency support'],
     slug: 'microsoft-dynamics'
   },
   {
-    id: 'netsuite',
-    name: 'NetSuite',
+    id: 'any-erp',
+    name: 'Any ERP via API or SFTP',
     category: 'ERP',
-    logo: '/assets/logos/netsuite.svg',
-    description: 'Full bi-directional sync with NetSuite GL, AR, AP for automated cash forecasting and reconciliation',
-    setupTime: '2-4 hours',
-    features: ['GL sync', 'Auto-reconciliation', 'Invoice matching', 'Real-time data flow'],
-    slug: 'netsuite'
+    description: 'TiJori is ERP-agnostic: we connect to any ERP through APIs or SFTP file exchange',
+    features: ['API integration', 'SFTP file exchange', 'GL and payment data sync'],
+    slug: 'any-erp'
   },
 
   // Connectivity - SWIFT and Open Banking
@@ -333,5 +326,21 @@ export const integrations: Integration[] = [
     description: 'Connected via SWIFT. Statements and balances flow into TiJori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'safra-sarasin'
+  },
+  {
+    id: 'bank-of-baroda',
+    name: 'Bank of Baroda',
+    category: 'Bank',
+    description: 'Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'bank-of-baroda'
+  },
+  {
+    id: 'santander',
+    name: 'Santander',
+    category: 'Bank',
+    description: 'Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    features: ['SWIFT MT940 statements', 'Balance reporting'],
+    slug: 'santander'
   },
 ];

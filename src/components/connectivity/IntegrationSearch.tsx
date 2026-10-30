@@ -27,7 +27,7 @@ export default function IntegrationSearch({ onSearch, onFilter, activeCategory }
               type="text"
               value={searchQuery}
               onChange={handleSearchChange}
-              placeholder="Search integrations (e.g., NetSuite, J.P. Morgan)..."
+              placeholder="Search integrations (e.g., Oracle, Emirates NBD)..."
               className="w-full pl-12 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
             />
             <svg

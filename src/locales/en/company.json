@@ -318,7 +318,7 @@
         "uptime": { "metric": "99.9%", "label": "Uptime SLA", "detail": "No production downtime to date at our live clients" },
         "deployment": { "metric": "In-Region", "label": "Deployment", "detail": "Deployed in the customer's region, with a disaster recovery site in a separate region" },
         "backups": { "metric": "Daily", "label": "Encrypted Backups", "detail": "Automated daily encrypted backups on OCI with 90-day retention" },
-        "monitoring": { "metric": "24/7", "label": "Security Monitoring", "detail": "Dedicated Security Operations Center with real-time threat detection and incident response" },
+        "monitoring": { "metric": "24/7", "label": "Incident Response", "detail": "If a security incident is identified, our team works on it around the clock until it is resolved" },
         "pentest": { "metric": "Annual", "label": "Penetration Testing", "detail": "Comprehensive penetration tests conducted by independent third-party security firms" }
       }
     },
@@ -336,7 +336,7 @@
         },
         "incidents": {
           "question": "How do you handle security incidents?",
-          "answer": "Our Security Operations Center monitors systems around the clock using automated threat detection, intrusion detection systems, and anomaly analysis. When a potential incident is identified, our documented incident response plan is activated immediately. Critical incidents are escalated within 15 minutes, affected customers are notified promptly, and a post-incident review is conducted and shared with impacted parties. We maintain a public status page for real-time platform health updates."
+          "answer": "If a security incident is identified, our team responds 24/7 and works on it around the clock until it is resolved. Affected customers are notified promptly, and we share a post-incident review with them."
         },
         "soc2Report": {
           "question": "Can we get a copy of your SOC 2 report?",

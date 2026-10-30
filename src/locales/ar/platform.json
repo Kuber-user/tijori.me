@@ -448,7 +448,7 @@
         "title": "التكامل",
         "items": {
           "bankConnectivity": { "label": "الاتصال بالبنوك", "value": "تغذيات مباشرة من أكثر من 30 بنكاً عبر SWIFT" },
-          "erpSync": { "label": "مزامنة ERP", "value": "SAP، Oracle، NetSuite، Dynamics" },
+          "erpSync": { "label": "مزامنة ERP", "value": "Oracle، SAP، Dynamics أو أي نظام ERP عبر API/SFTP" },
           "glPosting": { "label": "ترحيل دفتر الأستاذ", "value": "قيود يومية آلية" },
           "dataUpdates": { "label": "تحديث البيانات", "value": "فوري أو مجدول" }
         }
@@ -715,7 +715,7 @@
         "title": "التقارير والتكامل",
         "items": {
           "bankConnectivity": { "label": "الاتصال بالبنوك", "value": "أرصدة واستخدام فوري" },
-          "erpIntegration": { "label": "تكامل ERP", "value": "SAP، Oracle، NetSuite للبيانات المالية" },
+          "erpIntegration": { "label": "تكامل ERP", "value": "Oracle، SAP، Dynamics أو أي نظام ERP عبر API/SFTP" },
           "complianceReports": { "label": "تقارير الامتثال", "value": "شهادات الشروط التعاقدية، الاستخدام" },
           "auditTrail": { "label": "سجل المراجعة", "value": "تاريخ كامل للتعديلات والسحوبات" }
         }
@@ -976,7 +976,7 @@
         "items": {
           "bankChannels": { "label": "قنوات البنوك", "value": "Host-to-host، SWIFT، API" },
           "formats": { "label": "الصيغ", "value": "ISO 20022، PAIN.001، صيغ خاصة" },
-          "integration": { "label": "التكامل", "value": "SAP، Oracle، NetSuite" },
+          "integration": { "label": "التكامل", "value": "Oracle، SAP، Dynamics أو أي نظام ERP عبر API/SFTP" },
           "realtime": { "label": "فوري", "value": "تحديثات الحالة والتأكيدات" }
         }
       },

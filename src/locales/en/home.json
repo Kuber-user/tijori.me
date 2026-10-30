@@ -44,7 +44,7 @@
       "Akbank",
       "Habib Bank Limited"
     ],
-    "erps": ["SAP", "Oracle", "Microsoft Dynamics", "NetSuite", "Odoo"],
+    "erps": ["Oracle", "SAP", "Microsoft Dynamics"],
     "stats": {
       "integrations": {
         "value": "5",
