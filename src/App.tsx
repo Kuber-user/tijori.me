@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route, Navigate, useParams, Outlet } from 'react-router-dom';
-import { HelmetProvider } from 'react-helmet-async';
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import Layout from './components/layout/Layout';
@@ -63,58 +62,56 @@ function LanguageWrapper() {
 
 function App() {
   return (
-    <HelmetProvider>
-      <BrowserRouter>
-        <Routes>
-          {/* Redirect root to /en */}
-          <Route path="/" element={<Navigate to="/en" replace />} />
+    <BrowserRouter>
+      <Routes>
+        {/* Redirect root to /en */}
+        <Route path="/" element={<Navigate to="/en" replace />} />
 
-          {/* Language-prefixed routes */}
-          <Route path="/:lang" element={<LanguageWrapper />}>
-            <Route element={<Layout />}>
-              {/* Home */}
-              <Route index element={<Home />} />
+        {/* Language-prefixed routes */}
+        <Route path="/:lang" element={<LanguageWrapper />}>
+          <Route element={<Layout />}>
+            {/* Home */}
+            <Route index element={<Home />} />
 
-              {/* Platform */}
-              <Route path="platform/cash-management" element={<CashManagement />} />
-              <Route path="platform/ai-forecasting" element={<AIForecasting />} />
-              <Route path="platform/risk-fx-management" element={<RiskFX />} />
-              <Route path="platform/payments" element={<Payments />} />
-              <Route path="platform/connectivity" element={<ConnectivityHub />} />
-              <Route path="platform/loans" element={<LoansManagement />} />
-              <Route path="platform/investments" element={<InvestmentManagement />} />
-              <Route path="platform/lg-lc" element={<LGLCManagement />} />
-              <Route path="platform/bank-facilities" element={<BankFacilities />} />
+            {/* Platform */}
+            <Route path="platform/cash-management" element={<CashManagement />} />
+            <Route path="platform/ai-forecasting" element={<AIForecasting />} />
+            <Route path="platform/risk-fx-management" element={<RiskFX />} />
+            <Route path="platform/payments" element={<Payments />} />
+            <Route path="platform/connectivity" element={<ConnectivityHub />} />
+            <Route path="platform/loans" element={<LoansManagement />} />
+            <Route path="platform/investments" element={<InvestmentManagement />} />
+            <Route path="platform/lg-lc" element={<LGLCManagement />} />
+            <Route path="platform/bank-facilities" element={<BankFacilities />} />
 
-              {/* Solutions - Roles */}
-              <Route path="solutions/cfo" element={<CFO />} />
-              <Route path="solutions/treasurer" element={<Treasurer />} />
-              <Route path="solutions/controller" element={<Controller />} />
+            {/* Solutions - Roles */}
+            <Route path="solutions/cfo" element={<CFO />} />
+            <Route path="solutions/treasurer" element={<Treasurer />} />
+            <Route path="solutions/controller" element={<Controller />} />
 
-              {/* Solutions - Industries */}
-              <Route path="solutions/real-estate" element={<RealEstate />} />
-              <Route path="solutions/ecommerce" element={<Ecommerce />} />
-              <Route path="solutions/manufacturing" element={<Manufacturing />} />
-              <Route path="solutions/construction" element={<Construction />} />
-              <Route path="solutions/semi-government" element={<SemiGovernment />} />
-              <Route path="solutions/oil-gas" element={<OilGas />} />
-              <Route path="solutions/fmcg" element={<FMCG />} />
+            {/* Solutions - Industries */}
+            <Route path="solutions/real-estate" element={<RealEstate />} />
+            <Route path="solutions/ecommerce" element={<Ecommerce />} />
+            <Route path="solutions/manufacturing" element={<Manufacturing />} />
+            <Route path="solutions/construction" element={<Construction />} />
+            <Route path="solutions/semi-government" element={<SemiGovernment />} />
+            <Route path="solutions/oil-gas" element={<OilGas />} />
+            <Route path="solutions/fmcg" element={<FMCG />} />
 
-              {/* Resources */}
-              <Route path="resources/trust-security" element={<TrustSecurity />} />
+            {/* Resources */}
+            <Route path="resources/trust-security" element={<TrustSecurity />} />
 
-              {/* Company */}
-              <Route path="company/about" element={<About />} />
-              <Route path="company/contact" element={<Contact />} />
-              <Route path="pricing" element={<Pricing />} />
+            {/* Company */}
+            <Route path="company/about" element={<About />} />
+            <Route path="company/contact" element={<Contact />} />
+            <Route path="pricing" element={<Pricing />} />
 
-              {/* 404 */}
-              <Route path="*" element={<NotFound />} />
-            </Route>
+            {/* 404 */}
+            <Route path="*" element={<NotFound />} />
           </Route>
-        </Routes>
-      </BrowserRouter>
-    </HelmetProvider>
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

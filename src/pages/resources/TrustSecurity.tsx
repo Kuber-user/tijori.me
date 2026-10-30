@@ -116,8 +116,7 @@ export default function TrustSecurity() {
       <SEOHead
         title={t('trustSecurity.seo.title')}
         description={t('trustSecurity.seo.description')}
-        keywords={seoKeywords}
-        canonical="https://tijori.me/resources/trust-security"
+        keywords={seoKeywords}
       />
       <SchemaMarkup schema={organizationSchema} />
       <SchemaMarkup schema={breadcrumbSchema} />
