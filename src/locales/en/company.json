@@ -103,12 +103,12 @@
   "pricing": {
     "seo": {
       "title": "Pricing | Treasury Management Plans",
-      "description": "Transparent pricing for every stage of treasury maturity. Explore Starter, Professional, and Enterprise plans designed for growing companies to global organizations.",
+      "description": "TiJori plans for every stage of treasury maturity, from facilities and LG/LC management to full treasury operations. Contact us for a tailored quote.",
       "keywords": ["treasury management pricing", "tijori pricing", "treasury software cost", "cash management plans"]
     },
     "hero": {
-      "title": "Transparent Pricing for Every Stage",
-      "description": "Whether you are a growing company or a global enterprise, TiJori offers a plan tailored to your treasury complexity and scale."
+      "title": "Plans for Every Stage",
+      "description": "Pricing depends on your entities, bank connections and modules. Contact us and we will prepare a quote that fits your treasury."
     },
     "badges": {
       "mostPopular": "Most Popular"
@@ -118,10 +118,7 @@
         "name": "Facilities Management Edition",
         "audience": "",
         "tagline": "Core Treasury Operations",
-        "price": "6,500",
-        "currency": "SAR/month",
-        "trialText": "Start immediately with a trial for 14 days, no prepayment needed",
-        "buttonText": "Start Your Free Trial",
+        "buttonText": "Contact Sales",
         "features": {
           "header": "Core Capabilities:",
           "items": [
@@ -137,10 +134,8 @@
         "name": "Professional Edition",
         "audience": "",
         "tagline": "Full Treasury Operations",
-        "price": "10,000",
-        "currency": "SAR/month",
         "popular": true,
-        "buttonText": "Start Now",
+        "buttonText": "Contact Sales",
         "features": {
           "header": "Everything in Facilities Management Edition, plus:",
           "items": [
@@ -169,7 +164,7 @@
             "Real-time bank balance visibility",
             "Cash positioning reports",
             "Variance analysis",
-            "Integrate with all Saudi and UAE banks",
+            "SWIFT connectivity to 30+ banks, plus KSA open banking",
             "Unlimited bank connections",
             "Derivatives (Options, Futures, Commodity Swap, Forward Rate Agreement)",
             "ERP Integration (Oracle, SAP)",
@@ -177,7 +172,7 @@
             "Dedicated CSM",
             "White-glove implementation",
             "SLA guarantees",
-            "SSO / SAML"
+            "SSO with Microsoft"
           ]
         }
       }
@@ -224,7 +219,7 @@
         },
         "trial": {
           "question": "Can we start with a trial?",
-          "answer": "Yes. We offer a guided proof-of-concept period where you can evaluate TiJori with your own data and bank connections. Our implementation team will work with you to ensure a meaningful evaluation within a defined timeframe."
+          "answer": "We don't offer a free trial. Book a 30-minute demo and we will walk you through TiJori using scenarios that match your facilities, banks and entities."
         },
         "implementation": {
           "question": "What is included in implementation?",
@@ -296,7 +291,7 @@
         },
         "mfa": {
           "title": "Multi-Factor Authentication",
-          "description": "Enforce MFA across your organization with support for TOTP authenticator apps, FIDO2 hardware security keys, and enterprise SSO integration via SAML 2.0 and OIDC."
+          "description": "Enforce multi-factor authentication across your organization, with single sign-on through Microsoft (Entra ID)."
         },
         "rbac": {
           "title": "Role-Based Access Control",
@@ -308,11 +303,11 @@
         },
         "auditLogs": {
           "title": "Immutable Audit Logs",
-          "description": "Every user action, system event, and data change is recorded in a tamper-proof audit trail. Logs are retained for a minimum of seven years and exportable for external review."
+          "description": "Every user action, system event, and data change is recorded in a tamper-proof audit trail that can be exported for external review."
         },
         "dataResidency": {
-          "title": "Data Residency Options",
-          "description": "Choose your data center region to meet regulatory and internal policy requirements. Available regions include US (East/West), EU (Frankfurt/Dublin), and APAC (Singapore/Sydney)."
+          "title": "In-Region Hosting",
+          "description": "TiJori runs in your own OCI tenancy or on Oracle Cloud Infrastructure in your region, with disaster recovery in a separate region."
         }
       }
     },
@@ -320,12 +315,11 @@
       "title": "Infrastructure & Operations",
       "description": "Our platform is engineered for reliability, resilience, and operational transparency, so your treasury operations never miss a beat.",
       "items": {
-        "uptime": { "metric": "99.99%", "label": "Uptime SLA", "detail": "Contractual uptime guarantee with service credits for any shortfall" },
-        "deployment": { "metric": "Multi-Region", "label": "Deployment", "detail": "Active-active architecture across multiple availability zones for failover resilience" },
-        "backups": { "metric": "Daily", "label": "Encrypted Backups", "detail": "Automated daily backups with AES-256 encryption and 90-day retention policy" },
+        "uptime": { "metric": "99.9%", "label": "Uptime SLA", "detail": "No production downtime to date at our live clients" },
+        "deployment": { "metric": "In-Region", "label": "Deployment", "detail": "Deployed in the customer's region, with a disaster recovery site in a separate region" },
+        "backups": { "metric": "Daily", "label": "Encrypted Backups", "detail": "Automated daily encrypted backups on OCI with 90-day retention" },
         "monitoring": { "metric": "24/7", "label": "Security Monitoring", "detail": "Dedicated Security Operations Center with real-time threat detection and incident response" },
-        "pentest": { "metric": "Annual", "label": "Penetration Testing", "detail": "Comprehensive penetration tests conducted by independent third-party security firms" },
-        "bugBounty": { "metric": "Active", "label": "Bug Bounty Program", "detail": "Responsible disclosure program rewarding security researchers who identify vulnerabilities" }
+        "pentest": { "metric": "Annual", "label": "Penetration Testing", "detail": "Comprehensive penetration tests conducted by independent third-party security firms" }
       }
     },
     "faq": {
@@ -334,11 +328,11 @@
       "items": {
         "encryption": {
           "question": "How is my data encrypted?",
-          "answer": "All data is encrypted at rest using AES-256 and in transit using TLS 1.3. Encryption keys are managed through a dedicated key management service with automatic rotation on a regular schedule. Database-level encryption ensures that even raw storage access cannot expose sensitive treasury data. We also support customer-managed encryption keys (CMEK) for organizations that require full key ownership."
+          "answer": "All data is encrypted at rest using AES-256 and in transit using TLS 1.3. Encryption keys are managed through a dedicated key management service with automatic rotation on a regular schedule. Database-level encryption ensures that even raw storage access cannot expose sensitive treasury data."
         },
         "storage": {
           "question": "Where is my data stored?",
-          "answer": "TiJori offers data residency options across three regions: United States (US-East, US-West), European Union (Frankfurt, Dublin), and Asia-Pacific (Singapore, Sydney). You select your primary region during onboarding, and all data storage and processing remains within that region. This architecture supports compliance with local regulations including GDPR, data sovereignty laws, and internal corporate policies."
+          "answer": "Your data stays in your region. TiJori is deployed either in your own Oracle Cloud (OCI) tenancy or on OCI hosted in your region, with disaster recovery in a separate region."
         },
         "incidents": {
           "question": "How do you handle security incidents?",
@@ -350,7 +344,7 @@
         },
         "sso": {
           "question": "Do you support Single Sign-On (SSO)?",
-          "answer": "Yes. TiJori supports SAML 2.0 and OpenID Connect (OIDC) for enterprise Single Sign-On. We integrate with all major identity providers including Okta, Azure Active Directory, Google Workspace, OneLogin, and PingIdentity. SSO is included on all enterprise plans at no additional cost. We also support SCIM for automated user provisioning and deprovisioning to streamline identity lifecycle management."
+          "answer": "Yes. TiJori supports single sign-on with Microsoft (Entra ID, formerly Azure Active Directory), so your team signs in with their existing company accounts."
         }
       }
     },

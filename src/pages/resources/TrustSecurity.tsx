@@ -54,6 +54,14 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
+      name: 'Where is my data stored?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Your data stays in your region. TiJori is deployed either in your own Oracle Cloud (OCI) tenancy or on OCI hosted in your region, with disaster recovery in a separate region.'
+      }
+    },
+    {
+      '@type': 'Question',
       name: 'How do you handle security incidents?',
       acceptedAnswer: {
         '@type': 'Answer',
@@ -65,13 +73,13 @@ const faqSchema = {
       name: 'Do you support Single Sign-On (SSO)?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. TiJori supports SAML 2.0 and OpenID Connect (OIDC) for enterprise SSO integration. We work with all major identity providers including Okta, Azure AD, Google Workspace, and OneLogin. SSO is available on all enterprise plans at no additional cost.'
+        text: 'Yes. TiJori supports single sign-on with Microsoft (Entra ID, formerly Azure Active Directory), so your team signs in with their existing company accounts.'
       }
     }
   ]
 };
 
-const securityFeatureKeys = ['encryption', 'mfa', 'rbac', 'dualApproval', 'auditLogs'] as const;
+const securityFeatureKeys = ['encryption', 'mfa', 'rbac', 'dualApproval', 'auditLogs', 'dataResidency'] as const;
 
 const securityIcons: Record<string, React.ReactNode> = {
   encryption: (
@@ -98,11 +106,16 @@ const securityIcons: Record<string, React.ReactNode> = {
     <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
     </svg>
+  ),
+  dataResidency: (
+    <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+    </svg>
   )
 };
 
-const infraKeys = ['uptime', 'deployment', 'backups', 'monitoring', 'pentest', 'bugBounty'] as const;
-const faqKeys = ['encryption', 'incidents', 'sso'] as const;
+const infraKeys = ['uptime', 'deployment', 'backups', 'monitoring', 'pentest'] as const;
+const faqKeys = ['encryption', 'storage', 'incidents', 'sso'] as const;
 
 export default function TrustSecurity() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -116,7 +129,7 @@ export default function TrustSecurity() {
       <SEOHead
         title={t('trustSecurity.seo.title')}
         description={t('trustSecurity.seo.description')}
-        keywords={seoKeywords}
+        keywords={seoKeywords}
       />
       <SchemaMarkup schema={organizationSchema} />
       <SchemaMarkup schema={breadcrumbSchema} />

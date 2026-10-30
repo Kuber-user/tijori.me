@@ -32,7 +32,7 @@ export default function ConnectivityHub() {
 
   const productSchema = createProductSchema(
     'TiJori Connectivity Hub',
-    '200+ integrations with banks and ERPs for automated treasury data flow'
+    'SWIFT connectivity to 30+ banks and ERP integrations for automated treasury data flow'
   );
 
   const breadcrumbSchema = createBreadcrumbSchema([
