@@ -10,7 +10,7 @@ The user is not a developer. Ask only for what is missing, in plain language, an
 ## 1. Gather the facts (never invent them)
 
 Each post needs:
-- **Type**: `event`, `partnership`, `customer` or `insight`
+- **Type**: `announcement` (company news such as listings, offices, launches), `event`, `partnership`, `customer` or `insight`
 - **Date** (YYYY-MM-DD) and, for events, the **location**
 - **What happened**: two or three lines from the user is enough
 - **Photos** (optional): file paths the user gives, or attached images

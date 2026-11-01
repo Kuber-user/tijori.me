@@ -10,12 +10,14 @@
   },
   "types": {
     "all": "All",
+    "announcement": "Company News",
     "event": "Event",
     "partnership": "Partnership",
     "customer": "Customer Story",
     "insight": "Insight"
   },
   "filters": {
+    "announcement": "Company News",
     "event": "Events",
     "partnership": "Partnerships",
     "customer": "Customer Stories",

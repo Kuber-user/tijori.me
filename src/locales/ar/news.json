@@ -10,12 +10,14 @@
   },
   "types": {
     "all": "الكل",
+    "announcement": "أخبار الشركة",
     "event": "فعالية",
     "partnership": "شراكة",
     "customer": "قصة عميل",
     "insight": "رؤية"
   },
   "filters": {
+    "announcement": "أخبار الشركة",
     "event": "الفعاليات",
     "partnership": "الشراكات",
     "customer": "قصص العملاء",

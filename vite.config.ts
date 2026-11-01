@@ -58,9 +58,11 @@ function newsPages(): Plugin {
 
         for (const lang of LANGS) {
           const data = (lang === 'ar' && read('ar')) || en
+          const title = String(data.title)
           pages.push({
             path: `/${lang}/news/${slug}`,
-            title: `${String(data.title)} | Tijori`,
+            // Same rule as SEOHead: add the brand only when the title doesn't already have it
+            title: /Tijori|تيجوري/.test(title) ? title : `${title} | ${lang === 'ar' ? 'تيجوري' : 'Tijori'}`,
             description: String(data.summary ?? ''),
             image,
           })

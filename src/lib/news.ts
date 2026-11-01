@@ -6,7 +6,7 @@ import type { FrontMatterValue } from './frontmatter';
 // Shared fields (date, type, cover, gallery, draft) are read from en.md.
 // Images go in public/news/<slug>/ and are referenced by file name.
 
-export const newsTypes = ['event', 'partnership', 'customer', 'insight'] as const;
+export const newsTypes = ['announcement', 'event', 'partnership', 'customer', 'insight'] as const;
 export type NewsType = (typeof newsTypes)[number];
 
 interface NewsText {
