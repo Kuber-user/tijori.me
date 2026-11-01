@@ -84,9 +84,7 @@ export default function RiskFX() {
     {
       category: t('riskFx.technicalSpecs.riskMetrics.title'),
       items: [
-        { label: t('riskFx.technicalSpecs.riskMetrics.items.sensitivity.label'), value: t('riskFx.technicalSpecs.riskMetrics.items.sensitivity.value') },
-        { label: t('riskFx.technicalSpecs.riskMetrics.items.stressTesting.label'), value: t('riskFx.technicalSpecs.riskMetrics.items.stressTesting.value') },
-        { label: t('riskFx.technicalSpecs.riskMetrics.items.backtesting.label'), value: t('riskFx.technicalSpecs.riskMetrics.items.backtesting.value') }
+        { label: t('riskFx.technicalSpecs.riskMetrics.items.stressTesting.label'), value: t('riskFx.technicalSpecs.riskMetrics.items.stressTesting.value') }
       ]
     },
     {
@@ -196,11 +194,9 @@ export default function RiskFX() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
+          <div className="max-w-md mx-auto mb-12">
             {[
-              { metric: t('riskFx.roi.metrics.fxCosts.value'), label: t('riskFx.roi.metrics.fxCosts.label'), sublabel: t('riskFx.roi.metrics.fxCosts.sublabel') },
-              { metric: t('riskFx.roi.metrics.exposureVisibility.value'), label: t('riskFx.roi.metrics.exposureVisibility.label'), sublabel: t('riskFx.roi.metrics.exposureVisibility.sublabel') },
-              { metric: t('riskFx.roi.metrics.hedgeEffectiveness.value'), label: t('riskFx.roi.metrics.hedgeEffectiveness.label'), sublabel: t('riskFx.roi.metrics.hedgeEffectiveness.sublabel') }
+              { metric: t('riskFx.roi.metrics.exposureVisibility.value'), label: t('riskFx.roi.metrics.exposureVisibility.label'), sublabel: t('riskFx.roi.metrics.exposureVisibility.sublabel') }
             ].map((stat) => (
               <div key={stat.label} className="text-center bg-gray-50 p-8 rounded-xl">
                 <div className="text-5xl font-bold text-gradient mb-2 ltr-nums">{stat.metric}</div>

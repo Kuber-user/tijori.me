@@ -750,10 +750,9 @@
     },
     "solution": {
       "title": "Unified FX Risk Intelligence",
-      "description": "TiJori consolidates your currency exposures and hedging activities into one intelligent platform with automated analysis and recommendations.",
+      "description": "TiJori consolidates your currency exposures and hedging activities into one platform with automated analysis.",
       "benefits": [
         "Real-time exposure aggregation across all entities",
-        "AI-powered hedging recommendations",
         "Automated hedge effectiveness tracking",
         "Consolidated currency risk dashboard",
         "Transparent hedging cost analysis"
@@ -790,23 +789,13 @@
       }
     },
     "roi": {
-      "title": "Measurable Impact on FX Costs",
-      "description": "Organizations using TiJori Risk & FX Management report significant improvements",
+      "title": "Complete Visibility of Your FX Risk",
+      "description": "Every currency exposure across your entities and banks, in one consolidated view",
       "metrics": {
-        "fxCosts": {
-          "value": "30%",
-          "label": "Reduction in FX costs",
-          "sublabel": "Through optimized hedging"
-        },
         "exposureVisibility": {
           "value": "100%",
           "label": "Exposure visibility",
           "sublabel": "Real-time consolidated view"
-        },
-        "hedgeEffectiveness": {
-          "value": "95%+",
-          "label": "Hedge effectiveness",
-          "sublabel": "Automated monitoring"
         }
       }
     },
@@ -814,7 +803,7 @@
       "instruments": {
         "title": "Instruments",
         "items": {
-          "spotForwards": { "label": "Spot & Forwards", "value": "All major and exotic currency pairs" },
+          "spotForwards": { "label": "Spot & Forwards", "value": "Major currency pairs" },
           "options": { "label": "Options", "value": "Vanilla options" },
           "swaps": { "label": "Swaps", "value": "FX swaps, cross-currency swaps" },
           "ndf": { "label": "NDF", "value": "Non-deliverable forwards" }
@@ -823,9 +812,7 @@
       "riskMetrics": {
         "title": "Risk Metrics",
         "items": {
-          "sensitivity": { "label": "Sensitivity", "value": "Delta, gamma, vega analysis" },
-          "stressTesting": { "label": "Stress Testing", "value": "Custom scenario modeling" },
-          "backtesting": { "label": "Backtesting", "value": "Model validation" }
+          "stressTesting": { "label": "Stress Testing", "value": "Custom scenario modeling" }
         }
       },
       "compliance": {
