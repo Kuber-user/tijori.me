@@ -133,7 +133,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
               <LocalizedLink to="/" className="inline-block">
-                <img src="/assets/logos/tijori_logo.png" alt="TiJori" className="h-12 brightness-0 invert" />
+                <img src="/assets/logos/tijori_logo.png" alt="Tijori" className="h-12 brightness-0 invert" />
               </LocalizedLink>
               <p className="text-gray-400 text-sm mt-2">
                 {t('footer.tagline')}

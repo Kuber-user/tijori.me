@@ -103,7 +103,7 @@ export default function AIForecasting() {
   ];
 
   const productSchema = createProductSchema(
-    'TiJori AI Cash Forecasting',
+    'Tijori AI Cash Forecasting',
     'ML-powered cash flow forecasting with 95%+ accuracy for proactive liquidity planning'
   );
 
@@ -124,7 +124,7 @@ export default function AIForecasting() {
       <SchemaMarkup schema={breadcrumbSchema} />
 
       {/* Hero */}
-      <Section background="gradient" padding="xl">
+      <Section background="dark" padding="xl">
         <Container>
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-white text-sm mb-6">

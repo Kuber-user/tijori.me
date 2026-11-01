@@ -10,13 +10,13 @@ export default function SEOHead({
   title,
   description,
   keywords = [],
-  ogImage = '/assets/screenshots/Homepage.png',
+  ogImage = '/assets/screenshots/treasury-overview.png',
   canonical,
   children
 }: SEOHeadProps) {
   const { pathname } = useLocation();
   const siteUrl = 'https://tijori.me';
-  const fullTitle = /TiJori|تيجوري/.test(title) ? title : `${title} | TiJori`;
+  const fullTitle = /Tijori|تيجوري/.test(title) ? title : `${title} | Tijori`;
   const canonicalUrl = canonical || `${siteUrl}${pathname}`;
   const imageUrl = `${siteUrl}${encodeURI(ogImage)}`;
 
@@ -40,7 +40,7 @@ export default function SEOHead({
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={imageUrl} />
-      <meta property="og:site_name" content="TiJori" />
+      <meta property="og:site_name" content="Tijori" />
 
       {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />

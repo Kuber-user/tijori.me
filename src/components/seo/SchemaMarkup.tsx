@@ -14,13 +14,13 @@ export default function SchemaMarkup({ schema }: SchemaMarkupProps) {
 export const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'SoftwareApplication',
-  name: 'TiJori',
+  name: 'Tijori',
   applicationCategory: 'BusinessApplication',
   description: 'Treasury Management System for enterprises',
   operatingSystem: 'Web',
   publisher: {
     '@type': 'Organization',
-    name: 'TiJori',
+    name: 'Tijori',
     logo: 'https://tijori.me/favicon-tijori.png',
     url: 'https://tijori.me'
   }
@@ -34,7 +34,7 @@ export function createProductSchema(name: string, description: string) {
     description,
     brand: {
       '@type': 'Brand',
-      name: 'TiJori'
+      name: 'Tijori'
     }
   };
 }

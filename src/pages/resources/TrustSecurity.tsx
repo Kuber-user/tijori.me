@@ -9,11 +9,11 @@ import Button from '../../components/common/Button';
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
-  name: 'TiJori',
+  name: 'Tijori',
   url: 'https://tijori.me',
   logo: 'https://tijori.me/favicon-tijori.png',
   description:
-    'Treasury management platform for Middle East corporates, with AES-256 encryption, role-based access and dual approval workflows.'
+    'Treasury management platform for corporates across the GCC and Asia, with AES-256 encryption, role-based access and dual approval workflows.'
 };
 
 const breadcrumbSchema = {
@@ -57,7 +57,7 @@ const faqSchema = {
       name: 'Where is my data stored?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Your data stays in your region. TiJori is deployed either in your own Oracle Cloud (OCI) tenancy or on OCI hosted in your region, with disaster recovery in a separate region.'
+        text: 'Your data stays in your region. Tijori is deployed either in your own Oracle Cloud (OCI) tenancy or on OCI hosted in your region, with disaster recovery in a separate region.'
       }
     },
     {
@@ -73,7 +73,7 @@ const faqSchema = {
       name: 'Do you support Single Sign-On (SSO)?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. TiJori supports single sign-on with Microsoft (Entra ID, formerly Azure Active Directory), so your team signs in with their existing company accounts.'
+        text: 'Yes. Tijori supports single sign-on with Microsoft (Entra ID, formerly Azure Active Directory), so your team signs in with their existing company accounts.'
       }
     }
   ]

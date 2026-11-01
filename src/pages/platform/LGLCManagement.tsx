@@ -101,7 +101,7 @@ export default function LGLCManagement() {
   ];
 
   const productSchema = createProductSchema(
-    'TiJori LG/LC Management',
+    'Tijori LG/LC Management',
     'Letter of Guarantee and Letter of Credit lifecycle management and tracking'
   );
 
@@ -122,7 +122,7 @@ export default function LGLCManagement() {
       <SchemaMarkup schema={breadcrumbSchema} />
 
       {/* Hero */}
-      <Section background="gradient" padding="xl">
+      <Section background="dark" padding="xl">
         <Container>
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-white text-sm mb-6">

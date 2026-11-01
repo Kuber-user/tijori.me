@@ -34,7 +34,7 @@ export default function Header() {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <LocalizedLink to="/" className="flex items-center">
-              <img src="/assets/logos/tijori_logo.png" alt="TiJori" className="h-14" />
+              <img src="/assets/logos/tijori_logo.png" alt="Tijori" className="h-14" />
             </LocalizedLink>
 
             {/* Desktop Navigation */}

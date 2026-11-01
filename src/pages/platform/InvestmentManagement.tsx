@@ -102,7 +102,7 @@ export default function InvestmentManagement() {
   ];
 
   const productSchema = createProductSchema(
-    'TiJori Investment Management',
+    'Tijori Investment Management',
     'Portfolio tracking, maturity management, and yield optimization across instruments'
   );
 
@@ -123,7 +123,7 @@ export default function InvestmentManagement() {
       <SchemaMarkup schema={breadcrumbSchema} />
 
       {/* Hero */}
-      <Section background="gradient" padding="xl">
+      <Section background="dark" padding="xl">
         <Container>
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-white text-sm mb-6">

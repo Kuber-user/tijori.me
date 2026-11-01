@@ -16,7 +16,7 @@ export default function NotFound() {
   return (
     <>
       <SEOHead
-        title="Page Not Found | TiJori"
+        title="Page Not Found | Tijori"
         description="The page you're looking for doesn't exist."
       />
 

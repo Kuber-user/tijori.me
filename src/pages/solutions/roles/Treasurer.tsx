@@ -80,11 +80,11 @@ export default function Treasurer() {
   ];
 
   const workflowSteps = [
-    { time: '8:00 AM', title: 'Automated Bank Balance Aggregation', description: 'TiJori retrieves opening balances and prior-day statements from all connected banks. Your consolidated cash position is ready before you arrive.' },
+    { time: '8:00 AM', title: 'Automated Bank Balance Aggregation', description: 'Tijori retrieves opening balances and prior-day statements from all connected banks. Your consolidated cash position is ready before you arrive.' },
     { time: '9:00 AM', title: 'Review Cash Position & Variances', description: 'Examine the real-time cash dashboard, review variances against forecasts, and identify any unexpected movements or exceptions requiring attention.' },
     { time: '10:00 AM', title: 'Initiate & Approve Payments', description: 'Process scheduled payments, approve pending requests through the dual-approval workflow, and release payment files to banking partners.' },
     { time: '2:00 PM', title: 'Monitor Intraday Positions', description: 'Track intraday balance movements, review incoming receipts against expectations, and adjust short-term investment or borrowing decisions accordingly.' },
-    { time: '5:00 PM', title: 'Automated End-of-Day Reporting', description: 'TiJori generates closing position reports, reconciliation summaries, and variance analyses automatically. Reports are distributed to stakeholders on schedule.' }
+    { time: '5:00 PM', title: 'Automated End-of-Day Reporting', description: 'Tijori generates closing position reports, reconciliation summaries, and variance analyses automatically. Reports are distributed to stakeholders on schedule.' }
   ];
 
   return (
@@ -96,7 +96,7 @@ export default function Treasurer() {
       />
 
       {/* Hero */}
-      <Section background="gradient" padding="xl">
+      <Section background="dark" padding="xl">
         <Container>
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-white text-sm mb-6">
@@ -149,7 +149,7 @@ export default function Treasurer() {
         </Container>
       </Section>
 
-      {/* How TiJori Helps */}
+      {/* How Tijori Helps */}
       <Section background="gray" padding="lg">
         <Container>
           <div className="text-center mb-12" id="how-tijori-helps">
@@ -162,7 +162,7 @@ export default function Treasurer() {
           <div className="grid md:grid-cols-2 gap-8">
             {features.map((feature) => (
               <div key={feature.title} className="bg-white rounded-xl p-8 shadow-sm">
-                <div className="w-14 h-14 bg-blue-50 text-blue-600 rounded-xl flex items-center justify-center mb-5">
+                <div className="w-14 h-14 bg-primary-50 text-primary-600 rounded-xl flex items-center justify-center mb-5">
                   {feature.icon}
                 </div>
                 <h3 className="text-xl font-semibold mb-3">{feature.title}</h3>
@@ -177,9 +177,9 @@ export default function Treasurer() {
       <Section background="white" padding="lg">
         <Container>
           <div className="text-center mb-12">
-            <h2 className="mb-4">Your Daily Workflow with TiJori</h2>
+            <h2 className="mb-4">Your Daily Workflow with Tijori</h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-              From opening balance aggregation to end-of-day reporting, TiJori structures and automates your entire treasury day.
+              From opening balance aggregation to end-of-day reporting, Tijori structures and automates your entire treasury day.
             </p>
           </div>
 
@@ -187,11 +187,11 @@ export default function Treasurer() {
             {workflowSteps.map((step, index) => (
               <div key={step.time} className="flex gap-6 mb-8 last:mb-0">
                 <div className="flex flex-col items-center">
-                  <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center font-semibold text-sm shrink-0">
+                  <div className="w-16 h-16 bg-primary-600 text-white rounded-full flex items-center justify-center font-semibold text-sm shrink-0">
                     {step.time}
                   </div>
                   {index < workflowSteps.length - 1 && (
-                    <div className="w-0.5 h-full bg-blue-200 mt-2" />
+                    <div className="w-0.5 h-full bg-primary-50 mt-2" />
                   )}
                 </div>
                 <div className="pt-2 pb-4">
@@ -208,7 +208,7 @@ export default function Treasurer() {
       <Section background="gray" padding="lg">
         <Container>
           <div className="text-center mb-12">
-            <h2 className="mb-4">See TiJori in Action</h2>
+            <h2 className="mb-4">See Tijori in Action</h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
               A unified platform for bank balance visibility and payment execution.
             </p>

@@ -17,7 +17,7 @@ export default function Badge({
     primary: 'bg-primary-100 text-primary-700',
     secondary: 'bg-secondary-cyan/10 text-secondary-cyan',
     success: 'bg-green-100 text-green-700',
-    info: 'bg-blue-100 text-blue-700',
+    info: 'bg-primary-50 text-primary-600',
     warning: 'bg-yellow-100 text-yellow-700'
   };
 

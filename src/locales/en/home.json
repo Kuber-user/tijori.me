@@ -1,13 +1,13 @@
 {
   "seo": {
-    "title": "TiJori — AI-Powered Treasury Management Platform",
-    "description": "TiJori — The AI-powered treasury management platform for real-time cash visibility, forecasting, and control. The intelligence layer for your cash & liquidity management.",
-    "keywords": ["treasury management system", "TMS", "cash flow forecasting", "liquidity management", "TiJori"]
+    "title": "Tijori — Treasury Management Software for the GCC & Asia",
+    "description": "Tijori brings cash, investments, FX, debt, trade finance and payments into one treasury platform, connected to your banks and ERP. Built for multi-bank, multi-entity groups across the GCC and Asia.",
+    "keywords": ["treasury management system", "TMS", "cash flow forecasting", "liquidity management", "Tijori"]
   },
   "hero": {
-    "badge": "First Middle East Treasury Platform",
-    "headline": "Somewhere in Your Portfolio, a Bank Guarantee Is About to Expire. Do You Know Which One?",
-    "subheadline": "Tijori tracks every BG, LC, loan and facility — with alerts before it costs you.",
+    "badge": "Treasury Management for the GCC & Asia",
+    "headline": "Every Bank. Every Entity.\n*One Treasury.*",
+    "subheadline": "Cash, investments, FX, debt, trade finance and payments in one platform — connected to your banks and ERP.",
     "stats": {
       "facilitiesManaged": {
         "value": "$43B+",
@@ -22,7 +22,7 @@
         "label": "Hours Saved Weekly"
       }
     },
-    "imageAlt": "TiJori Treasury Operations Dashboard"
+    "imageAlt": "Tijori Treasury Overview dashboard showing bank balances, investments, FX exposure, debt and payments"
   },
   "socialProof": {
     "title": "Connected via SWIFT to 30+ Banks across the UAE, KSA, Turkey, Egypt & Pakistan",
@@ -63,7 +63,7 @@
   "platformOverview": {
     "title": "Complete Treasury Platform",
     "description": "Facilities, loans, LG/LC, cash and payments for multi-bank, multi-entity groups — in one platform",
-    "screenshotCaption": "TiJori Treasury Dashboard - Real-time cash visibility"
+    "screenshotCaption": "Tijori Treasury Dashboard - Real-time cash visibility"
   },
   "threePillars": {
     "title": "Comprehensive Treasury Management",
@@ -88,7 +88,7 @@
   },
   "roi": {
     "title": "Measurable Impact on Your Treasury",
-    "description": "Results measured at live TiJori clients",
+    "description": "Results measured at live Tijori clients",
     "metrics": {
       "idleCash": {
         "value": "30%",
@@ -112,13 +112,13 @@
       }
     },
     "testimonial": {
-      "quote": "TiJori transformed how we manage treasury. Real-time visibility across 50+ bank accounts.",
+      "quote": "Tijori transformed how we manage treasury. Real-time visibility across 50+ bank accounts.",
       "author": "Nishant Shah",
       "company": "Dubai Investments"
     }
   },
   "cta": {
     "title": "Ready to transform your treasury operations?",
-    "description": "See how TiJori clients cut idle cash by 30% and save 15+ hours a week — in a 30-minute demo."
+    "description": "See how Tijori clients cut idle cash by 30% and save 15+ hours a week — in a 30-minute demo."
   }
 }

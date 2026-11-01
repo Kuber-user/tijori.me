@@ -163,7 +163,7 @@ export default function Hero() {
 
             {/* Screenshot */}
             <img
-              src="/assets/screenshots/Homepage.png"
+              src="/assets/screenshots/treasury-overview.png"
               alt={t('hero.imageAlt')}
               className="w-full block"
             />

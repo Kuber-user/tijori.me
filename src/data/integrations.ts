@@ -51,7 +51,7 @@ export const integrations: Integration[] = [
     id: 'any-erp',
     name: 'Any ERP via API or SFTP',
     category: 'ERP',
-    description: 'TiJori is ERP-agnostic: we connect to any ERP through APIs or SFTP file exchange',
+    description: 'Tijori is ERP-agnostic: we connect to any ERP through APIs or SFTP file exchange',
     features: ['API integration', 'SFTP file exchange', 'GL and payment data sync'],
     slug: 'any-erp'
   },
@@ -99,7 +99,7 @@ export const integrations: Integration[] = [
     id: 'fab',
     name: 'First Abu Dhabi Bank (FAB)',
     category: 'Bank',
-    description: 'UAE · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'UAE · Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'fab'
   },
@@ -107,7 +107,7 @@ export const integrations: Integration[] = [
     id: 'enbd',
     name: 'Emirates NBD',
     category: 'Bank',
-    description: 'UAE · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'UAE · Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'enbd'
   },
@@ -115,7 +115,7 @@ export const integrations: Integration[] = [
     id: 'adcb',
     name: 'Abu Dhabi Commercial Bank (ADCB)',
     category: 'Bank',
-    description: 'UAE · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'UAE · Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'adcb'
   },
@@ -123,7 +123,7 @@ export const integrations: Integration[] = [
     id: 'adib',
     name: 'Abu Dhabi Islamic Bank (ADIB)',
     category: 'Bank',
-    description: 'UAE · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'UAE · Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'adib'
   },
@@ -131,7 +131,7 @@ export const integrations: Integration[] = [
     id: 'mashreq',
     name: 'Mashreq Bank',
     category: 'Bank',
-    description: 'UAE · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'UAE · Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'mashreq'
   },
@@ -139,7 +139,7 @@ export const integrations: Integration[] = [
     id: 'alinma',
     name: 'Alinma Bank',
     category: 'Bank',
-    description: 'KSA · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'KSA · Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'alinma'
   },
@@ -147,7 +147,7 @@ export const integrations: Integration[] = [
     id: 'qnb',
     name: 'QNB',
     category: 'Bank',
-    description: 'Qatar · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'Qatar · Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'qnb'
   },
@@ -155,7 +155,7 @@ export const integrations: Integration[] = [
     id: 'nbk',
     name: 'National Bank of Kuwait (NBK)',
     category: 'Bank',
-    description: 'Kuwait · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'Kuwait · Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'nbk'
   },
@@ -163,7 +163,7 @@ export const integrations: Integration[] = [
     id: 'abk',
     name: 'Al Ahli Bank of Kuwait (ABK)',
     category: 'Bank',
-    description: 'Kuwait · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'Kuwait · Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'abk'
   },
@@ -171,7 +171,7 @@ export const integrations: Integration[] = [
     id: 'aub',
     name: 'Ahli United Bank (AUB)',
     category: 'Bank',
-    description: 'Bahrain · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'Bahrain · Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'aub'
   },
@@ -179,7 +179,7 @@ export const integrations: Integration[] = [
     id: 'bank-abc',
     name: 'Bank ABC',
     category: 'Bank',
-    description: 'Bahrain · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'Bahrain · Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'bank-abc'
   },
@@ -187,7 +187,7 @@ export const integrations: Integration[] = [
     id: 'cib',
     name: 'Commercial International Bank (CIB)',
     category: 'Bank',
-    description: 'Egypt · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'Egypt · Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'cib'
   },
@@ -195,7 +195,7 @@ export const integrations: Integration[] = [
     id: 'banque-misr',
     name: 'Banque Misr',
     category: 'Bank',
-    description: 'Egypt · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'Egypt · Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'banque-misr'
   },
@@ -203,7 +203,7 @@ export const integrations: Integration[] = [
     id: 'aaib',
     name: 'Arab African International Bank (AAIB)',
     category: 'Bank',
-    description: 'Egypt · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'Egypt · Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'aaib'
   },
@@ -211,7 +211,7 @@ export const integrations: Integration[] = [
     id: 'attijariwafa',
     name: 'Attijariwafa Bank',
     category: 'Bank',
-    description: 'Morocco · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'Morocco · Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'attijariwafa'
   },
@@ -219,7 +219,7 @@ export const integrations: Integration[] = [
     id: 'akbank',
     name: 'Akbank',
     category: 'Bank',
-    description: 'Turkey · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'Turkey · Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'akbank'
   },
@@ -227,7 +227,7 @@ export const integrations: Integration[] = [
     id: 'garanti',
     name: 'Garanti BBVA',
     category: 'Bank',
-    description: 'Turkey · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'Turkey · Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'garanti'
   },
@@ -235,7 +235,7 @@ export const integrations: Integration[] = [
     id: 'teb',
     name: 'TEB',
     category: 'Bank',
-    description: 'Turkey · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'Turkey · Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'teb'
   },
@@ -243,7 +243,7 @@ export const integrations: Integration[] = [
     id: 'ziraat',
     name: 'Ziraat Bankası',
     category: 'Bank',
-    description: 'Turkey · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'Turkey · Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'ziraat'
   },
@@ -251,7 +251,7 @@ export const integrations: Integration[] = [
     id: 'vakifbank',
     name: 'VakıfBank',
     category: 'Bank',
-    description: 'Turkey · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'Turkey · Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'vakifbank'
   },
@@ -259,7 +259,7 @@ export const integrations: Integration[] = [
     id: 'halkbank',
     name: 'Halkbank',
     category: 'Bank',
-    description: 'Turkey · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'Turkey · Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'halkbank'
   },
@@ -267,7 +267,7 @@ export const integrations: Integration[] = [
     id: 'hbl',
     name: 'Habib Bank Limited (HBL)',
     category: 'Bank',
-    description: 'Pakistan · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'Pakistan · Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'hbl'
   },
@@ -275,7 +275,7 @@ export const integrations: Integration[] = [
     id: 'kotak',
     name: 'Kotak Mahindra Bank',
     category: 'Bank',
-    description: 'India · Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'India · Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'kotak'
   },
@@ -283,7 +283,7 @@ export const integrations: Integration[] = [
     id: 'hsbc',
     name: 'HSBC',
     category: 'Bank',
-    description: 'Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'hsbc'
   },
@@ -291,7 +291,7 @@ export const integrations: Integration[] = [
     id: 'citi',
     name: 'Citi',
     category: 'Bank',
-    description: 'Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'citi'
   },
@@ -299,7 +299,7 @@ export const integrations: Integration[] = [
     id: 'scb',
     name: 'Standard Chartered',
     category: 'Bank',
-    description: 'Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'scb'
   },
@@ -307,7 +307,7 @@ export const integrations: Integration[] = [
     id: 'bnp',
     name: 'BNP Paribas',
     category: 'Bank',
-    description: 'Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'bnp'
   },
@@ -315,7 +315,7 @@ export const integrations: Integration[] = [
     id: 'julius-baer',
     name: 'Julius Baer',
     category: 'Bank',
-    description: 'Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'julius-baer'
   },
@@ -323,7 +323,7 @@ export const integrations: Integration[] = [
     id: 'safra-sarasin',
     name: 'J. Safra Sarasin',
     category: 'Bank',
-    description: 'Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'safra-sarasin'
   },
@@ -331,7 +331,7 @@ export const integrations: Integration[] = [
     id: 'bank-of-baroda',
     name: 'Bank of Baroda',
     category: 'Bank',
-    description: 'Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'bank-of-baroda'
   },
@@ -339,7 +339,7 @@ export const integrations: Integration[] = [
     id: 'santander',
     name: 'Santander',
     category: 'Bank',
-    description: 'Connected via SWIFT. Statements and balances flow into TiJori automatically',
+    description: 'Connected via SWIFT. Statements and balances flow into Tijori automatically',
     features: ['SWIFT MT940 statements', 'Balance reporting'],
     slug: 'santander'
   },
