@@ -30,6 +30,7 @@ export default function Footer() {
       { labelKey: 'solutions.ecommerce', path: '/solutions/ecommerce' },
     ],
     resources: [
+      { labelKey: 'resources.news', path: '/news' },
       { labelKey: 'resources.trustSecurity', path: '/resources/trust-security' },
     ],
     company: [

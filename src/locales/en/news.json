@@ -1,0 +1,34 @@
+{
+  "seo": {
+    "title": "News & Insights",
+    "description": "Events, partnerships, customer stories and treasury insights from the Tijori team.",
+    "keywords": ["tijori news", "treasury management insights", "treasury events", "tijori partnerships"]
+  },
+  "hero": {
+    "title": "News & Insights",
+    "description": "Where we have been, who we are working with, and what we are learning about treasury across the GCC and Asia."
+  },
+  "types": {
+    "all": "All",
+    "event": "Event",
+    "partnership": "Partnership",
+    "customer": "Customer Story",
+    "insight": "Insight"
+  },
+  "filters": {
+    "event": "Events",
+    "partnership": "Partnerships",
+    "customer": "Customer Stories",
+    "insight": "Insights"
+  },
+  "latest": {
+    "title": "Latest from Tijori",
+    "description": "Events, partnerships and insights from our team",
+    "viewAll": "View all news & insights"
+  },
+  "readMore": "Read more",
+  "backToNews": "Back to News & Insights",
+  "gallery": "Gallery",
+  "draft": "Draft — only visible on the local preview",
+  "empty": "No posts yet. Check back soon."
+}

@@ -9,6 +9,7 @@ import enHome from '../locales/en/home.json';
 import enPlatform from '../locales/en/platform.json';
 import enSolutions from '../locales/en/solutions.json';
 import enCompany from '../locales/en/company.json';
+import enNews from '../locales/en/news.json';
 
 // Arabic translations
 import arCommon from '../locales/ar/common.json';
@@ -17,6 +18,7 @@ import arHome from '../locales/ar/home.json';
 import arPlatform from '../locales/ar/platform.json';
 import arSolutions from '../locales/ar/solutions.json';
 import arCompany from '../locales/ar/company.json';
+import arNews from '../locales/ar/news.json';
 
 export const defaultNS = 'common';
 
@@ -28,6 +30,7 @@ export const resources = {
     platform: enPlatform,
     solutions: enSolutions,
     company: enCompany,
+    news: enNews,
   },
   ar: {
     common: arCommon,
@@ -36,6 +39,7 @@ export const resources = {
     platform: arPlatform,
     solutions: arSolutions,
     company: arCompany,
+    news: arNews,
   },
 } as const;
 
@@ -46,7 +50,7 @@ i18n
     resources,
     fallbackLng: 'en',
     defaultNS,
-    ns: ['common', 'navigation', 'home', 'platform', 'solutions', 'company'],
+    ns: ['common', 'navigation', 'home', 'platform', 'solutions', 'company', 'news'],
     interpolation: {
       escapeValue: false,
     },

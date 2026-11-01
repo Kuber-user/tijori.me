@@ -6,6 +6,7 @@ import SocialProofBar from '../components/home/SocialProofBar';
 import PlatformOverview from '../components/home/PlatformOverview';
 import ThreePillars from '../components/home/ThreePillars';
 import ROIMetrics from '../components/home/ROIMetrics';
+import LatestNews from '../components/home/LatestNews';
 import CTASection from '../components/home/CTASection';
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
       <PlatformOverview />
       <ThreePillars />
       <ROIMetrics />
+      <LatestNews />
       <CTASection />
     </>
   );
