@@ -3,6 +3,7 @@ title: We rebuilt our FX exposure view six times. Here's where we landed.
 summary: A clutter-free FX exposure dashboard for dealers, refreshed every 15 minutes from your ERP to guide hedging decisions.
 type: insight
 date: 2026-06-30
+cover: cover.png
 draft: false
 ---
 
@@ -15,6 +16,8 @@ An FX dashboard can easily show everything and help with nothing. Each round of 
 - **Timeline:** when do our exposures fall due?
 - **Context:** how big is each exposure, and where does it come from?
 - **Direction:** which way is it moving, and does it need action?
+
+![Exposure summary in Tijori, with AP, AR, PO, SO and treasury exposures](/news/fx-exposure-dashboard/exposure-summary.png)
 
 ## Fresh data, straight from the ERP
 

@@ -3,6 +3,7 @@ title: Tijori is now on Oracle Cloud Marketplace
 summary: Oracle customers can now find Tijori Treasury Management System directly on Oracle Cloud Marketplace.
 type: announcement
 date: 2026-10-04
+cover: cover.jpg
 draft: false
 ---
 

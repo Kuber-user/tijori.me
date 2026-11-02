@@ -3,6 +3,7 @@ title: "Up to 14% on idle dollars? How leveraged FCNR(B) deposits really work"
 summary: Indian banks overseas are offering up to 14% on dollar deposits using 9x leverage. Here is the maths, the SOFR risk, and how to model it before you lock in.
 type: insight
 date: 2026-06-17
+cover: cover.png
 draft: false
 ---
 

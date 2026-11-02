@@ -4,6 +4,7 @@ summary: Tijori was Silver Partner at the 26th CFO Leadership Summit in Riyadh, 
 type: event
 date: 2026-10-07
 location: Riyadh Marriott Hotel, Riyadh
+cover: booth.jpg
 draft: false
 ---
 
