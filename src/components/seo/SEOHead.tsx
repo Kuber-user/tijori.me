@@ -16,7 +16,8 @@ export default function SEOHead({
 }: SEOHeadProps) {
   const { pathname } = useLocation();
   const siteUrl = 'https://tijori.me';
-  const fullTitle = /Tijori|تيجوري/.test(title) ? title : `${title} | Tijori`;
+  const brand = /^\/ar(\/|$)/.test(pathname) ? 'تيجوري' : 'Tijori';
+  const fullTitle = /Tijori|تيجوري/.test(title) ? title : `${title} | ${brand}`;
   const canonicalUrl = canonical || `${siteUrl}${pathname}`;
   const imageUrl = `${siteUrl}${encodeURI(ogImage)}`;
 

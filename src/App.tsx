@@ -40,6 +40,10 @@ import About from './pages/company/About';
 import Contact from './pages/company/Contact';
 import Pricing from './pages/company/Pricing';
 
+// News & Insights
+import NewsList from './pages/news/NewsList';
+import NewsPost from './pages/news/NewsPost';
+
 // Language wrapper component that syncs URL language with i18n
 function LanguageWrapper() {
   const { lang } = useParams<{ lang: string }>();
@@ -105,6 +109,10 @@ function App() {
             <Route path="company/about" element={<About />} />
             <Route path="company/contact" element={<Contact />} />
             <Route path="pricing" element={<Pricing />} />
+
+            {/* News & Insights */}
+            <Route path="news" element={<NewsList />} />
+            <Route path="news/:slug" element={<NewsPost />} />
 
             {/* 404 */}
             <Route path="*" element={<NotFound />} />
