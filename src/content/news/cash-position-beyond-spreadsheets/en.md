@@ -3,6 +3,7 @@ title: "Your cash position shouldn't be a spreadsheet you're still reconciling a
 summary: Why scattered bank data leaves CFOs deciding on yesterday's numbers, and how Tijori builds one cash position across entities, banks and currencies.
 type: insight
 date: 2026-09-25
+cover: cover.png
 draft: false
 ---
 
@@ -21,6 +22,8 @@ Tijori brings your cash positions together across entities, banks and currencies
 - Monitor liquidity across entities
 - Forecast future cash needs
 - Make capital allocation decisions with better visibility
+
+![Cash position in Tijori, from opening balance to cash available](/news/cash-position-beyond-spreadsheets/cash-available.png)
 
 ## How deep it goes
 

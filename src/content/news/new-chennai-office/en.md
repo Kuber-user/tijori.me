@@ -4,6 +4,8 @@ summary: Seertree, the company behind Tijori, has moved into a new office at Wor
 type: announcement
 date: 2026-10-09
 location: Alwarpet, Chennai
+cover: cover.jpg
+gallery: [ribbon-cutting.jpg]
 draft: false
 ---
 

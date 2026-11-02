@@ -72,7 +72,7 @@ export default function NewsPost() {
             )}
 
             <article
-              className="prose prose-lg max-w-none prose-headings:text-gray-900 prose-a:text-primary-600"
+              className="prose prose-lg max-w-none prose-headings:text-gray-900 prose-a:text-primary-600 prose-img:rounded-lg prose-img:shadow-md prose-img:border prose-img:border-gray-200"
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
 

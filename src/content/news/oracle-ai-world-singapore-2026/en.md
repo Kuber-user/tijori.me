@@ -4,6 +4,8 @@ summary: Our founder spoke about a blind spot in treasury management for Oracle 
 type: event
 date: 2026-04-14
 location: Marina Bay Sands, Singapore
+cover: theatre.jpg
+gallery: [talk.jpg, audience.jpg]
 draft: false
 ---
 
