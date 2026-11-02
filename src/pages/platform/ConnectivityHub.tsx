@@ -31,7 +31,7 @@ export default function ConnectivityHub() {
   const featuredKeys = ['oracleFusion', 'sapS4hana', 'saudiBanks', 'oracleEbs'] as const;
 
   const productSchema = createProductSchema(
-    'TiJori Connectivity Hub',
+    'Tijori Connectivity Hub',
     'SWIFT connectivity to 30+ banks and ERP integrations for automated treasury data flow'
   );
 
@@ -52,7 +52,7 @@ export default function ConnectivityHub() {
       <SchemaMarkup schema={breadcrumbSchema} />
 
       {/* Hero */}
-      <Section background="gradient" padding="xl">
+      <Section background="dark" padding="xl">
         <Container>
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-white text-sm mb-6">

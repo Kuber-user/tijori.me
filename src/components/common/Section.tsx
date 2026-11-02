@@ -21,7 +21,8 @@ export default function Section({
   };
 
   const inlineStyles: Record<string, React.CSSProperties> = {
-    dark: { backgroundImage: 'linear-gradient(135deg, #2C2358 0%, #16122C 100%)' },
+    // Same deep indigo as the homepage hero, with a soft brand-blue glow
+    dark: { backgroundImage: 'radial-gradient(ellipse at 85% 0%, rgba(94,120,240,0.18), transparent 55%), radial-gradient(ellipse at 10% 100%, rgba(48,205,231,0.08), transparent 50%), linear-gradient(170deg, #0f0d1f 0%, #1a1540 35%, #13102a 65%, #0f0d1f 100%)' },
     gradient: { backgroundImage: 'linear-gradient(135deg, #5E78F0 0%, #3657EC 100%)' },
   };
 

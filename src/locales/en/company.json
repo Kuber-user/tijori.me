@@ -1,13 +1,13 @@
 {
   "about": {
     "seo": {
-      "title": "About TiJori | Treasury Technology Company",
-      "description": "Built by treasury experts, for treasury teams. Learn about TiJori's mission, values, and the team behind the leading treasury management platform.",
-      "keywords": ["about TiJori", "treasury technology company", "treasury management team", "fintech leadership"]
+      "title": "About Tijori | Treasury Technology Company",
+      "description": "Built by treasury experts, for treasury teams. Learn about Tijori's mission, values, and the team behind the leading treasury management platform.",
+      "keywords": ["about Tijori", "treasury technology company", "treasury management team", "fintech leadership"]
     },
     "hero": {
       "title": "Built by Treasury Experts, for Treasury Teams",
-      "description": "TiJori was founded by finance and technology professionals who experienced firsthand the inefficiencies of legacy treasury operations. We set out to build the platform we always wished existed."
+      "description": "Tijori was founded by finance and technology professionals who experienced firsthand the inefficiencies of legacy treasury operations. We set out to build the platform we always wished existed."
     },
     "mission": {
       "title": "Our Mission",
@@ -31,34 +31,40 @@
         }
       }
     },
-    "partners": {
-      "title": "Our Partners",
-      "description": "Strategic partnerships that drive innovation and deliver world-class treasury solutions across the Middle East.",
-      "synclane": {
-        "name": "Synclane.io",
-        "role": "Official Partner",
-        "description": "An innovative company and official partner based in Saudi Arabia, providing cutting-edge treasury management solutions for enterprises across the Middle East.",
-        "person": "Meshaal Alsinani"
-      },
-      "seertree": {
-        "name": "SeerTree",
-        "role": "Founding Partner",
-        "description": "An innovative software house and founding partner specializing in Digital Transformation, building enterprise-grade solutions that power modern businesses.",
-        "person": "Shyam"
+    "company": {
+      "title": "A Product of Seertree Global Services",
+      "description": "Tijori is a product of Seertree Global Services. The platform and all of its intellectual property are owned by Seertree, a software company specialising in digital transformation for enterprises.",
+      "website": "seertree.com"
+    },
+    "offices": {
+      "title": "Our Offices",
+      "description": "Our teams work from the UAE and India.",
+      "items": {
+        "difc": {
+          "city": "Dubai",
+          "location": "DIFC, United Arab Emirates"
+        },
+        "abuDhabi": {
+          "city": "Abu Dhabi",
+          "location": "United Arab Emirates"
+        },
+        "chennai": {
+          "city": "Chennai",
+          "location": "India"
+        }
       }
     },
     "cta": {
-      "title": "Join Our Team",
-      "description": "We are building the future of treasury management and looking for exceptional people who share our vision.",
-      "getInTouch": "Get in Touch",
-      "viewPositions": "View Open Positions"
+      "title": "Talk to the Tijori Team",
+      "description": "Whether you are evaluating a treasury system or want to work with us, we would love to hear from you.",
+      "getInTouch": "Get in Touch"
     }
   },
   "contact": {
     "seo": {
-      "title": "Contact TiJori | Request a Demo",
-      "description": "Get in touch with TiJori. Request a personalized demo, speak with our treasury experts, or learn how we can transform your treasury operations.",
-      "keywords": ["contact TiJori", "treasury demo", "treasury management demo", "request demo"]
+      "title": "Contact Tijori | Request a Demo",
+      "description": "Get in touch with Tijori. Request a personalized demo, speak with our treasury experts, or learn how we can transform your treasury operations.",
+      "keywords": ["contact Tijori", "treasury demo", "treasury management demo", "request demo"]
     },
     "hero": {
       "title": "Get in Touch",
@@ -102,135 +108,30 @@
   },
   "pricing": {
     "seo": {
-      "title": "Pricing | Treasury Management Plans",
-      "description": "TiJori plans for every stage of treasury maturity, from facilities and LG/LC management to full treasury operations. Contact us for a tailored quote.",
-      "keywords": ["treasury management pricing", "tijori pricing", "treasury software cost", "cash management plans"]
+      "title": "Pricing | Request a Quote",
+      "description": "Tijori pricing is tailored to your entities, bank connections and modules. Tell us about your treasury and we will send you a quote.",
+      "keywords": [
+        "treasury management pricing",
+        "tijori pricing",
+        "treasury software cost",
+        "cash management plans"
+      ]
     },
     "hero": {
-      "title": "Plans for Every Stage",
-      "description": "Pricing depends on your entities, bank connections and modules. Contact us and we will prepare a quote that fits your treasury."
+      "title": "Pricing Tailored to Your Treasury",
+      "description": "Tijori is priced on the entities, bank connections and modules you need. Tell us about your setup and our team will prepare a quote for you."
     },
-    "badges": {
-      "mostPopular": "Most Popular"
+    "form": {
+      "title": "Request a Quote",
+      "description": "Share a few details and a member of our team will respond within one business day."
     },
-    "tiers": {
-      "starter": {
-        "name": "Facilities Management Edition",
-        "audience": "",
-        "tagline": "Core Treasury Operations",
-        "buttonText": "Contact Sales",
-        "features": {
-          "header": "Core Capabilities:",
-          "items": [
-            "Facilities Management",
-            "Loans Management",
-            "Trade Finance (LC/LG)",
-            "Settlements",
-            "Ready Accounting Entries"
-          ]
-        }
-      },
-      "professional": {
-        "name": "Professional Edition",
-        "audience": "",
-        "tagline": "Full Treasury Operations",
-        "popular": true,
-        "buttonText": "Contact Sales",
-        "features": {
-          "header": "Everything in Facilities Management Edition, plus:",
-          "items": [
-            "Investment Management (Fixed Deposits, Portfolio, Equity, Bonds, Discounted Securities, Loans to Related Parties)",
-            "Derivatives (FX Forwards, FX Spots, IR Swap)",
-            "Multi-entity support",
-            "PDF Report Exports",
-            "Email support",
-            "Priority support"
-          ]
-        }
-      },
-      "enterprise": {
-        "name": "Enterprise",
-        "audience": "",
-        "tagline": "TMS At Scale",
-        "buttonText": "Contact Sales",
-        "features": {
-          "header": "Everything in Professional Edition, plus:",
-          "items": [
-            "Cash & Liquidity Management",
-            "Payments Hub",
-            "Cash Pooling",
-            "AI-powered Cash Forecasting",
-            "Multi-bank account aggregation",
-            "Real-time bank balance visibility",
-            "Cash positioning reports",
-            "Variance analysis",
-            "SWIFT connectivity to 30+ banks, plus KSA open banking",
-            "Unlimited bank connections",
-            "Derivatives (Options, Futures, Commodity Swap, Forward Rate Agreement)",
-            "ERP Integration (Oracle, SAP)",
-            "Custom workflows",
-            "Dedicated CSM",
-            "White-glove implementation",
-            "SLA guarantees",
-            "SSO with Microsoft"
-          ]
-        }
+    "howItWorks": {
+      "title": "How Pricing Works",
+      "steps": {
+        "scope": "Priced on your entities, bank connections and modules",
+        "demo": "A 30-minute demo built around your scenarios",
+        "quote": "A tailored quote for your treasury"
       }
-    },
-    "addons": {
-      "title": "Optional Add-ons",
-      "description": "Enhance your TiJori experience with powerful integrations",
-      "learnMore": "Learn More",
-      "swift": {
-        "title": "SWIFT Membership",
-        "description": "We offer SWIFT connection to help you integrate with international banks seamlessly. Enable MT940, MT942, MT101, and other MT messages for automated statement retrieval, payment initiation, and real-time balance reporting across your global banking network."
-      },
-      "powerbi": {
-        "title": "Power BI Analytics",
-        "description": "Pre-built Power BI dashboards and data models tailored specifically for treasury professionals. Includes cash flow visualization, liquidity trend analysis, forecast accuracy tracking, and executive-ready reporting templates that connect directly to your TiJori data."
-      },
-      "marketData": {
-        "title": "Market Data Feeds",
-        "description": "Real-time data feeds for equities and market rates including SAIBOR, LIBOR, SOFR, and other benchmark rates. Integrate live FX rates, yield curves, and equity prices directly into your treasury operations for accurate valuations and risk management."
-      }
-    },
-    "included": {
-      "title": "All Plans Include",
-      "description": "Every TiJori plan comes with the security, reliability, and support your treasury team expects.",
-      "items": {
-        "soc2": "Role-Based Access Controls",
-        "encryption": "Bank-Grade Encryption",
-        "users": "Unlimited Users",
-        "api": "API Access",
-        "updates": "Regular Updates"
-      }
-    },
-    "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Common questions about TiJori pricing and implementation.",
-      "items": {
-        "pricing": {
-          "question": "How is pricing determined?",
-          "answer": "Pricing is based on the number of legal entities, bank connections, and modules required. We work with each customer to build a package that aligns with their treasury complexity and organizational size. Contact our sales team for a tailored quote."
-        },
-        "contract": {
-          "question": "Is there a minimum contract?",
-          "answer": "Our standard agreements are annual contracts. We offer multi-year terms with preferential pricing for organizations that prefer longer commitments. All enterprise contracts include onboarding, training, and ongoing support."
-        },
-        "trial": {
-          "question": "Can we start with a trial?",
-          "answer": "We don't offer a free trial. Book a 30-minute demo and we will walk you through TiJori using scenarios that match your facilities, banks and entities."
-        },
-        "implementation": {
-          "question": "What is included in implementation?",
-          "answer": "Every Enterprise contract includes onboarding support, bank connectivity setup, data migration assistance, user training, and a dedicated implementation manager. Enterprise plans include white-glove implementation with custom workflow configuration and extended training. Professional Edition includes priority support and a dedicated onboarding session."
-        }
-      }
-    },
-    "cta": {
-      "title": "Contact Sales for a Custom Quote",
-      "description": "Our team will work with you to design a package that fits your treasury requirements, organizational structure, and budget.",
-      "buttonText": "Contact Sales"
     }
   },
   "trustSecurity": {
@@ -241,13 +142,13 @@
     },
     "hero": {
       "title": "Enterprise-Grade Security for Your Treasury",
-      "description": "Your financial data deserves the highest level of protection. TiJori is built with security-first architecture and maintains rigorous compliance standards.",
+      "description": "Your financial data deserves the highest level of protection. Tijori is built with security-first architecture and maintains rigorous compliance standards.",
       "badge": "Trust & Security Center",
       "requestReport": "Request Security Documentation"
     },
     "compliance": {
       "title": "Certifications & Compliance",
-      "description": "TiJori maintains industry-leading security certifications, independently verified by accredited auditors, to give you confidence in the protection of your treasury data.",
+      "description": "Tijori maintains industry-leading security certifications, independently verified by accredited auditors, to give you confidence in the protection of your treasury data.",
       "certs": {
         "soc2": {
           "name": "SOC 2 Type II",
@@ -307,7 +208,7 @@
         },
         "dataResidency": {
           "title": "In-Region Hosting",
-          "description": "TiJori runs in your own OCI tenancy or on Oracle Cloud Infrastructure in your region, with disaster recovery in a separate region."
+          "description": "Tijori runs in your own OCI tenancy or on Oracle Cloud Infrastructure in your region, with disaster recovery in a separate region."
         }
       }
     },
@@ -332,19 +233,15 @@
         },
         "storage": {
           "question": "Where is my data stored?",
-          "answer": "Your data stays in your region. TiJori is deployed either in your own Oracle Cloud (OCI) tenancy or on OCI hosted in your region, with disaster recovery in a separate region."
+          "answer": "Your data stays in your region. Tijori is deployed either in your own Oracle Cloud (OCI) tenancy or on OCI hosted in your region, with disaster recovery in a separate region."
         },
         "incidents": {
           "question": "How do you handle security incidents?",
           "answer": "If a security incident is identified, our team responds 24/7 and works on it around the clock until it is resolved. Affected customers are notified promptly, and we share a post-incident review with them."
         },
-        "soc2Report": {
-          "question": "Can we get a copy of your SOC 2 report?",
-          "answer": "Yes. We provide our most recent SOC 2 Type II report to prospective and current customers under a mutual non-disclosure agreement. The report covers security, availability, and confidentiality trust service criteria and is issued annually by an independent third-party auditor. Contact our security team at security@synclane.io or reach out to your account manager to request a copy."
-        },
         "sso": {
           "question": "Do you support Single Sign-On (SSO)?",
-          "answer": "Yes. TiJori supports single sign-on with Microsoft (Entra ID, formerly Azure Active Directory), so your team signs in with their existing company accounts."
+          "answer": "Yes. Tijori supports single sign-on with Microsoft (Entra ID, formerly Azure Active Directory), so your team signs in with their existing company accounts."
         }
       }
     },

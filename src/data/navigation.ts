@@ -38,5 +38,6 @@ export const navigation: NavItem[] = [
       { label: 'company.items.contact', path: '/company/contact' },
     ]
   },
+  { label: 'news', path: '/news' },
   { label: 'pricing', path: '/pricing' },
 ];

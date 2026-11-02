@@ -52,7 +52,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
 
           {/* Logo */}
           <LocalizedLink to="/" onClick={onClose} className="block mb-8">
-            <img src="/assets/logos/tijori_logo.png" alt="TiJori" className="h-10" />
+            <img src="/assets/logos/tijori_logo.png" alt="Tijori" className="h-10" />
           </LocalizedLink>
 
           {/* Navigation */}

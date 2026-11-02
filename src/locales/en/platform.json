@@ -79,7 +79,7 @@
       ]
     },
     "solution": {
-      "title": "The TiJori Solution",
+      "title": "The Tijori Solution",
       "description": "Automated multi-bank connectivity delivers real-time cash positions, instant reconciliation, and actionable insights — all in one dashboard.",
       "benefits": [
         "Real-time cash positions across all your connected banks",
@@ -120,7 +120,7 @@
       }
     },
     "screenshots": {
-      "title": "See TiJori in Action",
+      "title": "See Tijori in Action",
       "images": {
         "bankBalances": {
           "alt": "Real-time bank balances dashboard across all accounts",
@@ -134,7 +134,7 @@
     },
     "roi": {
       "title": "Measurable Impact on Cash Operations",
-      "description": "Real results from enterprises using TiJori Cash Management",
+      "description": "Real results from enterprises using Tijori Cash Management",
       "metrics": {
         "idleCash": {
           "value": "30%",
@@ -184,7 +184,7 @@
     },
     "cta": {
       "title": "Ready for real-time cash visibility?",
-      "description": "See how TiJori can reduce idle cash and automate your cash management"
+      "description": "See how Tijori can reduce idle cash and automate your cash management"
     }
   },
   "aiForecasting": {
@@ -212,7 +212,7 @@
     },
     "solution": {
       "title": "AI-Powered Forecast Intelligence",
-      "description": "TiJori's machine learning engine continuously learns from your data to deliver highly accurate cash predictions with minimal manual effort.",
+      "description": "Tijori's machine learning engine continuously learns from your data to deliver highly accurate cash predictions with minimal manual effort.",
       "benefits": [
         "95%+ forecast accuracy using ML models trained on your data",
         "Automated data ingestion from banks, ERPs, and AP/AR systems",
@@ -266,7 +266,7 @@
     },
     "roi": {
       "title": "Measurable Impact on Cash Forecasting",
-      "description": "Real results from enterprises using TiJori AI Forecasting",
+      "description": "Real results from enterprises using Tijori AI Forecasting",
       "metrics": {
         "accuracy": {
           "value": "95%+",
@@ -338,7 +338,7 @@
     },
     "cta": {
       "title": "Ready to transform your cash forecasting?",
-      "description": "See how TiJori AI can deliver 95%+ accuracy and save hours of manual work"
+      "description": "See how Tijori AI can deliver 95%+ accuracy and save hours of manual work"
     }
   },
   "loansManagement": {
@@ -365,7 +365,7 @@
     },
     "solution": {
       "title": "Centralized Loan Portfolio Intelligence",
-      "description": "TiJori consolidates your entire loan portfolio into one platform with automated tracking, alerts, and reporting.",
+      "description": "Tijori consolidates your entire loan portfolio into one platform with automated tracking, alerts, and reporting.",
       "benefits": [
         "Single dashboard for all loans, facilities, and credit lines",
         "Automated maturity and covenant breach alerts",
@@ -406,7 +406,7 @@
     },
     "roi": {
       "title": "Measurable Impact on Borrowing Costs",
-      "description": "Real results from enterprises using TiJori Loans Management",
+      "description": "Real results from enterprises using Tijori Loans Management",
       "metrics": {
         "covenantCompliance": {
           "value": "100%",
@@ -456,7 +456,7 @@
     },
     "cta": {
       "title": "Ready to take control of your loan portfolio?",
-      "description": "See how TiJori can streamline loan management and reduce borrowing costs"
+      "description": "See how Tijori can streamline loan management and reduce borrowing costs"
     }
   },
   "investmentManagement": {
@@ -483,7 +483,7 @@
     },
     "solution": {
       "title": "Unified Investment Portfolio Intelligence",
-      "description": "TiJori aggregates all your treasury investments into a single platform with real-time analytics and automated management.",
+      "description": "Tijori aggregates all your treasury investments into a single platform with real-time analytics and automated management.",
       "benefits": [
         "Consolidated portfolio view across all banks and custodians",
         "AI-driven yield optimization recommendations",
@@ -526,14 +526,14 @@
       "title": "Investment Portfolio at a Glance",
       "images": {
         "portfolio": {
-          "alt": "TiJori investment management dashboard showing portfolio positions",
+          "alt": "Tijori investment management dashboard showing portfolio positions",
           "caption": "Track all treasury investments with real-time valuations and maturity alerts"
         }
       }
     },
     "roi": {
       "title": "Measurable Impact on Investment Returns",
-      "description": "Real results from enterprises using TiJori Investment Management",
+      "description": "Real results from enterprises using Tijori Investment Management",
       "metrics": {
         "portfolioYield": {
           "value": "25%",
@@ -583,7 +583,7 @@
     },
     "cta": {
       "title": "Ready to optimize your treasury investments?",
-      "description": "See how TiJori can increase portfolio returns and automate investment management"
+      "description": "See how Tijori can increase portfolio returns and automate investment management"
     }
   },
   "bankFacilities": {
@@ -595,7 +595,7 @@
     "hero": {
       "breadcrumb": "Platform / Bank Facilities Management",
       "title": "Master Your Bank Credit Facilities",
-      "description": "Get complete visibility into your credit lines, overdrafts, and revolving facilities across all banks. TiJori helps CFOs optimize utilization, monitor covenants, and reduce borrowing costs."
+      "description": "Get complete visibility into your credit lines, overdrafts, and revolving facilities across all banks. Tijori helps CFOs optimize utilization, monitor covenants, and reduce borrowing costs."
     },
     "problem": {
       "title": "The Facilities Management Challenge",
@@ -610,7 +610,7 @@
     },
     "solution": {
       "title": "Centralized Facilities Command Center",
-      "description": "TiJori consolidates all your bank facilities into a single platform with real-time tracking and automated compliance monitoring.",
+      "description": "Tijori consolidates all your bank facilities into a single platform with real-time tracking and automated compliance monitoring.",
       "benefits": [
         "Consolidated view of all facilities across all banks",
         "Real-time utilization tracking with automated alerts",
@@ -651,7 +651,7 @@
     },
     "roi": {
       "title": "Measurable Impact on Banking Costs",
-      "description": "Organizations using TiJori Bank Facilities Management report significant savings",
+      "description": "Organizations using Tijori Bank Facilities Management report significant savings",
       "metrics": {
         "facilityCosts": {
           "value": "15%",
@@ -672,7 +672,7 @@
     },
     "useCases": {
       "title": "Key Use Cases",
-      "description": "How CFOs and treasurers use TiJori for facilities management",
+      "description": "How CFOs and treasurers use Tijori for facilities management",
       "items": {
         "liquidityOptimization": {
           "title": "Liquidity Optimization",
@@ -723,7 +723,7 @@
     },
     "cta": {
       "title": "Ready to optimize your bank facilities?",
-      "description": "See how TiJori can help you reduce borrowing costs and ensure covenant compliance"
+      "description": "See how Tijori can help you reduce borrowing costs and ensure covenant compliance"
     }
   },
   "riskFx": {
@@ -750,10 +750,9 @@
     },
     "solution": {
       "title": "Unified FX Risk Intelligence",
-      "description": "TiJori consolidates your currency exposures and hedging activities into one intelligent platform with automated analysis and recommendations.",
+      "description": "Tijori consolidates your currency exposures and hedging activities into one platform with automated analysis.",
       "benefits": [
         "Real-time exposure aggregation across all entities",
-        "AI-powered hedging recommendations",
         "Automated hedge effectiveness tracking",
         "Consolidated currency risk dashboard",
         "Transparent hedging cost analysis"
@@ -790,23 +789,13 @@
       }
     },
     "roi": {
-      "title": "Measurable Impact on FX Costs",
-      "description": "Organizations using TiJori Risk & FX Management report significant improvements",
+      "title": "Complete Visibility of Your FX Risk",
+      "description": "Every currency exposure across your entities and banks, in one consolidated view",
       "metrics": {
-        "fxCosts": {
-          "value": "30%",
-          "label": "Reduction in FX costs",
-          "sublabel": "Through optimized hedging"
-        },
         "exposureVisibility": {
           "value": "100%",
           "label": "Exposure visibility",
           "sublabel": "Real-time consolidated view"
-        },
-        "hedgeEffectiveness": {
-          "value": "95%+",
-          "label": "Hedge effectiveness",
-          "sublabel": "Automated monitoring"
         }
       }
     },
@@ -814,7 +803,7 @@
       "instruments": {
         "title": "Instruments",
         "items": {
-          "spotForwards": { "label": "Spot & Forwards", "value": "All major and exotic currency pairs" },
+          "spotForwards": { "label": "Spot & Forwards", "value": "Major currency pairs" },
           "options": { "label": "Options", "value": "Vanilla options" },
           "swaps": { "label": "Swaps", "value": "FX swaps, cross-currency swaps" },
           "ndf": { "label": "NDF", "value": "Non-deliverable forwards" }
@@ -823,9 +812,7 @@
       "riskMetrics": {
         "title": "Risk Metrics",
         "items": {
-          "sensitivity": { "label": "Sensitivity", "value": "Delta, gamma, vega analysis" },
-          "stressTesting": { "label": "Stress Testing", "value": "Custom scenario modeling" },
-          "backtesting": { "label": "Backtesting", "value": "Model validation" }
+          "stressTesting": { "label": "Stress Testing", "value": "Custom scenario modeling" }
         }
       },
       "compliance": {
@@ -874,7 +861,7 @@
     },
     "cta": {
       "title": "Ready to take control of your FX risk?",
-      "description": "See how TiJori can help you reduce currency volatility and optimize hedging costs"
+      "description": "See how Tijori can help you reduce currency volatility and optimize hedging costs"
     }
   },
   "payments": {
@@ -901,7 +888,7 @@
     },
     "solution": {
       "title": "Unified Payment Command Center",
-      "description": "TiJori centralizes all payment operations into a single platform with standardized workflows and multi-bank connectivity.",
+      "description": "Tijori centralizes all payment operations into a single platform with standardized workflows and multi-bank connectivity.",
       "benefits": [
         "Single interface for all bank payments",
         "Automated payment file generation",
@@ -942,7 +929,7 @@
     },
     "roi": {
       "title": "Measurable Impact on Payment Operations",
-      "description": "Organizations using TiJori Payment Hub report significant improvements",
+      "description": "Organizations using Tijori Payment Hub report significant improvements",
       "metrics": {
         "processingTime": {
           "value": "70%",
@@ -992,7 +979,7 @@
     },
     "cta": {
       "title": "Ready to streamline your payment operations?",
-      "description": "See how TiJori can reduce payment costs and improve processing efficiency"
+      "description": "See how Tijori can reduce payment costs and improve processing efficiency"
     }
   },
   "lgLc": {
@@ -1019,7 +1006,7 @@
     },
     "solution": {
       "title": "Unified Trade Finance Management",
-      "description": "TiJori centralizes all your letters of guarantee and credit with automated lifecycle management and proactive alerts.",
+      "description": "Tijori centralizes all your letters of guarantee and credit with automated lifecycle management and proactive alerts.",
       "benefits": [
         "Complete visibility of all LG/LC across banks",
         "Automated expiry and renewal alerts",
@@ -1060,7 +1047,7 @@
     },
     "roi": {
       "title": "Measurable Impact on Trade Finance Operations",
-      "description": "Organizations using TiJori LG/LC Management report significant improvements",
+      "description": "Organizations using Tijori LG/LC Management report significant improvements",
       "metrics": {
         "visibility": {
           "value": "100%",
@@ -1110,7 +1097,7 @@
     },
     "cta": {
       "title": "Ready to streamline your LG/LC management?",
-      "description": "See how TiJori can reduce operational risk and improve trade finance efficiency"
+      "description": "See how Tijori can reduce operational risk and improve trade finance efficiency"
     }
   },
   "connectivity": {
@@ -1172,7 +1159,7 @@
       "title": "Featured Treasury Integrations",
       "oracleFusion": {
         "title": "Oracle Fusion Cloud Integration",
-        "description": "Native integration with Oracle Fusion ERP for treasury reconciliation, GL sync, and automated cash positioning. Real-time data flow between TiJori and Oracle's Cash Management module.",
+        "description": "Native integration with Oracle Fusion ERP for treasury reconciliation, GL sync, and automated cash positioning. Real-time data flow between Tijori and Oracle's Cash Management module.",
         "features": ["Full GL synchronization", "Cash Management module integration", "Automated journal entries"]
       },
       "sapS4hana": {

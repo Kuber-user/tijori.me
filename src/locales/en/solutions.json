@@ -2,7 +2,7 @@
   "roles": {
     "cfo": {
       "seo": {
-        "title": "Treasury Management for CFOs | Strategic Cash Visibility | TiJori",
+        "title": "Treasury Management for CFOs | Strategic Cash Visibility | Tijori",
         "description": "Executive treasury dashboards for CFOs. Real-time cash visibility, working capital optimization, strategic forecasting, and board-ready reporting across your entire organization.",
         "keywords": ["CFO treasury management", "executive cash visibility", "working capital optimization", "strategic cash forecasting", "board reporting"]
       },
@@ -31,7 +31,7 @@
       },
       "solutions": {
         "title": "Strategic Treasury for Executive Leadership",
-        "description": "TiJori provides the executive-level visibility and strategic tools CFOs need to optimize cash management across the organization.",
+        "description": "Tijori provides the executive-level visibility and strategic tools CFOs need to optimize cash management across the organization.",
         "items": {
           "dashboard": {
             "title": "Executive Cash Visibility Dashboard",
@@ -57,7 +57,7 @@
       },
       "roi": {
         "title": "Measurable Strategic Impact",
-        "description": "CFOs using TiJori achieve measurable improvements in cash visibility, capital efficiency, and strategic decision-making.",
+        "description": "CFOs using Tijori achieve measurable improvements in cash visibility, capital efficiency, and strategic decision-making.",
         "metrics": {
           "visibility": {
             "value": "Complete Visibility",
@@ -75,7 +75,7 @@
       },
       "cta": {
         "title": "Transform Your Strategic Treasury",
-        "description": "See how TiJori delivers executive-level visibility, working capital optimization, and strategic insights for CFOs."
+        "description": "See how Tijori delivers executive-level visibility, working capital optimization, and strategic insights for CFOs."
       }
     },
     "treasurer": {
@@ -109,7 +109,7 @@
       },
       "solutions": {
         "title": "Streamlined Treasury Operations",
-        "description": "TiJori automates routine tasks so treasury teams can focus on what matters: optimizing cash and reducing costs.",
+        "description": "Tijori automates routine tasks so treasury teams can focus on what matters: optimizing cash and reducing costs.",
         "items": {
           "cashPositioning": {
             "title": "Automated Cash Positioning",
@@ -135,7 +135,7 @@
       },
       "roi": {
         "title": "Measurable Operational Impact",
-        "description": "Treasury teams using TiJori achieve significant time savings and operational improvements.",
+        "description": "Treasury teams using Tijori achieve significant time savings and operational improvements.",
         "metrics": {
           "timeSaved": {
             "value": "15+ Hours/Week",
@@ -153,7 +153,7 @@
       },
       "cta": {
         "title": "Streamline Your Treasury Operations",
-        "description": "See how TiJori automates daily tasks and gives treasury teams time to focus on strategic initiatives."
+        "description": "See how Tijori automates daily tasks and gives treasury teams time to focus on strategic initiatives."
       }
     },
     "controller": {
@@ -187,7 +187,7 @@
       },
       "solutions": {
         "title": "Built for Financial Control",
-        "description": "TiJori provides the controls, visibility, and audit capabilities controllers need for accurate financial reporting.",
+        "description": "Tijori provides the controls, visibility, and audit capabilities controllers need for accurate financial reporting.",
         "items": {
           "autoReconciliation": {
             "title": "Automated Bank Reconciliation",
@@ -213,7 +213,7 @@
       },
       "roi": {
         "title": "Measurable Control Improvements",
-        "description": "Controllers using TiJori achieve faster close cycles and stronger compliance posture.",
+        "description": "Controllers using Tijori achieve faster close cycles and stronger compliance posture.",
         "metrics": {
           "closeCycle": {
             "value": "50% Faster Close",
@@ -231,14 +231,14 @@
       },
       "cta": {
         "title": "Strengthen Your Financial Controls",
-        "description": "See how TiJori delivers automated reconciliation, complete audit trails, and regulatory compliance."
+        "description": "See how Tijori delivers automated reconciliation, complete audit trails, and regulatory compliance."
       }
     }
   },
   "industries": {
     "construction": {
       "seo": {
-        "title": "Treasury Management for Construction | Project Cash Management | TiJori",
+        "title": "Treasury Management for Construction | Project Cash Management | Tijori",
         "description": "Project-based cash management for construction companies. Track retention, manage bank guarantees, optimize subcontractor payments, and forecast project-level cash flows.",
         "keywords": ["construction treasury management", "project cash management", "bank guarantee tracking", "retention management", "construction cash forecasting"]
       },
@@ -267,7 +267,7 @@
       },
       "solutions": {
         "title": "Purpose-Built for Construction Treasury",
-        "description": "TiJori delivers the project-level granularity, guarantee management automation, and payment optimization capabilities that construction companies require.",
+        "description": "Tijori delivers the project-level granularity, guarantee management automation, and payment optimization capabilities that construction companies require.",
         "items": {
           "projectCash": {
             "title": "Project-Based Cash Management",
@@ -293,7 +293,7 @@
       },
       "roi": {
         "title": "Measurable Project Impact",
-        "description": "Construction firms using TiJori achieve measurable improvements in treasury operations and project financial management.",
+        "description": "Construction firms using Tijori achieve measurable improvements in treasury operations and project financial management.",
         "metrics": {
           "visibility": {
             "value": "Project-Level Visibility",
@@ -311,12 +311,12 @@
       },
       "cta": {
         "title": "Optimize Your Construction Treasury",
-        "description": "See how TiJori delivers complete project visibility, automated guarantee management, and payment optimization for construction companies."
+        "description": "See how Tijori delivers complete project visibility, automated guarantee management, and payment optimization for construction companies."
       }
     },
     "realEstate": {
       "seo": {
-        "title": "Treasury Management for Real Estate | Portfolio Cash Management | TiJori",
+        "title": "Treasury Management for Real Estate | Portfolio Cash Management | Tijori",
         "description": "Multi-entity cash management for real estate portfolios. Automate capital call tracking, REIT distribution compliance, and project-level cash forecasting.",
         "keywords": ["real estate treasury management", "portfolio cash management", "REIT compliance", "capital call tracking", "property cash forecasting"]
       },
@@ -345,7 +345,7 @@
       },
       "solutions": {
         "title": "Purpose-Built for Real Estate Treasury",
-        "description": "TiJori delivers the entity-level granularity, capital management automation, and compliance capabilities that real estate portfolios require.",
+        "description": "Tijori delivers the entity-level granularity, capital management automation, and compliance capabilities that real estate portfolios require.",
         "items": {
           "entityVisibility": {
             "title": "Entity-Level Cash Visibility",
@@ -371,7 +371,7 @@
       },
       "roi": {
         "title": "Measurable Portfolio Impact",
-        "description": "Real estate firms using TiJori achieve measurable improvements in treasury operations and portfolio oversight.",
+        "description": "Real estate firms using Tijori achieve measurable improvements in treasury operations and portfolio oversight.",
         "metrics": {
           "visibility": {
             "value": "Complete Portfolio Visibility",
@@ -389,12 +389,12 @@
       },
       "cta": {
         "title": "Optimize Your Real Estate Treasury",
-        "description": "See how TiJori delivers complete portfolio visibility, automated capital management, and REIT-ready compliance for real estate firms."
+        "description": "See how Tijori delivers complete portfolio visibility, automated capital management, and REIT-ready compliance for real estate firms."
       }
     },
     "oilGas": {
       "seo": {
-        "title": "Treasury Management for Oil & Gas | Energy Sector Treasury | TiJori",
+        "title": "Treasury Management for Oil & Gas | Energy Sector Treasury | Tijori",
         "description": "Specialized treasury management for oil and gas companies. Commodity hedging integration, JV accounting, multi-currency operations, and capex management for energy sector.",
         "keywords": ["oil gas treasury management", "energy sector treasury", "commodity hedging", "JV accounting", "production sharing treasury"]
       },
@@ -423,7 +423,7 @@
       },
       "solutions": {
         "title": "Purpose-Built for Energy Sector Treasury",
-        "description": "TiJori delivers the commodity integration, JV automation, and multi-currency capabilities that oil and gas companies require.",
+        "description": "Tijori delivers the commodity integration, JV automation, and multi-currency capabilities that oil and gas companies require.",
         "items": {
           "commodityRisk": {
             "title": "Commodity Price Risk Management",
@@ -449,7 +449,7 @@
       },
       "roi": {
         "title": "Measurable Energy Sector Impact",
-        "description": "Oil and gas companies using TiJori achieve measurable improvements in treasury operations and risk management.",
+        "description": "Oil and gas companies using Tijori achieve measurable improvements in treasury operations and risk management.",
         "metrics": {
           "riskView": {
             "value": "Integrated Risk View",
@@ -467,12 +467,12 @@
       },
       "cta": {
         "title": "Optimize Your Energy Sector Treasury",
-        "description": "See how TiJori delivers integrated risk management, JV automation, and global currency control for oil and gas companies."
+        "description": "See how Tijori delivers integrated risk management, JV automation, and global currency control for oil and gas companies."
       }
     },
     "fmcg": {
       "seo": {
-        "title": "Treasury Management for FMCG | Consumer Goods Treasury | TiJori",
+        "title": "Treasury Management for FMCG | Consumer Goods Treasury | Tijori",
         "description": "Working capital optimization for FMCG companies. Distributor collections, supplier payments, seasonal forecasting, and cash conversion cycle management for consumer goods.",
         "keywords": ["FMCG treasury management", "consumer goods treasury", "working capital optimization", "distributor collections", "seasonal cash forecasting"]
       },
@@ -501,7 +501,7 @@
       },
       "solutions": {
         "title": "Purpose-Built for FMCG Treasury",
-        "description": "TiJori delivers the working capital optimization, collections automation, and seasonal forecasting capabilities that FMCG companies require.",
+        "description": "Tijori delivers the working capital optimization, collections automation, and seasonal forecasting capabilities that FMCG companies require.",
         "items": {
           "workingCapital": {
             "title": "Working Capital Optimization",
@@ -527,7 +527,7 @@
       },
       "roi": {
         "title": "Measurable FMCG Impact",
-        "description": "FMCG companies using TiJori achieve measurable improvements in working capital efficiency and cash flow visibility.",
+        "description": "FMCG companies using Tijori achieve measurable improvements in working capital efficiency and cash flow visibility.",
         "metrics": {
           "cashCycle": {
             "value": "Optimized Cash Cycle",
@@ -545,12 +545,12 @@
       },
       "cta": {
         "title": "Optimize Your FMCG Treasury",
-        "description": "See how TiJori delivers working capital optimization, collection automation, and seasonal forecasting for FMCG companies."
+        "description": "See how Tijori delivers working capital optimization, collection automation, and seasonal forecasting for FMCG companies."
       }
     },
     "ecommerce": {
       "seo": {
-        "title": "Treasury Management for E-commerce | Payment Reconciliation | TiJori",
+        "title": "Treasury Management for E-commerce | Payment Reconciliation | Tijori",
         "description": "Automate payment processor reconciliation, manage multi-currency operations, and scale treasury processes for high-volume e-commerce businesses.",
         "keywords": ["e-commerce treasury management", "payment reconciliation", "multi-currency cash management", "FX hedging", "e-commerce cash forecasting"]
       },
@@ -579,7 +579,7 @@
       },
       "solutions": {
         "title": "Treasury Infrastructure Built for Commerce Scale",
-        "description": "TiJori automates the treasury workflows that high-growth commerce businesses need to maintain financial control at scale.",
+        "description": "Tijori automates the treasury workflows that high-growth commerce businesses need to maintain financial control at scale.",
         "items": {
           "reconciliation": {
             "title": "Automated Payment Processor Reconciliation",
@@ -591,7 +591,7 @@
           },
           "fxHedging": {
             "title": "Dynamic FX Hedging",
-            "description": "Protect marketplace revenues from currency volatility with intelligent hedging recommendations. Automate hedge execution based on configurable exposure thresholds and risk parameters."
+            "description": "Protect marketplace revenues from currency volatility with policy-based hedging. Automate hedge execution based on configurable exposure thresholds and risk parameters."
           },
           "forecasting": {
             "title": "Scalable Cash Forecasting",
@@ -605,7 +605,7 @@
       },
       "roi": {
         "title": "Measurable Financial Impact",
-        "description": "E-commerce businesses using TiJori achieve significant improvements in operational efficiency and financial performance.",
+        "description": "E-commerce businesses using Tijori achieve significant improvements in operational efficiency and financial performance.",
         "metrics": {
           "reconciliation": {
             "value": "Reconcile in Minutes Not Days",
@@ -623,12 +623,12 @@
       },
       "cta": {
         "title": "Scale Your Treasury Operations",
-        "description": "See how TiJori automates reconciliation, manages multi-currency complexity, and scales treasury operations for high-growth commerce."
+        "description": "See how Tijori automates reconciliation, manages multi-currency complexity, and scales treasury operations for high-growth commerce."
       }
     },
     "manufacturing": {
       "seo": {
-        "title": "Treasury Management for Manufacturing | Working Capital Optimization | TiJori",
+        "title": "Treasury Management for Manufacturing | Working Capital Optimization | Tijori",
         "description": "Optimize working capital for manufacturing operations. Supply chain finance management, inventory-aware cash forecasting, and automated intercompany netting.",
         "keywords": ["manufacturing treasury management", "working capital optimization", "supply chain finance", "intercompany netting", "vendor payment optimization"]
       },
@@ -657,7 +657,7 @@
       },
       "solutions": {
         "title": "Treasury Solutions for Manufacturing Operations",
-        "description": "TiJori integrates with your supply chain and ERP systems to deliver working capital optimization across every stage of the manufacturing cycle.",
+        "description": "Tijori integrates with your supply chain and ERP systems to deliver working capital optimization across every stage of the manufacturing cycle.",
         "items": {
           "supplyChainFinance": {
             "title": "Supply Chain Finance Program Management",
@@ -683,7 +683,7 @@
       },
       "roi": {
         "title": "Measurable Operational Impact",
-        "description": "Manufacturers using TiJori achieve significant improvements in working capital efficiency and treasury operations.",
+        "description": "Manufacturers using Tijori achieve significant improvements in working capital efficiency and treasury operations.",
         "metrics": {
           "workingCapital": {
             "value": "Optimize Working Capital by 20%",
@@ -701,12 +701,12 @@
       },
       "cta": {
         "title": "Optimize Your Manufacturing Treasury",
-        "description": "See how TiJori delivers working capital optimization, automated netting, and global payment orchestration for manufacturers."
+        "description": "See how Tijori delivers working capital optimization, automated netting, and global payment orchestration for manufacturers."
       }
     },
     "semiGovernment": {
       "seo": {
-        "title": "Treasury Management for Saudi Semi-Government | Vision 2030 | TiJori",
+        "title": "Treasury Management for Saudi Semi-Government | Vision 2030 | Tijori",
         "description": "Enterprise treasury management for Saudi semi-government organizations supporting Vision 2030. Multi-entity fund management, mega project treasury, and governance controls for GREs.",
         "keywords": ["Saudi semi-government treasury", "Vision 2030 treasury", "GRE treasury management", "mega project treasury", "SAMA compliance"]
       },
@@ -735,7 +735,7 @@
       },
       "solutions": {
         "title": "Purpose-Built for Saudi GREs & Vision 2030",
-        "description": "TiJori delivers the mega project treasury capabilities, GRE consolidation, and SAMA-compliant governance controls that Saudi semi-government organizations require.",
+        "description": "Tijori delivers the mega project treasury capabilities, GRE consolidation, and SAMA-compliant governance controls that Saudi semi-government organizations require.",
         "items": {
           "megaProject": {
             "title": "Vision 2030 Project Treasury",
@@ -761,7 +761,7 @@
       },
       "roi": {
         "title": "Measurable Impact for Vision 2030 Entities",
-        "description": "Saudi semi-government organizations using TiJori achieve measurable improvements in mega project treasury and SAMA compliance.",
+        "description": "Saudi semi-government organizations using Tijori achieve measurable improvements in mega project treasury and SAMA compliance.",
         "metrics": {
           "projectVisibility": {
             "value": "Complete Project Visibility",
@@ -779,7 +779,7 @@
       },
       "cta": {
         "title": "Treasury Solutions for Vision 2030",
-        "description": "See how TiJori powers mega project treasury, GRE consolidation, and SAMA-compliant governance for Saudi semi-government organizations."
+        "description": "See how Tijori powers mega project treasury, GRE consolidation, and SAMA-compliant governance for Saudi semi-government organizations."
       }
     }
   }

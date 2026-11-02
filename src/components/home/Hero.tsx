@@ -156,14 +156,14 @@ export default function Hero() {
               </div>
               <div className="flex-1 max-w-xs mx-auto">
                 <div className="bg-white/[0.05] rounded-md px-3 py-1 text-[10px] text-white/20 text-center tracking-wide">
-                  tijori.synclane.com
+                  tijori.me
                 </div>
               </div>
             </div>
 
             {/* Screenshot */}
             <img
-              src="/assets/screenshots/Homepage.png"
+              src="/assets/screenshots/treasury-overview.png"
               alt={t('hero.imageAlt')}
               className="w-full block"
             />

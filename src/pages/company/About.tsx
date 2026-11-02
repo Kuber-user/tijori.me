@@ -24,28 +24,10 @@ const valueIcons: Record<string, React.ReactNode> = {
   ),
 };
 
-const partnersData = [
-  {
-    key: 'synclane',
-    logo: '/assets/logos/Synclane Logo.png',
-    logoClass: 'h-8',
-    textColor: 'text-primary-600',
-    accentBg: 'bg-primary-50',
-    website: 'https://synclane.io',
-  },
-  {
-    key: 'seertree',
-    logo: '/assets/screenshots/seertree.png',
-    logoClass: 'h-14',
-    textColor: 'text-green-600',
-    accentBg: 'bg-green-50',
-    website: 'https://seertree.com',
-  },
-];
+const officeKeys = ['difc', 'abuDhabi', 'chennai'] as const;
 
 export default function About() {
-  const { t, i18n } = useTranslation('company');
-  const isRTL = i18n.language === 'ar';
+  const { t } = useTranslation('company');
 
   return (
     <>
@@ -112,56 +94,62 @@ export default function About() {
         </Container>
       </Section>
 
-      {/* Partners */}
+      {/* Company */}
       <Section background="white" padding="lg">
+        <Container size="md">
+          <div className="text-center">
+            <img
+              src="/assets/screenshots/seertree.png"
+              alt="Seertree Global Services"
+              className="h-14 object-contain mx-auto mb-6"
+            />
+            <h2 className="mb-6">{t('about.company.title')}</h2>
+            <p className="text-xl text-gray-700 leading-relaxed max-w-3xl mx-auto mb-6">
+              {t('about.company.description')}
+            </p>
+            <a
+              href={`https://${t('about.company.website')}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 text-primary-600 font-medium hover:underline"
+            >
+              {t('about.company.website')}
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+          </div>
+        </Container>
+      </Section>
+
+      {/* Offices */}
+      <Section background="gray" padding="lg">
         <Container>
           <div className="text-center mb-12">
-            <h2 className="mb-4">{t('about.partners.title')}</h2>
+            <h2 className="mb-4">{t('about.offices.title')}</h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-              {t('about.partners.description')}
+              {t('about.offices.description')}
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {partnersData.map((partner) => (
+          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            {officeKeys.map((key) => (
               <div
-                key={partner.key}
-                className="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow duration-200 text-center border border-gray-100"
+                key={key}
+                className="bg-white rounded-xl p-8 shadow-sm text-center"
               >
-                {/* Company Logo */}
-                <div className={`w-20 h-20 rounded-2xl ${partner.accentBg} flex items-center justify-center mx-auto mb-6`}>
-                  <img
-                    src={partner.logo}
-                    alt={t(`about.partners.${partner.key}.name`)}
-                    className={`${partner.logoClass} object-contain`}
-                  />
-                </div>
-
-                {/* Company Name & Role */}
-                <h3 className="text-xl font-semibold text-gray-900 mb-1">
-                  {t(`about.partners.${partner.key}.name`)}
-                </h3>
-                <p className={`${partner.textColor} font-medium text-sm mb-4`}>
-                  {t(`about.partners.${partner.key}.role`)}
-                </p>
-
-                {/* Description */}
-                <p className="text-gray-600 text-sm leading-relaxed mb-4">
-                  {t(`about.partners.${partner.key}.description`)}
-                </p>
-
-                {/* Website Link */}
-                <a
-                  href={partner.website}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`inline-flex items-center gap-1 ${partner.textColor} text-sm font-medium hover:underline`}
-                >
-                  {partner.website.replace('https://', '')}
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                <div className="w-14 h-14 rounded-lg flex items-center justify-center mx-auto mb-5 text-primary-600" style={{ backgroundColor: 'rgba(94, 120, 240, 0.1)' }}>
+                  <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
-                </a>
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                  {t(`about.offices.items.${key}.city`)}
+                </h3>
+                <p className="text-gray-600">
+                  {t(`about.offices.items.${key}.location`)}
+                </p>
               </div>
             ))}
           </div>
@@ -178,19 +166,9 @@ export default function About() {
             <p className="text-white/90 text-xl mb-8 max-w-2xl mx-auto">
               {t('about.cta.description')}
             </p>
-            <div className={`flex flex-col sm:flex-row gap-4 justify-center ${isRTL ? 'sm:flex-row-reverse' : ''}`}>
-              <Button variant="secondary" size="lg" href="/company/contact">
-                {t('about.cta.getInTouch')}
-              </Button>
-              <Button
-                variant="outline"
-                size="lg"
-                href="/company/contact"
-                className="bg-white/10 backdrop-blur-sm text-white border-white/30 hover:bg-white/20"
-              >
-                {t('about.cta.viewPositions')}
-              </Button>
-            </div>
+            <Button variant="secondary" size="lg" href="/company/contact">
+              {t('about.cta.getInTouch')}
+            </Button>
           </div>
         </Container>
       </Section>
