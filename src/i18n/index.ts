@@ -49,6 +49,9 @@ i18n
   .init({
     resources,
     fallbackLng: 'en',
+    // Only real languages count, so a path like /pricing is not read as a language and detection
+    // moves on to the visitor's saved choice, then the browser (ar-SA resolves to ar)
+    supportedLngs: ['en', 'ar'],
     defaultNS,
     ns: ['common', 'navigation', 'home', 'platform', 'solutions', 'company', 'news'],
     interpolation: {

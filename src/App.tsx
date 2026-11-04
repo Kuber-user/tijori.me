@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate, useParams, Outlet } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate, useParams, useLocation, Outlet } from 'react-router-dom';
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import Layout from './components/layout/Layout';
@@ -44,9 +44,19 @@ import Pricing from './pages/company/Pricing';
 import NewsList from './pages/news/NewsList';
 import NewsPost from './pages/news/NewsPost';
 
+// The language a visitor last used on the site, else their browser's, else English
+const preferredLang = (detected?: string) => (detected?.startsWith('ar') ? 'ar' : 'en');
+
+function RootRedirect() {
+  const { i18n } = useTranslation();
+  const location = useLocation();
+  return <Navigate to={`/${preferredLang(i18n.language)}${location.search}${location.hash}`} replace />;
+}
+
 // Language wrapper component that syncs URL language with i18n
 function LanguageWrapper() {
   const { lang } = useParams<{ lang: string }>();
+  const location = useLocation();
   const { i18n } = useTranslation();
 
   useEffect(() => {
@@ -61,6 +71,11 @@ function LanguageWrapper() {
     }
   }, [lang, i18n]);
 
+  // Links without a language prefix (/news/<slug>, /pricing) get the same page in the visitor's language
+  if (lang !== 'en' && lang !== 'ar') {
+    return <Navigate to={`/${preferredLang(i18n.language)}${location.pathname}${location.search}${location.hash}`} replace />;
+  }
+
   return <Outlet />;
 }
 
@@ -68,8 +83,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* Redirect root to /en */}
-        <Route path="/" element={<Navigate to="/en" replace />} />
+        {/* Redirect root to /en or /ar */}
+        <Route path="/" element={<RootRedirect />} />
 
         {/* Language-prefixed routes */}
         <Route path="/:lang" element={<LanguageWrapper />}>
