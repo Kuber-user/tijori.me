@@ -21,6 +21,8 @@ export interface NewsPost {
   type: NewsType;
   date: string;
   cover?: string;
+  // YouTube video id, shown in place of the cover on the post page
+  video?: string;
   gallery: string[];
   draft: boolean;
   text: Record<'en', NewsText> & Partial<Record<'ar', NewsText>>;
@@ -39,6 +41,9 @@ const files = import.meta.glob('../content/news/*/*.md', {
 
 const str = (value: FrontMatterValue | undefined) => (typeof value === 'string' ? value : '');
 const imagePath = (slug: string, file: string) => (file.startsWith('/') ? file : `/news/${slug}/${file}`);
+// Accepts youtu.be/<id>, youtube.com/watch?v=<id> or a bare id
+const youtubeId = (url: string) =>
+  /(?:youtu\.be\/|[?&]v=|\/embed\/|\/shorts\/)([\w-]{11})/.exec(url)?.[1] ?? (/^[\w-]{11}$/.test(url) ? url : undefined);
 
 function toText(data: Record<string, FrontMatterValue>, body: string): NewsText {
   return {
@@ -70,6 +75,7 @@ function loadPosts(): NewsPost[] {
       type,
       date: str(en.data.date),
       cover: str(en.data.cover) ? imagePath(slug, str(en.data.cover)) : undefined,
+      video: youtubeId(str(en.data.video)),
       gallery: gallery.map((file) => imagePath(slug, file)),
       draft: en.data.draft === true,
       text: {

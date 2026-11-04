@@ -3,6 +3,8 @@ title: What are your banks really charging you?
 summary: Bank fees analytics in Tijori compares what each bank charges for identical services, and shows where the cheapest bank stops being cheapest.
 type: insight
 date: 2026-06-25
+cover: cover.jpg
+video: https://youtu.be/gAW1YsuFai0
 draft: false
 ---
 

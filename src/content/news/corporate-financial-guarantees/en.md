@@ -3,6 +3,8 @@ title: Corporate financial guarantees are liabilities. Track them like it.
 summary: Guarantees issued on behalf of subsidiaries and related parties are significant contingent liabilities. Tijori records, tracks and manages their renewal.
 type: insight
 date: 2026-05-08
+cover: cover.jpg
+video: https://youtu.be/UQRaTVeMW8U
 draft: false
 ---
 

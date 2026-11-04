@@ -65,7 +65,18 @@ export default function NewsPost() {
       <Section background="white" padding="lg">
         <Container size="md">
           <div className={`max-w-3xl mx-auto ${dir === 'rtl' ? 'text-right' : 'text-left'}`} dir={dir}>
-            {post.cover && (
+            {post.video ? (
+              <div className="rounded-xl overflow-hidden shadow-md mb-10 aspect-[16/9] bg-black">
+                <iframe
+                  src={`https://www.youtube-nocookie.com/embed/${post.video}?rel=0`}
+                  title={post.title}
+                  className="w-full h-full"
+                  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  loading="lazy"
+                />
+              </div>
+            ) : post.cover && (
               <div className="rounded-xl overflow-hidden shadow-md mb-10 aspect-[16/9]">
                 <NewsCover post={post} />
               </div>
