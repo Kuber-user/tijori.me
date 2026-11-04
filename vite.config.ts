@@ -90,6 +90,15 @@ function newsPages(): Plugin {
         const file = path.join(outDir, page.path, 'index.html')
         fs.mkdirSync(path.dirname(file), { recursive: true })
         fs.writeFileSync(file, html)
+
+        // Unprefixed links (/news/<slug>) would hit public/news/<slug>/, a real image folder with no
+        // index.html, and the server answers 403. Give those folders the English page; the app then
+        // redirects to /en/news/<slug>, and the canonical tag already points there.
+        if (lang === 'en') {
+          const bare = path.join(outDir, page.path.replace(/^\/en/, ''), 'index.html')
+          fs.mkdirSync(path.dirname(bare), { recursive: true })
+          fs.writeFileSync(bare, html)
+        }
       }
 
       // Sitemap: give every static page its /en and /ar address, then add the news pages

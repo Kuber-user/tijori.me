@@ -1,0 +1,40 @@
+# Routing for tijori.me on Apache / LiteSpeed (cPanel). Vite copies this file into dist/ on every build.
+#
+# The site is a single-page app: every page is /en/... or /ar/..., and React decides what to show.
+# The server only has to (1) serve real files, (2) serve the prerendered index.html that the build
+# writes for News & Insights pages, and (3) hand every other path to /index.html.
+# Do not add rules here that strip /en or /ar from the URL: the app needs the prefix to pick the language.
+
+Options -Indexes
+DirectoryIndex index.html
+
+# Without this, Apache answers /news/<slug> with a redirect to /news/<slug>/ before the rules below run
+DirectorySlash Off
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Real files (scripts, styles, images, sitemap.xml, robots.txt) are served as they are
+  RewriteCond %{REQUEST_FILENAME} -f
+  RewriteRule ^ - [L]
+
+  # A folder with its own index.html (prerendered news pages), with or without a trailing slash
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteCond %{REQUEST_FILENAME}/index.html -f
+  RewriteRule ^(.*?)/?$ $1/index.html [L]
+
+  # Every other path, including folders without an index.html such as /news/<slug>/ image folders,
+  # is a page of the app
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+<IfModule mod_headers.c>
+  # Hashed build files never change, so browsers can keep them; index.html must always be fresh
+  <FilesMatch "\.(js|css)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+</IfModule>
