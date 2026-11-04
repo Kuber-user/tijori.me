@@ -92,13 +92,13 @@ export default function Hero() {
         transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
       />
 
-      <Container className="relative pt-28 md:pt-36 pb-0">
+      <Container className="relative pt-10 md:pt-12 pb-0">
         {/* Badge */}
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-center mb-8"
+          className="text-center mb-6"
         >
           <span className="inline-flex items-center px-4 py-1.5 bg-white/[0.05] border border-white/[0.07] rounded-full text-white/40 text-xs tracking-widest uppercase">
             {t('hero.badge')}
