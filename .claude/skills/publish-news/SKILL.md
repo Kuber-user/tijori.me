@@ -47,6 +47,10 @@ Style: factual and specific, no hype words ("revolutionary", "leading", "world-c
 
 Copy images to `public/news/<slug>/`. Resize so the long side is at most 1600px and save as JPEG quality 80 (PowerShell `System.Drawing` works on this machine); keep product screenshots as PNG so text stays sharp. Name the cover `cover.jpg`. Banks, entities and figures in Tijori product screenshots are fictitious demo data, so they need no redaction. The user (Shyam) is happy for his name to appear in product screenshots. Crop out anyone in event photos who did not agree to appear.
 
+## Videos
+
+Never put video files in the repo (Cloudflare rejects files over 25 MB). Ask the user to upload the video to YouTube and send the link, then add `video: https://youtu.be/<id>` to `en.md`. The post page plays it in place of the cover. Still give the post a `cover`: download the video's thumbnail from `https://i.ytimg.com/vi/<id>/maxresdefault.jpg` (fall back to `hqdefault.jpg`, cropping its black bars to 16:9) and save it as `cover.jpg`, so cards and link previews have an image.
+
 ## 4. Check it
 
 - `npm run build` must pass (Node is at `C:\Program Files\nodejs`).
