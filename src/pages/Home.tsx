@@ -4,6 +4,7 @@ import SchemaMarkup, { organizationSchema } from '../components/seo/SchemaMarkup
 import Hero from '../components/home/Hero';
 import SocialProofBar from '../components/home/SocialProofBar';
 import PlatformOverview from '../components/home/PlatformOverview';
+import ProductShowcase from '../components/home/ProductShowcase';
 import ThreePillars from '../components/home/ThreePillars';
 import ROIMetrics from '../components/home/ROIMetrics';
 import LatestNews from '../components/home/LatestNews';
@@ -24,6 +25,7 @@ export default function Home() {
       <Hero />
       <SocialProofBar />
       <PlatformOverview />
+      <ProductShowcase />
       <ThreePillars />
       <ROIMetrics />
       <LatestNews />

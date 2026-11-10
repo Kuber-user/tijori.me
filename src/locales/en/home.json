@@ -7,7 +7,7 @@
   "hero": {
     "badge": "Treasury Management for the GCC & Asia",
     "headline": "Every Bank. Every Entity.\n*One Treasury.*",
-    "subheadline": "Cash, investments, FX, debt, trade finance and payments in one platform — connected to your banks and ERP.",
+    "subheadline": "Cash, investments, FX, debt, trade finance and payments in one platform, connected to your banks and ERP.",
     "stats": {
       "facilitiesManaged": {
         "value": "$43B+",
@@ -64,6 +64,24 @@
     "title": "Complete Treasury Platform",
     "description": "Facilities, loans, LG/LC, cash and payments for multi-bank, multi-entity groups — in one platform",
     "screenshotCaption": "Tijori Treasury Dashboard - Real-time cash visibility"
+  },
+  "productShowcase": {
+    "title": "Every bank balance, one screen",
+    "description": "A look inside the Bank Balances workspace your treasury team opens every morning.",
+    "slides": [
+      {
+        "title": "Position at a glance",
+        "description": "Net position, available funds and overdrafts across every bank and entity."
+      },
+      {
+        "title": "See where cash sits",
+        "description": "Cash by bank and currency, idle balances and the exceptions that need attention."
+      },
+      {
+        "title": "Drill into every account",
+        "description": "Account-level balances with statement dates, FX rates and reporting totals."
+      }
+    ]
   },
   "threePillars": {
     "title": "Comprehensive Treasury Management",
