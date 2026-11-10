@@ -6,12 +6,6 @@ import Card from '../common/Card';
 import LocalizedLink from '../common/LocalizedLink';
 import { platformFeatures } from '../../data/features';
 
-const SLIDES = [
-  '/assets/screenshots/bank-balances-1.png',
-  '/assets/screenshots/bank-balances-2.png',
-  '/assets/screenshots/bank-balances-3.png',
-];
-
 export default function PlatformOverview() {
   const [visibleCards, setVisibleCards] = useState<Set<number>>(new Set());
   const [headerVisible, setHeaderVisible] = useState(false);
@@ -21,17 +15,6 @@ export default function PlatformOverview() {
   const { t: tCommon } = useTranslation('common');
   const { t: tPlatform } = useTranslation('platform');
   const isRTL = i18n.language === 'ar';
-  const [slide, setSlide] = useState(0);
-  const [paused, setPaused] = useState(false);
-  const goTo = (index: number) => setSlide((index + SLIDES.length) % SLIDES.length);
-
-  // Auto-advance the screenshot slider; pause while the visitor hovers it
-  useEffect(() => {
-    if (paused) return;
-    const timer = setTimeout(() => setSlide((s) => (s + 1) % SLIDES.length), 5000);
-    return () => clearTimeout(timer);
-  }, [slide, paused]);
-
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -163,66 +146,6 @@ export default function PlatformOverview() {
           ))}
         </div>
 
-        {/* Screenshot Preview — Bank Balances slider */}
-        <div className="mt-16 text-center">
-          <div
-            className="relative max-w-4xl mx-auto bg-gray-100 rounded-xl p-4 shadow-xl group/slider"
-            onMouseEnter={() => setPaused(true)}
-            onMouseLeave={() => setPaused(false)}
-          >
-            <div className="overflow-hidden rounded-lg" dir="ltr">
-              <div
-                className="flex transition-transform duration-700 ease-in-out"
-                style={{ transform: `translateX(-${slide * 100}%)` }}
-              >
-                {SLIDES.map((src, index) => (
-                  <img
-                    key={src}
-                    src={src}
-                    alt={`${t('platformOverview.screenshotCaption')} (${index + 1}/${SLIDES.length})`}
-                    className="w-full flex-shrink-0 block"
-                    loading="lazy"
-                  />
-                ))}
-              </div>
-            </div>
-
-            {/* Arrows */}
-            {[
-              { label: 'Previous', step: -1, side: 'left-6', path: 'M15 19l-7-7 7-7' },
-              { label: 'Next', step: 1, side: 'right-6', path: 'M9 5l7 7-7 7' },
-            ].map((arrow) => (
-              <button
-                key={arrow.label}
-                type="button"
-                aria-label={arrow.label}
-                onClick={() => goTo(slide + arrow.step)}
-                className={`absolute top-1/2 -translate-y-1/2 ${arrow.side} w-9 h-9 rounded-full bg-white/90 shadow-md text-gray-700 flex items-center justify-center opacity-0 group-hover/slider:opacity-100 focus:opacity-100 transition-opacity hover:bg-white`}
-              >
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={arrow.path} />
-                </svg>
-              </button>
-            ))}
-          </div>
-
-          {/* Dots */}
-          <div className="flex justify-center gap-2 mt-4" dir="ltr">
-            {SLIDES.map((src, index) => (
-              <button
-                key={src}
-                type="button"
-                aria-label={`Slide ${index + 1}`}
-                aria-current={slide === index}
-                onClick={() => goTo(index)}
-                className={`h-2 rounded-full transition-all duration-300 ${
-                  slide === index ? 'w-6 bg-primary-600' : 'w-2 bg-gray-300 hover:bg-gray-400'
-                }`}
-              />
-            ))}
-          </div>
-          <p className="text-gray-500 text-sm mt-3">{t('platformOverview.screenshotCaption')}</p>
-        </div>
       </Container>
     </Section>
   );
