@@ -101,9 +101,11 @@ function StepItem({
       type="button"
       onClick={onSelect}
       aria-current={active}
-      className="group text-start focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded-sm"
+      aria-label={slide.title}
+      // On phones the button is just its bar, padded to a comfortable tap target
+      className="group py-3 md:py-0 text-start focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded-sm"
     >
-      <div className="relative h-[2px] bg-gray-200 overflow-hidden">
+      <div className="relative h-[3px] md:h-[2px] rounded-full md:rounded-none bg-gray-200 overflow-hidden">
         {active && (
           <motion.div
             className={`absolute inset-0 bg-primary-600 ${isRTL ? 'origin-right' : 'origin-left'}`}
@@ -112,13 +114,13 @@ function StepItem({
         )}
       </div>
       <p
-        className={`mt-3 md:mt-4 text-sm md:text-base font-semibold leading-snug transition-colors duration-300 ${
+        className={`hidden md:block mt-4 text-base font-semibold leading-snug transition-colors duration-300 ${
           active ? 'text-gray-900' : 'text-gray-400 group-hover:text-gray-600'
         }`}
       >
         {slide.title}
       </p>
-      {/* Descriptions need room; on phones the active one is shown once, below the rail */}
+      {/* Titles and descriptions need room; on phones the active one is shown once, below the rail */}
       <p
         className={`hidden md:block mt-1 text-sm leading-relaxed transition-colors duration-300 ${
           active ? 'text-gray-600' : 'text-gray-400'
@@ -184,9 +186,11 @@ function HexCarousel({ slides, isRTL }: { slides: SlideCopy[]; isRTL: boolean })
         </div>
 
         {/* Full-bleed band; the fade starts at the front face's edges at every width, so the front
-            screen stays fully visible while the side faces dissolve toward the viewport edge */}
+            screen stays fully visible while the side faces dissolve toward the viewport edge.
+            From tablet up the screen is also capped by the window height (screenshots are 2.14:1),
+            so the ring and the step rail below it fit on one screen; it never drops below 40vw. */}
         <div
-          className="relative mx-[calc(50%-50vw)] py-4 md:py-6 [--face-w:92vw] md:[--face-w:82vw] lg:[--face-w:min(72vw,72rem)]"
+          className="relative mx-[calc(50%-50vw)] py-4 md:py-6 [--face-w:92vw] md:[--face-w:min(82vw,max(40vw,calc((100dvh_-_24rem)*2.14)))] lg:[--face-w:min(72vw,72rem,max(40vw,calc((100dvh_-_24rem)*2.14)))]"
           style={{ maskImage: EDGE_FADE, WebkitMaskImage: EDGE_FADE }}
           // Hovering anywhere on the ring, side screens included, freezes it where it is
           onPointerEnter={() => (paused.current = true)}
@@ -224,7 +228,7 @@ function HexCarousel({ slides, isRTL }: { slides: SlideCopy[]; isRTL: boolean })
           </div>
         </div>
 
-        <div className="mx-auto mt-8 md:mt-14 grid grid-cols-3 gap-3 sm:gap-6 lg:gap-10" style={{ width: 'min(100%, 62rem)' }}>
+        <div className="mx-auto mt-5 md:mt-10 grid grid-cols-3 gap-2.5 sm:gap-6 lg:gap-10 max-w-[15rem] md:max-w-none" style={{ width: 'min(100%, 62rem)' }}>
           {slides.map((slide, index) => (
             <StepItem
               key={slide.title}
@@ -236,9 +240,10 @@ function HexCarousel({ slides, isRTL }: { slides: SlideCopy[]; isRTL: boolean })
             />
           ))}
         </div>
-        <p className="md:hidden mt-4 text-sm text-gray-600 leading-relaxed text-center min-h-[2.75rem]" aria-live="polite">
-          {slides[active]?.description}
-        </p>
+        <div className="md:hidden mt-3 mx-auto max-w-sm text-center min-h-[5.5rem]" aria-live="polite">
+          <p className="text-lg font-semibold text-gray-900 leading-snug">{slides[active]?.title}</p>
+          <p className="mt-1.5 text-[15px] text-gray-600 leading-relaxed">{slides[active]?.description}</p>
+        </div>
       </Container>
     </section>
   );

@@ -194,11 +194,11 @@ export default function Hero() {
           initial={reduce ? false : { opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 1.0, ease: EASE }}
-          className="flex flex-col sm:flex-row gap-3 justify-center mt-8 mb-12"
+          className="flex flex-col sm:flex-row gap-3 justify-center mt-8 mb-12 max-w-sm sm:max-w-none mx-auto"
         >
-          <div className="relative group">
+          <div className="relative group w-full sm:w-auto">
             <div className="absolute -inset-1 bg-gradient-to-r from-primary-500 to-secondary-cyan rounded-xl opacity-30 group-hover:opacity-60 blur-lg transition-opacity duration-300" />
-            <Button variant="secondary" size="lg" href="/company/contact" className="relative active:scale-[0.98]">
+            <Button variant="secondary" size="lg" href="/company/contact" className="relative w-full sm:w-auto active:scale-[0.98]">
               {tCommon('buttons.requestDemo')}
             </Button>
           </div>
@@ -206,7 +206,7 @@ export default function Hero() {
             variant="outline"
             size="lg"
             onClick={() => openSupademo(i18n.language)}
-            className="bg-white/[0.04] text-white/80 border-white/15 hover:bg-white/[0.08] hover:text-white hover:border-white/30 active:scale-[0.98]"
+            className="w-full sm:w-auto bg-white/[0.04] text-white/80 border-white/15 hover:bg-white/[0.08] hover:text-white hover:border-white/30 active:scale-[0.98]"
           >
             {tCommon('buttons.explorePlatform')}
             <svg className={`w-4 h-4 ${isRTL ? 'mr-2 rotate-180' : 'ml-2'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
