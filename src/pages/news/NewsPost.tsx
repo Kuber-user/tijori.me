@@ -28,7 +28,7 @@ export default function NewsPost() {
     publisher: {
       '@type': 'Organization',
       name: 'Tijori',
-      logo: { '@type': 'ImageObject', url: 'https://tijori.me/favicon-tijori.png' },
+      logo: { '@type': 'ImageObject', url: 'https://tijori.me/icon-512.png' },
     },
   };
 
