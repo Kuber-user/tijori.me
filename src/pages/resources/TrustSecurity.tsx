@@ -11,7 +11,7 @@ const organizationSchema = {
   '@type': 'Organization',
   name: 'Tijori',
   url: 'https://tijori.me',
-  logo: 'https://tijori.me/favicon-tijori.png',
+  logo: 'https://tijori.me/icon-512.png',
   description:
     'Treasury management platform for corporates across the GCC and Asia, with AES-256 encryption, role-based access and dual approval workflows.'
 };

@@ -128,11 +128,6 @@
         "label": "Faster month-end close",
         "description": "Client result: period close now completed at T+3"
       }
-    },
-    "testimonial": {
-      "quote": "Tijori transformed how we manage treasury. Real-time visibility across 50+ bank accounts.",
-      "author": "Nishant Shah",
-      "company": "Dubai Investments"
     }
   },
   "cta": {

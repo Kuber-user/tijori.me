@@ -21,7 +21,7 @@ export const organizationSchema = {
   publisher: {
     '@type': 'Organization',
     name: 'Tijori',
-    logo: 'https://tijori.me/favicon-tijori.png',
+    logo: 'https://tijori.me/icon-512.png',
     url: 'https://tijori.me'
   }
 };

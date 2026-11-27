@@ -3,8 +3,7 @@ import Container from '../common/Container';
 import Section from '../common/Section';
 
 export default function ROIMetrics() {
-  const { t, i18n } = useTranslation('home');
-  const isRTL = i18n.language === 'ar';
+  const { t } = useTranslation('home');
 
   const metrics = [
     {
@@ -79,27 +78,6 @@ export default function ROIMetrics() {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Testimonial/Case Study CTA */}
-        <div className="mt-16 bg-white p-8 md:p-12 rounded-xl shadow-md max-w-4xl mx-auto">
-          <div className="text-center">
-            <div className="text-4xl mb-4">"</div>
-            <p className="text-xl text-gray-700 mb-6 italic">
-              {t('roi.testimonial.quote')}
-            </p>
-            <div className={`flex items-center justify-center ${isRTL ? 'space-x-reverse space-x-4' : 'space-x-4'}`}>
-              <img
-                src="/assets/reference/nishant shah - Dubai Investments.png"
-                alt={t('roi.testimonial.author')}
-                className="w-12 h-12 rounded-full object-cover"
-              />
-              <div className={isRTL ? 'text-right' : 'text-left'}>
-                <div className="font-semibold text-gray-900">{t('roi.testimonial.author')}</div>
-                <div className="text-sm text-gray-600">{t('roi.testimonial.company')}</div>
-              </div>
-            </div>
-          </div>
         </div>
       </Container>
     </Section>
